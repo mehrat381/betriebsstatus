@@ -1,0 +1,45 @@
+name: Betriebsstatus aktualisieren
+
+on:
+  schedule:
+    - cron: "*/15 * * * *"   # alle 15 Minuten (GitHub kann Läufe verzögern)
+  workflow_dispatch: {}       # manuell starten: Actions > Betriebsstatus aktualisieren > Run workflow
+  push:
+    paths:
+      - "config.json"
+      - "scripts/build.py"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: betriebsstatus
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Feed holen und api/ erzeugen
+        env:
+          FEED_URL: ${{ secrets.FEED_URL }}
+        run: python scripts/build.py
+
+      - name: Änderungen committen
+        run: |
+          git add api
+          if git diff --cached --quiet; then
+            echo "Keine Änderungen."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Betriebsstatus aktualisiert"
+          git push

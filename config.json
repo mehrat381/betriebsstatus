@@ -1,0 +1,39 @@
+{
+  "_hinweis": "Konfiguration für scripts/build.py. types = null heisst: alle übrigen Typen dieser Quelle. Nach einer Änderung einfach committen; der nächste Lauf übernimmt sie.",
+
+  "exclude": ["Jungfrau Region"],
+
+  "tenants": {
+    "Kleine Scheidegg / Männlichen": { "slug": "kleine-scheidegg", "title": "Kleine Scheidegg / Männlichen" },
+    "Grindelwald-First":             { "slug": "grindelwald-first", "title": "Grindelwald-First" },
+    "Mürren-Schilthorn":             { "slug": "muerren-schilthorn", "title": "Mürren-Schilthorn" }
+  },
+
+  "season": {
+    "_hinweis": "Ab diesen Daten (MM-TT) gilt bei data-bss-season=\"auto\" die jeweilige Saison.",
+    "winterStart": "11-15",
+    "summerStart": "05-01",
+    "timezone": "Europe/Zurich"
+  },
+
+  "status": {
+    "0": { "key": "unknown",     "label": "unbekannt",       "counts_as_open": false },
+    "1": { "key": "closed",      "label": "geschlossen",     "counts_as_open": false },
+    "2": { "key": "open",        "label": "offen",           "counts_as_open": true  },
+    "3": { "key": "preparation", "label": "in Vorbereitung", "counts_as_open": false },
+    "7": { "key": "free",        "label": "frei",            "counts_as_open": true  },
+    "8": { "key": "full",        "label": "voll",            "counts_as_open": true  }
+  },
+
+  "categories": [
+    { "nr": 1, "name": "Bahnen & Lifte",      "source": "lifts",   "types": null },
+    { "nr": 2, "name": "Pisten",              "source": "slopes",  "types": null },
+    { "nr": 3, "name": "Langlauf",            "source": "slopes",  "types": [5, 6] },
+    { "nr": 4, "name": "Schlittelwege",       "source": "slopes",  "types": [9] },
+    { "nr": 5, "name": "Wanderwege",          "source": "trails",  "types": [2] },
+    { "nr": 6, "name": "Schneeschuhwege",     "source": "trails",  "types": [1] },
+    { "nr": 7, "name": "Klettersteige",       "source": "trails",  "types": [3] },
+    { "nr": 8, "name": "Freizeit & Angebote", "source": "pois",    "types": null },
+    { "nr": 9, "name": "Gastronomie",         "source": "gastros", "types": null }
+  ]
+}

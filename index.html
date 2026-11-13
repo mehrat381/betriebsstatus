@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Betriebsstatus Widgets</title>
+<style>
+  body{margin:0;font-family:system-ui,sans-serif;background:#f8fafc;color:#1e293b;}
+  main{max-width:1100px;margin:0 auto;padding:24px 16px 48px;}
+  h1{font-size:1.4rem;margin:0 0 4px;}
+  .lead{color:#64748b;margin:0 0 24px;font-size:.9rem;}
+  .panel{display:grid;grid-template-columns:minmax(0,320px) minmax(0,1fr);gap:24px;align-items:start;}
+  @media (max-width:760px){.panel{grid-template-columns:1fr;}}
+  form{background:#fff;border:1px solid #e2e8f0;border-radius:.5rem;padding:16px;display:grid;gap:12px;font-size:.85rem;}
+  label{display:grid;gap:4px;font-weight:600;color:#475569;}
+  label.chk{display:flex;gap:8px;align-items:center;font-weight:400;color:#1e293b;}
+  select,input[type=text]{font:inherit;padding:6px 8px;border:1px solid #cbd5e1;border-radius:.375rem;background:#fff;}
+  fieldset{border:none;padding:0;margin:0;display:grid;gap:6px;}
+  legend{font-weight:600;color:#475569;margin-bottom:4px;}
+  .cats{display:grid;grid-template-columns:1fr 1fr;gap:4px 8px;}
+  pre{margin:0;background:#0f172a;color:#e2e8f0;padding:12px;border-radius:.5rem;font-size:.75rem;
+      white-space:pre-wrap;word-break:break-all;}
+  button{font:inherit;padding:6px 10px;border:1px solid #cbd5e1;border-radius:.375rem;background:#fff;cursor:pointer;}
+  h2{font-size:.95rem;margin:24px 0 8px;}
+  .preview-wrap{max-width:520px;}
+</style>
+</head>
+<body>
+<main>
+  <h1>Betriebsstatus Widgets</h1>
+  <p class="lead">Optionen wählen, Vorschau prüfen und den Code-Schnipsel in die Webseite kopieren.</p>
+
+  <div class="panel">
+    <form id="cfg">
+      <label>Gebiet
+        <select name="tenant" id="tenant"></select>
+      </label>
+      <label>Saison
+        <select name="season">
+          <option value="auto">Automatisch nach Datum</option>
+          <option value="summer">Sommer</option>
+          <option value="winter">Winter</option>
+        </select>
+      </label>
+      <fieldset>
+        <legend>Kategorien (keine gewählt = alle)</legend>
+        <div class="cats">
+          <label class="chk"><input type="checkbox" name="cat" value="1"> Bahnen &amp; Lifte</label>
+          <label class="chk"><input type="checkbox" name="cat" value="2"> Pisten</label>
+          <label class="chk"><input type="checkbox" name="cat" value="3"> Langlauf</label>
+          <label class="chk"><input type="checkbox" name="cat" value="4"> Schlittelwege</label>
+          <label class="chk"><input type="checkbox" name="cat" value="5"> Wanderwege</label>
+          <label class="chk"><input type="checkbox" name="cat" value="6"> Schneeschuhwege</label>
+          <label class="chk"><input type="checkbox" name="cat" value="7"> Klettersteige</label>
+          <label class="chk"><input type="checkbox" name="cat" value="8"> Freizeit</label>
+          <label class="chk"><input type="checkbox" name="cat" value="9"> Gastronomie</label>
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend>Darstellung</legend>
+        <label class="chk"><input type="checkbox" name="hideUnknown"> «unbekannt» ausblenden</label>
+        <label class="chk"><input type="checkbox" name="expanded"> Kategorien aufgeklappt</label>
+        <label class="chk"><input type="checkbox" name="details"> Betriebszeiten &amp; Infos zeigen</label>
+      </fieldset>
+      <label>Eigener Titel (optional)
+        <input type="text" name="title" placeholder="z.B. Pisten heute">
+      </label>
+    </form>
+
+    <div>
+      <h2 style="margin-top:0">Code für die Webseite</h2>
+      <pre id="code"></pre>
+      <p><button type="button" id="copy">Kopieren</button></p>
+      <h2>Vorschau</h2>
+      <div class="preview-wrap" id="preview"></div>
+    </div>
+  </div>
+</main>
+
+<script src="widget.js"></script>
+<script>
+(function () {
+  var base = location.href.replace(/[?#].*$/, '').replace(/[^/]*$/, '');
+  var form = document.getElementById('cfg');
+  var sel = document.getElementById('tenant');
+
+  function esc(s){return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');}
+
+  function attrs() {
+    var f = new FormData(form), a = [['data-bss-tenant', f.get('tenant')]];
+    if (f.get('season') !== 'auto') a.push(['data-bss-season', f.get('season')]);
+    var cats = f.getAll('cat');
+    if (cats.length) a.push(['data-bss-categories', cats.join(',')]);
+    ['hideUnknown:data-bss-hide-unknown', 'expanded:data-bss-expanded', 'details:data-bss-details'].forEach(function (p) {
+      var k = p.split(':'); if (f.get(k[0])) a.push([k[1], 'true']);
+    });
+    if ((f.get('title') || '').trim()) a.push(['data-bss-title', f.get('title').trim()]);
+    return a;
+  }
+
+  function update() {
+    var a = attrs();
+    var div = '<div ' + a.map(function (x) { return x[0] + '="' + esc(x[1]) + '"'; }).join(' ') + '></div>';
+    document.getElementById('code').textContent = div + '\n<script src="' + base + 'widget.js" defer><\/script>';
+    var prev = document.getElementById('preview');
+    prev.innerHTML = '';
+    var el = document.createElement('div');
+    a.forEach(function (x) { el.setAttribute(x[0], x[1]); });
+    el.setAttribute('data-bss-base', base);
+    prev.appendChild(el);
+    window.dispatchEvent(new Event('bss:scan'));
+  }
+
+  fetch('api/index.json', { cache: 'no-cache' }).then(function (r) { return r.json(); }).then(function (idx) {
+    sel.innerHTML = idx.tenants.map(function (t) {
+      return '<option value="' + esc(t.slug) + '">' + esc(t.title) + '</option>';
+    }).join('');
+    update();
+  }).catch(function () {
+    document.getElementById('preview').textContent = 'Noch keine Daten – bitte den Workflow einmal ausführen.';
+  });
+
+  form.addEventListener('input', update);
+  form.addEventListener('change', update);
+  document.getElementById('copy').addEventListener('click', function () {
+    navigator.clipboard.writeText(document.getElementById('code').textContent).then(function () {
+      document.getElementById('copy').textContent = 'Kopiert ✓';
+      setTimeout(function () { document.getElementById('copy').textContent = 'Kopieren'; }, 1500);
+    });
+  });
+}());
+</script>
+</body>
+</html>
