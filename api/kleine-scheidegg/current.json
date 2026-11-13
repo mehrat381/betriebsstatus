@@ -1,0 +1,1158 @@
+{
+ "tenant": "kleine-scheidegg",
+ "title": "Kleine Scheidegg / Männlichen",
+ "season": "summer",
+ "seasonLabel": "Sommer",
+ "categories": [
+  {
+   "nr": 1,
+   "name": "Bahnen & Lifte",
+   "total": 27,
+   "open": 9,
+   "subcategories": [
+    {
+     "nr": 2,
+     "name": "Gondelbahn",
+     "items": [
+      {
+       "id": 105,
+       "name": "Grindelwald Grund – Holenstein",
+       "label": "",
+       "status": "unknown",
+       "statusLabel": "unbekannt",
+       "statusCode": 0,
+       "isOpen": false,
+       "sort": 13,
+       "info": "Betriebszeiten",
+       "links": [
+        {
+         "text": "Öffnungs- und Betriebszeiten",
+         "url": "https://www.jungfrau.ch/de-ch/live/betriebsdaten/"
+        }
+       ]
+      },
+      {
+       "id": 109,
+       "name": "Holenstein – Männlichen",
+       "label": "",
+       "status": "unknown",
+       "statusLabel": "unbekannt",
+       "statusCode": 0,
+       "isOpen": false,
+       "sort": 14,
+       "info": "Betriebszeiten",
+       "links": [
+        {
+         "text": "Öffnungs- und Betriebszeiten",
+         "url": "https://www.jungfrau.ch/de-ch/live/betriebsdaten/"
+        }
+       ]
+      },
+      {
+       "id": 106,
+       "name": "Grindelwald Grund – Männlichen",
+       "label": "",
+       "status": "unknown",
+       "statusLabel": "unbekannt",
+       "statusCode": 0,
+       "isOpen": false,
+       "sort": 15,
+       "info": "Gondelbahn Grindelwald Männlichen · Saisonzeiten: · 07.12.2024 bis 06.04.2025 · 7. Dezember 2024 bis 24. Januar 2025 · ab Grindelwald Terminal: 8.00 – 16.00 Uhr · Letzte Talfahrt ab Männlichen: 16.30 Uhr · 25. Januar bis 6. April 2025 · ab Grindelwald Terminal: 8.00 – 16.30 Uhr · Letzte Talfahrt ab Männlichen"
+      },
+      {
+       "id": 165,
+       "name": "Eiger Express",
+       "label": "",
+       "status": "unknown",
+       "statusLabel": "unbekannt",
+       "statusCode": 0,
+       "isOpen": false,
+       "sort": 16,
+       "info": "Betriebszeiten",
+       "links": [
+        {
+         "text": "Öffnungs- und Betriebszeiten",
+         "url": "https://www.jungfrau.ch/de-ch/live/betriebsdaten/"
+        }
+       ]
+      }
+     ],
+     "total": 4,
+     "open": 0
+    },
+    {
+     "nr": 1,
+     "name": "Pendelbahn",
+     "items": [
+      {
+       "id": 122,
+       "name": "Wengen – Männlichen",
+       "label": "",
+       "status": "unknown",
+       "statusLabel": "unbekannt",
+       "statusCode": 0,
+       "isOpen": false,
+       "sort": 17,
+       "firstRide": "08:15",
+       "lastRide": "16:30",
+       "info": "Saisonzeiten: · 13. Dezember 2025 bis 06. April 2026 · Betriebszeiten: · Bergfahrt: Täglich 08:15-16:15 Uhr / ab 31.01.2026 bis 16:45 Uhr · Talfahrt: Täglich 08:15-16:30 Uhr / ab 31.01.2026 bis 17:00 Uhr · Beförderungskapazität: · 800 Pers./h in jeder Richtung · Fahrzeit: · 6 Minuten · Höhendifferenz: · 947 Meter"
+      }
+     ],
+     "total": 1,
+     "open": 0
+    },
+    {
+     "nr": 6,
+     "name": "Sesselbahn 4er",
+     "items": [
+      {
+       "id": 119,
+       "name": "Männlichen",
+       "label": "",
+       "status": "unknown",
+       "statusLabel": "unbekannt",
+       "statusCode": 0,
+       "isOpen": false,
+       "sort": 18,
+       "firstRide": "08:30",
+       "lastRide": "16:30",
+       "info": "Saisonzeiten: · 12.12.2026 bis 04.04.2027 · Betriebszeiten · Täglich 08:30 – 16:00 Uhr / ab 30.01.2027 bis 16:30 Uhr · Anlagetyp · 4er mit Hauben · Beförderungskapazität · 1800 Personen/Stunde · Fahrzeit · 8 Minuten · Höhendifferenz · 435 Meter"
+      },
+      {
+       "id": 117,
+       "name": "Läger",
+       "label": "",
+       "status": "unknown",
+       "statusLabel": "unbekannt",
+       "statusCode": 0,
+       "isOpen": false,
+       "sort": 19,
+       "firstRide": "09:00",
+       "lastRide": "16:30",
+       "info": "Saisonzeiten: · 12.12.2026 bis 04.04.2027 · Betriebszeiten · Täglich 09:00 – 16:00 Uhr / ab 30.01.2027 bis 16:30 Uhr · Anlagetyp · 4er mit Hauben · Beförderungskapazität · 1800 Personen/Stunde · Fahrzeit · 7 Minuten · Höhendifferenz · 446 Meter"
+      },
+      {
+       "id": 96,
+       "name": "Arven",
+       "label": "",
+       "status": "unknown",
+       "statusLabel": "unbekannt",
+       "statusCode": 0,
+       "isOpen": false,
+       "sort": 20,
+       "firstRide": "09:00",
+       "lastRide": "16:45",
+       "info": "Saisonzeiten · Betriebszeiten · Täglich 09:00 - 16:15 Uhr · Anlagetyp · 4er Sesselbahn · Beförderungskapazität · 1800 Personen/Stunde · Fahrzeit · 4 Minuten · Höhendifferenz · 223 Meter",
+       "links": [
+        {
+         "text": "Pistendaten",
+         "url": "https://www.jungfrau.ch/de-ch/live/pistendaten/"
+        }
+       ]
+      },
+      {
+       "id": 108,
+       "name": "Gummi",
+       "label": "",
+       "status": "unknown",
+       "statusLabel": "unbekannt",
+       "statusCode": 0,
+       "isOpen": false,
+       "sort": 21,
+       "firstRide": "09:00",
+       "lastRide": "16:30",
+       "info": "Saisonzeiten · Betriebszeiten · täglich 09:00 - 16:00 Uhr · Anlagetyp · 4er Sesselbahn · Beförderungskapazität · 1800 Personen/Stunde · Fahrzeit · 3 Minuten · Höhendifferenz · 219 Meter",
+       "links": [
+        {
+         "text": "Pistendaten",
+         "url": "https://www.jungfrau.ch/de-ch/live/pistendaten/"
+        }
+       ]
+      },
+      {
+       "id": 114,
+       "name": "Lauberhorn",
+       "label": "",
+       "status": "unknown",
+       "statusLabel": "unbekannt",
+       "statusCode": 0,
+       "isOpen": false,
+       "sort": 22,
+       "firstRide": "09:00",
+       "lastRide": "16:30",
+       "info": "Saisonzeiten · Betriebszeiten · täglich 09:00 - 16:00 Uhr · Anlagetyp · 4er Sesselbahn · Beförderungskapazität · 1800 Personen/Stunde · Fahrzeit · 5 Minuten · Höhendifferenz · 323 Meter",
+       "links": [
+        {
+         "text": "Pistendaten",
+         "url": "https://www.jungfrau.ch/de-ch/live/pistendaten/"
+        }
+       ]
+      },
+      {
+       "id": 111,
+       "name": "Innerwengen",
+       "label": "",
+       "status": "unknown",
+       "statusLabel": "unbekannt",
+       "statusCode": 0,
+       "isOpen": false,
+       "sort": 23,
+       "firstRide": "09:00",
+       "lastRide": "16:45",
+       "info": "Saisonzeiten · 25.12.2025 - 29.3.2026 · Betriebszeiten · Täglich 09:00 - 16:45  hr · Anlagetyp · 4er Sesselbahn · Beförderungskapazität · 1600 Personen/Stunde · Fahrzeit · 3 Minuten"
+      }
+     ],
+     "total": 6,
+     "open": 0
+    },
+    {
+     "nr": 7,
+     "name": "Sesselbahn 6er",
+     "items": [
+      {
+       "id": 125,
+       "name": "Wixi",
+       "label": "",
+       "status": "unknown",
+       "statusLabel": "unbekannt",
+       "statusCode": 0,
+       "isOpen": false,
+       "sort": 25,
+       "firstRide": "09:00",
+       "lastRide": "16:30",
+       "info": "Saisonzeiten · Betriebszeiten · täglich 09:00 - 16:00 Uhr · Anlagetyp · 6er Sesselbahn mit Hauben · Beförderungskapazität · 2400 Personen/Stunde · Fahrzeit · 6 Minuten · Höhendifferenz · 500 Meter",
+       "links": [
+        {
+         "text": "Pistendaten",
+         "url": "https://www.jungfrau.ch/de-ch/live/pistendaten/"
+        }
+       ]
+      },
+      {
+       "id": 110,
+       "name": "Honegg",
+       "label": "",
+       "status": "unknown",
+       "statusLabel": "unbekannt",
+       "statusCode": 0,
+       "isOpen": false,
+       "sort": 26,
+       "firstRide": "09:00",
+       "lastRide": "16:30",
+       "info": "Saisonzeiten · Betriebszeiten · täglich 09:00 - 16:00 Uhr · Anlagetyp · 6er mit Hauben · Beförderungskapazität · 2000 Personen/Stunde · Fahrzeit · 6 Minuten · Höhendifferenz · 464 Meter",
+       "links": [
+        {
+         "text": "Pistendaten",
+         "url": "https://www.jungfrau.ch/de-ch/live/pistendaten/"
+        }
+       ]
+      },
+      {
+       "id": 100,
+       "name": "Eigernordwand",
+       "label": "",
+       "status": "unknown",
+       "statusLabel": "unbekannt",
+       "statusCode": 0,
+       "isOpen": false,
+       "sort": 27,
+       "firstRide": "08:30",
+       "lastRide": "16:30",
+       "info": "Saisonzeiten · Betriebszeiten · Täglich 08.30 - 16.00 Uhr · Anlagetyp · 6er Sesselbahn mit Hauben · Beförderungskapazität · 2000 Personen/Stunde · Fahrzeit · 6 Minuten · Höhendifferenz · 495 Meter",
+       "links": [
+        {
+         "text": "Pistendaten",
+         "url": "https://www.jungfrau.ch/de-ch/live/pistendaten/"
+        }
+       ]
+      }
+     ],
+     "total": 3,
+     "open": 0
+    },
+    {
+     "nr": 11,
+     "name": "Zahnradbahn",
+     "items": [
+      {
+       "id": 103,
+       "name": "Grindelwald – Grund",
+       "label": "",
+       "status": "open",
+       "statusLabel": "offen",
+       "statusCode": 2,
+       "isOpen": true,
+       "sort": 0,
+       "info": "Betriebszeiten",
+       "links": [
+        {
+         "text": "Öffnungs- und Betriebszeiten",
+         "url": "https://www.jungfrau.ch/de-ch/live/betriebsdaten/"
+        }
+       ]
+      },
+      {
+       "id": 107,
+       "name": "Grund – Brandegg",
+       "label": "",
+       "status": "open",
+       "statusLabel": "offen",
+       "statusCode": 2,
+       "isOpen": true,
+       "sort": 1,
+       "info": "Betriebszeiten",
+       "links": [
+        {
+         "text": "Öffnungs- und Betriebszeiten",
+         "url": "https://www.jungfrau.ch/de-ch/live/betriebsdaten/"
+        }
+       ]
+      },
+      {
+       "id": 97,
+       "name": "Brandegg – Alpiglen",
+       "label": "",
+       "status": "open",
+       "statusLabel": "offen",
+       "statusCode": 2,
+       "isOpen": true,
+       "sort": 2,
+       "info": "Betriebszeiten",
+       "links": [
+        {
+         "text": "Öffnungs- und Betriebszeiten",
+         "url": "https://www.jungfrau.ch/de-ch/live/betriebsdaten/"
+        }
+       ]
+      },
+      {
+       "id": 95,
+       "name": "Alpiglen – Kleine Scheidegg",
+       "label": "",
+       "status": "open",
+       "statusLabel": "offen",
+       "statusCode": 2,
+       "isOpen": true,
+       "sort": 3,
+       "info": "Betriebszeiten",
+       "links": [
+        {
+         "text": "Öffnungs- und Betriebszeiten",
+         "url": "https://www.jungfrau.ch/de-ch/live/betriebsdaten/"
+        }
+       ]
+      },
+      {
+       "id": 104,
+       "name": "Grindelwald – Kleine Scheidegg",
+       "label": "",
+       "status": "open",
+       "statusLabel": "offen",
+       "statusCode": 2,
+       "isOpen": true,
+       "sort": 4,
+       "info": "Betriebszeiten",
+       "links": [
+        {
+         "text": "Öffnungs- und Betriebszeiten",
+         "url": "https://www.jungfrau.ch/de-ch/live/betriebsdaten/"
+        }
+       ]
+      },
+      {
+       "id": 116,
+       "name": "Lauterbrunnen – Wengen",
+       "label": "",
+       "status": "open",
+       "statusLabel": "offen",
+       "statusCode": 2,
+       "isOpen": true,
+       "sort": 5,
+       "info": "Betriebszeiten",
+       "links": [
+        {
+         "text": "Öffnungs- und Betriebszeiten",
+         "url": "https://www.jungfrau.ch/de-ch/live/betriebsdaten/"
+        }
+       ]
+      },
+      {
+       "id": 121,
+       "name": "Wengen – Allmend",
+       "label": "",
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
+       "sort": 6,
+       "info": "Betriebszeiten",
+       "links": [
+        {
+         "text": "Öffnungs- und Betriebszeiten",
+         "url": "https://www.jungfrau.ch/de-ch/live/betriebsdaten/"
+        }
+       ]
+      },
+      {
+       "id": 94,
+       "name": "Allmend – Wengernalp",
+       "label": "",
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
+       "sort": 7,
+       "info": "Betriebszeiten",
+       "links": [
+        {
+         "text": "Öffnungs- und Betriebszeiten",
+         "url": "https://www.jungfrau.ch/de-ch/live/betriebsdaten/"
+        }
+       ]
+      },
+      {
+       "id": 123,
+       "name": "Wengernalp – Kleine Scheidegg",
+       "label": "",
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
+       "sort": 8,
+       "info": "Betriebszeiten",
+       "links": [
+        {
+         "text": "Öffnungs- und Betriebszeiten",
+         "url": "https://www.jungfrau.ch/de-ch/live/betriebsdaten/"
+        }
+       ]
+      },
+      {
+       "id": 115,
+       "name": "Lauterbrunnen – Kleine Scheidegg",
+       "label": "",
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
+       "sort": 9,
+       "info": "Betriebszeiten",
+       "links": [
+        {
+         "text": "Öffnungs- und Betriebszeiten",
+         "url": "https://www.jungfrau.ch/de-ch/live/betriebsdaten/"
+        }
+       ]
+      },
+      {
+       "id": 112,
+       "name": "Kleine Scheidegg – Eigergletscher",
+       "label": "",
+       "status": "open",
+       "statusLabel": "offen",
+       "statusCode": 2,
+       "isOpen": true,
+       "sort": 10,
+       "info": "Betriebszeiten",
+       "links": [
+        {
+         "text": "Öffnungs- und Betriebszeiten",
+         "url": "https://www.jungfrau.ch/de-ch/live/betriebsdaten/"
+        }
+       ]
+      },
+      {
+       "id": 99,
+       "name": "Eigergletscher – Jungfraujoch",
+       "label": "",
+       "status": "open",
+       "statusLabel": "offen",
+       "statusCode": 2,
+       "isOpen": true,
+       "sort": 11,
+       "info": "Betriebszeiten",
+       "links": [
+        {
+         "text": "Öffnungs- und Betriebszeiten",
+         "url": "https://www.jungfrau.ch/de-ch/live/betriebsdaten/"
+        }
+       ]
+      },
+      {
+       "id": 113,
+       "name": "Kleine Scheidegg – Jungfraujoch",
+       "label": "",
+       "status": "open",
+       "statusLabel": "offen",
+       "statusCode": 2,
+       "isOpen": true,
+       "sort": 12,
+       "info": "Betriebszeiten",
+       "links": [
+        {
+         "text": "Öffnungs- und Betriebszeiten",
+         "url": "https://www.jungfrau.ch/de-ch/live/betriebsdaten/"
+        }
+       ]
+      }
+     ],
+     "total": 13,
+     "open": 9
+    }
+   ]
+  },
+  {
+   "nr": 5,
+   "name": "Wanderwege",
+   "total": 25,
+   "open": 7,
+   "subcategories": [
+    {
+     "nr": 2,
+     "name": "Wanderweg",
+     "items": [
+      {
+       "id": 8,
+       "name": "Grindelwald - Gletscherschlucht - Boneren - Alpiglen",
+       "label": "25",
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
+       "sort": 0
+      },
+      {
+       "id": 9,
+       "name": "Wengernalp - Biglenalp - Locherflue - Kl. Scheidegg (Marathon -Trail)",
+       "label": "29",
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
+       "sort": 1
+      },
+      {
+       "id": 357,
+       "name": "Männlichen - Holenstein",
+       "label": "30",
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
+       "sort": 3
+      },
+      {
+       "id": 358,
+       "name": "Holenstein - Grindelwald",
+       "label": "30",
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
+       "sort": 4
+      },
+      {
+       "id": 11,
+       "name": "Holenstein - Bustiglen - Kleine Scheidegg",
+       "label": "31",
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
+       "sort": 5
+      },
+      {
+       "id": 12,
+       "name": "Holenstein - Brandegg",
+       "label": "32",
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
+       "sort": 6
+      },
+      {
+       "id": 13,
+       "name": "Männlichen - Kleine Scheidegg",
+       "label": "33",
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
+       "sort": 7
+      },
+      {
+       "id": 14,
+       "name": "Alpiglen – Kleine Scheidegg",
+       "label": "34",
+       "status": "open",
+       "statusLabel": "offen",
+       "statusCode": 2,
+       "isOpen": true,
+       "sort": 8
+      },
+      {
+       "id": 1269,
+       "name": "Brandegg – Alpiglen",
+       "label": "34",
+       "status": "open",
+       "statusLabel": "offen",
+       "statusCode": 2,
+       "isOpen": true,
+       "sort": 9
+      },
+      {
+       "id": 1270,
+       "name": "Grindelwald – Brandegg",
+       "label": "34",
+       "status": "open",
+       "statusLabel": "offen",
+       "statusCode": 2,
+       "isOpen": true,
+       "sort": 10
+      },
+      {
+       "id": 15,
+       "name": "Alpiglen - Bustiglen - Männlichen",
+       "label": "35",
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
+       "sort": 11
+      },
+      {
+       "id": 16,
+       "name": "Eiger Trail (Alpiglen - Eigergletscher)",
+       "label": "36",
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
+       "sort": 12
+      },
+      {
+       "id": 18,
+       "name": "Jungfrau Eiger Walk (Eigergletscher - Kleine Scheidegg)",
+       "label": "37",
+       "status": "open",
+       "statusLabel": "offen",
+       "statusCode": 2,
+       "isOpen": true,
+       "sort": 14
+      },
+      {
+       "id": 19,
+       "name": "Wengernalp - Biglenalp - Eigergletscher",
+       "label": "38",
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
+       "sort": 15
+      },
+      {
+       "id": 20,
+       "name": "Wengernalp - Biglenalp - Kleine Scheidegg",
+       "label": "39",
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
+       "sort": 16
+      },
+      {
+       "id": 21,
+       "name": "Lauberhorn Trail (Kleine Scheidegg - Wengen)",
+       "label": "40",
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
+       "sort": 17
+      },
+      {
+       "id": 22,
+       "name": "Wengen - Wengernalp - Kleine Scheidegg",
+       "label": "41",
+       "status": "open",
+       "statusLabel": "offen",
+       "statusCode": 2,
+       "isOpen": true,
+       "sort": 18
+      },
+      {
+       "id": 23,
+       "name": "Wengen - Staldenfluh - Mettlenalp - Wengernalp",
+       "label": "42",
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
+       "sort": 19
+      },
+      {
+       "id": 24,
+       "name": "Wengen - Mettlenalp - Biglenalp - Wengernalp",
+       "label": "43",
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
+       "sort": 20
+      },
+      {
+       "id": 25,
+       "name": "Wengen - Leiterhorn - Spätenalp - Burglauenen",
+       "label": "44",
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
+       "sort": 21
+      },
+      {
+       "id": 26,
+       "name": "Wengen - Männlichen",
+       "label": "45",
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
+       "sort": 22
+      },
+      {
+       "id": 27,
+       "name": "Wengen - In Gassen - Männlichen",
+       "label": "46",
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
+       "sort": 23
+      },
+      {
+       "id": 28,
+       "name": "Royal Walk (Männlichen - Männlichengipfel)",
+       "label": "47",
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
+       "sort": 24
+      },
+      {
+       "id": 29,
+       "name": "Lauterbrunnen - Wengen",
+       "label": "48",
+       "status": "open",
+       "statusLabel": "offen",
+       "statusCode": 2,
+       "isOpen": true,
+       "sort": 25
+      },
+      {
+       "id": 30,
+       "name": "Lauterbrunnen - Wengwald - Wengen",
+       "label": "49",
+       "status": "open",
+       "statusLabel": "offen",
+       "statusCode": 2,
+       "isOpen": true,
+       "sort": 26
+      }
+     ],
+     "total": 25,
+     "open": 7
+    }
+   ]
+  },
+  {
+   "nr": 7,
+   "name": "Klettersteige",
+   "total": 1,
+   "open": 0,
+   "subcategories": [
+    {
+     "nr": 3,
+     "name": "Klettersteig",
+     "items": [
+      {
+       "id": 7,
+       "name": "Klettersteig Rotstock",
+       "label": "",
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
+       "sort": 27
+      }
+     ],
+     "total": 1,
+     "open": 0
+    }
+   ]
+  },
+  {
+   "nr": 8,
+   "name": "Freizeit & Angebote",
+   "total": 2,
+   "open": 0,
+   "subcategories": [
+    {
+     "nr": 31,
+     "name": "Gleitschirm Startplatz",
+     "items": [
+      {
+       "id": 13,
+       "name": "Paragliding-Startplatz",
+       "label": "",
+       "status": "unknown",
+       "statusLabel": "unbekannt",
+       "statusCode": 0,
+       "isOpen": false,
+       "sort": 3
+      }
+     ],
+     "total": 1,
+     "open": 0
+    },
+    {
+     "nr": 73,
+     "name": "Ski Vermietung",
+     "items": [
+      {
+       "id": 14,
+       "name": "Rent NetWork-Mietstelle Männlichen",
+       "label": "",
+       "status": "unknown",
+       "statusLabel": "unbekannt",
+       "statusCode": 0,
+       "isOpen": false,
+       "sort": 4
+      }
+     ],
+     "total": 1,
+     "open": 0
+    }
+   ]
+  },
+  {
+   "nr": 9,
+   "name": "Gastronomie",
+   "total": 30,
+   "open": 6,
+   "subcategories": [
+    {
+     "nr": 2,
+     "name": "Restaurant",
+     "items": [
+      {
+       "id": 13,
+       "name": "Allmend",
+       "label": "",
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
+       "sort": 0
+      },
+      {
+       "id": 14,
+       "name": "Alpiglen",
+       "label": "",
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
+       "sort": 0
+      },
+      {
+       "id": 16,
+       "name": "Bahnhofbuffett Kleine Scheidegg",
+       "label": "",
+       "status": "open",
+       "statusLabel": "offen",
+       "statusCode": 2,
+       "isOpen": true,
+       "sort": 0
+      },
+      {
+       "id": 17,
+       "name": "Banket Restaurant Eiger - Jungfraujoch",
+       "label": "",
+       "status": "open",
+       "statusLabel": "offen",
+       "statusCode": 2,
+       "isOpen": true,
+       "sort": 0
+      },
+      {
+       "id": 18,
+       "name": "Bellevue Kleine Scheidegg",
+       "label": "",
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
+       "sort": 0
+      },
+      {
+       "id": 19,
+       "name": "Brandegg",
+       "label": "",
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
+       "sort": 0
+      },
+      {
+       "id": 15,
+       "name": "Buschdiglen-Bar",
+       "label": "",
+       "status": "unknown",
+       "statusLabel": "unbekannt",
+       "statusCode": 0,
+       "isOpen": false,
+       "sort": 0
+      },
+      {
+       "id": 20,
+       "name": "Eigergletscher",
+       "label": "",
+       "status": "unknown",
+       "statusLabel": "unbekannt",
+       "statusCode": 0,
+       "isOpen": false,
+       "sort": 0
+      },
+      {
+       "id": 21,
+       "name": "Eigernordwand",
+       "label": "",
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
+       "sort": 0
+      },
+      {
+       "id": 39,
+       "name": "Food & Bar Hütte Kleine Scheidegg",
+       "label": "",
+       "status": "unknown",
+       "statusLabel": "unbekannt",
+       "statusCode": 0,
+       "isOpen": false,
+       "sort": 0
+      },
+      {
+       "id": 22,
+       "name": "Grindelwaldblick",
+       "label": "",
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
+       "sort": 0
+      },
+      {
+       "id": 23,
+       "name": "Holzerbar",
+       "label": "",
+       "status": "unknown",
+       "statusLabel": "unbekannt",
+       "statusCode": 0,
+       "isOpen": false,
+       "sort": 0
+      },
+      {
+       "id": 24,
+       "name": "Hotel Bodenwald",
+       "label": "",
+       "status": "unknown",
+       "statusLabel": "unbekannt",
+       "statusCode": 0,
+       "isOpen": false,
+       "sort": 0
+      },
+      {
+       "id": 25,
+       "name": "Jungfraujoch  - Top of Europe",
+       "label": "",
+       "status": "open",
+       "statusLabel": "offen",
+       "statusCode": 2,
+       "isOpen": true,
+       "sort": 0
+      },
+      {
+       "id": 26,
+       "name": "Kaffeebar - Jungfraujoch",
+       "label": "",
+       "status": "open",
+       "statusLabel": "offen",
+       "statusCode": 2,
+       "isOpen": true,
+       "sort": 0
+      },
+      {
+       "id": 27,
+       "name": "Männlichen",
+       "label": "",
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
+       "sort": 0
+      },
+      {
+       "id": 28,
+       "name": "Männlichen-Bar",
+       "label": "",
+       "status": "unknown",
+       "statusLabel": "unbekannt",
+       "statusCode": 0,
+       "isOpen": false,
+       "sort": 0
+      },
+      {
+       "id": 29,
+       "name": "Mönchsjochhütte",
+       "label": "",
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
+       "sort": 0
+      },
+      {
+       "id": 30,
+       "name": "Proseccobar Sphinx - Jungfraujoch",
+       "label": "",
+       "status": "unknown",
+       "statusLabel": "unbekannt",
+       "statusCode": 0,
+       "isOpen": false,
+       "sort": 0
+      },
+      {
+       "id": 31,
+       "name": "Quicki-Bar",
+       "label": "",
+       "status": "unknown",
+       "statusLabel": "unbekannt",
+       "statusCode": 0,
+       "isOpen": false,
+       "sort": 0
+      },
+      {
+       "id": 32,
+       "name": "Restaurant Aletsch - Jungfraujoch",
+       "label": "",
+       "status": "open",
+       "statusLabel": "offen",
+       "statusCode": 2,
+       "isOpen": true,
+       "sort": 0
+      },
+      {
+       "id": 33,
+       "name": "Restaurant Bollywood - Jungfraujoch",
+       "label": "",
+       "status": "open",
+       "statusLabel": "offen",
+       "statusCode": 2,
+       "isOpen": true,
+       "sort": 0
+      },
+      {
+       "id": 34,
+       "name": "Schigrill & Bar Gysibielen",
+       "label": "",
+       "status": "unknown",
+       "statusLabel": "unbekannt",
+       "statusCode": 0,
+       "isOpen": false,
+       "sort": 0
+      },
+      {
+       "id": 35,
+       "name": "Schneebar Läger",
+       "label": "",
+       "status": "unknown",
+       "statusLabel": "unbekannt",
+       "statusCode": 0,
+       "isOpen": false,
+       "sort": 0
+      },
+      {
+       "id": 37,
+       "name": "Spycherbar Männlichen",
+       "label": "",
+       "status": "unknown",
+       "statusLabel": "unbekannt",
+       "statusCode": 0,
+       "isOpen": false,
+       "sort": 0
+      },
+      {
+       "id": 38,
+       "name": "Startbar Lauberhorn",
+       "label": "",
+       "status": "unknown",
+       "statusLabel": "unbekannt",
+       "statusCode": 0,
+       "isOpen": false,
+       "sort": 0
+      },
+      {
+       "id": 36,
+       "name": "The Wall Bar",
+       "label": "",
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
+       "sort": 0
+      },
+      {
+       "id": 40,
+       "name": "Vorsaas Stube",
+       "label": "",
+       "status": "unknown",
+       "statusLabel": "unbekannt",
+       "statusCode": 0,
+       "isOpen": false,
+       "sort": 0
+      },
+      {
+       "id": 41,
+       "name": "Wengeneralp",
+       "label": "",
+       "status": "unknown",
+       "statusLabel": "unbekannt",
+       "statusCode": 0,
+       "isOpen": false,
+       "sort": 0
+      },
+      {
+       "id": 42,
+       "name": "Wöschbar",
+       "label": "",
+       "status": "unknown",
+       "statusLabel": "unbekannt",
+       "statusCode": 0,
+       "isOpen": false,
+       "sort": 0
+      }
+     ],
+     "total": 30,
+     "open": 6
+    }
+   ]
+  }
+ ],
+ "updated": "2026-11-13T09:04:43+01:00"
+}

@@ -1,0 +1,18 @@
+{
+ "currentSeason": "summer",
+ "tenants": [
+  {
+   "slug": "kleine-scheidegg",
+   "title": "Kleine Scheidegg / Männlichen"
+  },
+  {
+   "slug": "grindelwald-first",
+   "title": "Grindelwald-First"
+  },
+  {
+   "slug": "muerren-schilthorn",
+   "title": "Mürren-Schilthorn"
+  }
+ ],
+ "updated": "2026-11-13T09:04:43+01:00"
+}

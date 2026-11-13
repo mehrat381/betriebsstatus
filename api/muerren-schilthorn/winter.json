@@ -1,0 +1,907 @@
+{
+ "tenant": "muerren-schilthorn",
+ "title": "Mürren-Schilthorn",
+ "season": "winter",
+ "seasonLabel": "Winter",
+ "categories": [
+  {
+   "nr": 1,
+   "name": "Bahnen & Lifte",
+   "total": 15,
+   "open": 5,
+   "subcategories": [
+    {
+     "nr": 1,
+     "name": "Pendelbahn",
+     "items": [
+      {
+       "id": 573,
+       "name": "Stechelberg – Mürren",
+       "label": "",
+       "status": "open",
+       "statusLabel": "offen",
+       "statusCode": 2,
+       "isOpen": true,
+       "sort": 1,
+       "firstRide": "08:01",
+       "lastRide": "17:51",
+       "info": "Betriebszeiten · 08:01 - 17:51 Uhr",
+       "website": "https://www.schilthorn.ch"
+      },
+      {
+       "id": 366,
+       "name": "Stechelberg – Gimmelwald",
+       "label": "",
+       "status": "open",
+       "statusLabel": "offen",
+       "statusCode": 2,
+       "isOpen": true,
+       "sort": 2,
+       "firstRide": "05:53",
+       "lastRide": "23:57",
+       "info": "Betriebszeiten · 05:53 - 23:57 Uhr",
+       "website": "https://www.schilthorn.ch"
+      },
+      {
+       "id": 369,
+       "name": "Gimmelwald – Mürren",
+       "label": "",
+       "status": "open",
+       "statusLabel": "offen",
+       "statusCode": 2,
+       "isOpen": true,
+       "sort": 3,
+       "firstRide": "05:59",
+       "lastRide": "00:04",
+       "info": "Betriebszeiten · 05:59 - 00:04 Uhr",
+       "website": "https://www.schilthorn.ch"
+      },
+      {
+       "id": 370,
+       "name": "Mürren – Birg",
+       "label": "",
+       "status": "open",
+       "statusLabel": "offen",
+       "statusCode": 2,
+       "isOpen": true,
+       "sort": 4,
+       "firstRide": "08:10",
+       "lastRide": "17:00",
+       "info": "Betriebszeiten · 08:10 - 17:00 Uhr"
+      },
+      {
+       "id": 367,
+       "name": "Birg – Schilthorn",
+       "label": "",
+       "status": "open",
+       "statusLabel": "offen",
+       "statusCode": 2,
+       "isOpen": true,
+       "sort": 5,
+       "firstRide": "08:20",
+       "lastRide": "16:50",
+       "info": "Betriebszeiten · 8:20 - 16:50 Uhr"
+      }
+     ],
+     "total": 5,
+     "open": 5
+    },
+    {
+     "nr": 5,
+     "name": "Sesselbahn 2er",
+     "items": [
+      {
+       "id": 362,
+       "name": "Allmiboden",
+       "label": "",
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
+       "sort": 7,
+       "firstRide": "09:00",
+       "lastRide": "16:30",
+       "info": "Betriebszeiten · 09:00 - 16:30 Uhr",
+       "website": "https://www.schilthorn.ch"
+      },
+      {
+       "id": 359,
+       "name": "Kandahar",
+       "label": "",
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
+       "sort": 8,
+       "firstRide": "08:30",
+       "lastRide": "16:15",
+       "info": "Betriebszeiten · Täglich 08:30-16:15 ab 25.01.2026 16:15",
+       "website": "https://www.schilthorn.ch"
+      },
+      {
+       "id": 360,
+       "name": "Maulerhubel",
+       "label": "",
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
+       "sort": 9,
+       "firstRide": "09:00",
+       "lastRide": "16:30",
+       "info": "Betriebszeiten · 09:00 - 16:30 Uhr",
+       "website": "https://www.schilthorn.ch"
+      },
+      {
+       "id": 361,
+       "name": "Muttleren",
+       "label": "",
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
+       "sort": 10,
+       "firstRide": "08:30",
+       "lastRide": "16:15",
+       "info": "Betriebszeiten · Ab 22.11.2025 täglich 09:00-15:45 · ab 25.01.2026 bis 16:15",
+       "website": "https://www.schilthorn.ch"
+      }
+     ],
+     "total": 4,
+     "open": 0
+    },
+    {
+     "nr": 6,
+     "name": "Sesselbahn 4er",
+     "items": [
+      {
+       "id": 364,
+       "name": "Riggli",
+       "label": "",
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
+       "sort": 11,
+       "firstRide": "08:30",
+       "lastRide": "16:15",
+       "info": "Betriebszeiten · Ab 22.11.2025 täglich 09:00-15:45 · ab 25.01.2026 bis 16:15",
+       "website": "https://www.schilthorn.ch"
+      },
+      {
+       "id": 365,
+       "name": "Schiltgrat",
+       "label": "",
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
+       "sort": 12,
+       "firstRide": "09:00",
+       "lastRide": "16:30",
+       "info": "Betriebszeiten · 09:00 - 16:30 Uhr",
+       "website": "https://www.schilthorn.ch"
+      },
+      {
+       "id": 363,
+       "name": "Winteregg",
+       "label": "",
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
+       "sort": 13,
+       "firstRide": "09:00",
+       "lastRide": "16:30",
+       "info": "Betriebszeiten · 09:00 - 16:30 Uhr",
+       "website": "https://www.schilthorn.ch"
+      }
+     ],
+     "total": 3,
+     "open": 0
+    },
+    {
+     "nr": 3,
+     "name": "Skilift",
+     "items": [
+      {
+       "id": 371,
+       "name": "Allmendhubel",
+       "label": "",
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
+       "sort": 14,
+       "firstRide": "09:00",
+       "lastRide": "16:30",
+       "info": "Betriebszeiten · 09:00 - 16:30 Uhr",
+       "website": "https://www.schilthorn.ch"
+      },
+      {
+       "id": 372,
+       "name": "Gimmeln",
+       "label": "",
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
+       "sort": 15,
+       "firstRide": "09:00",
+       "lastRide": "16:30",
+       "info": "Betriebszeiten · 09:00 - 16:30 Uhr",
+       "website": "https://www.schilthorn.ch"
+      }
+     ],
+     "total": 2,
+     "open": 0
+    },
+    {
+     "nr": 9,
+     "name": "Standseilbahn",
+     "items": [
+      {
+       "id": 373,
+       "name": "Mürren – Allmendhubel",
+       "label": "",
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
+       "sort": 6,
+       "firstRide": "09:00",
+       "lastRide": "17:00",
+       "info": "Betriebszeiten · 09:00 - 17:00 Uhr",
+       "website": "https://www.schilthorn.ch"
+      }
+     ],
+     "total": 1,
+     "open": 0
+    }
+   ]
+  },
+  {
+   "nr": 2,
+   "name": "Pisten",
+   "total": 28,
+   "open": 0,
+   "subcategories": [
+    {
+     "nr": 1,
+     "name": "Blaue Piste",
+     "items": [
+      {
+       "id": 1196,
+       "name": "Riggli",
+       "label": "8a",
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
+       "sort": 0
+      },
+      {
+       "id": 585,
+       "name": "Bob-Run",
+       "label": "6",
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
+       "sort": 2,
+       "lengthMeter": 3210
+      },
+      {
+       "id": 591,
+       "name": "Engetal",
+       "label": "11",
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
+       "sort": 4,
+       "lengthMeter": 3850
+      },
+      {
+       "id": 599,
+       "name": "Hindenburg",
+       "label": "20",
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
+       "sort": 6,
+       "lengthMeter": 3850
+      },
+      {
+       "id": 581,
+       "name": "Dreistern",
+       "label": "2",
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
+       "sort": 8,
+       "lengthMeter": 2570
+      },
+      {
+       "id": 583,
+       "name": "Maulerhubel",
+       "label": "4",
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
+       "sort": 9,
+       "lengthMeter": 1670
+      },
+      {
+       "id": 586,
+       "name": "Allmi",
+       "label": "7",
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
+       "sort": 10,
+       "lengthMeter": 1800
+      },
+      {
+       "id": 587,
+       "name": "Riggli",
+       "label": "8",
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
+       "sort": 11,
+       "lengthMeter": 1610
+      },
+      {
+       "id": 602,
+       "name": "Gimmeln",
+       "label": "23",
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
+       "sort": 20,
+       "lengthMeter": 1670
+      },
+      {
+       "id": 606,
+       "name": "Wintertal",
+       "label": "26",
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
+       "sort": 23,
+       "lengthMeter": 1280
+      }
+     ],
+     "total": 10,
+     "open": 0
+    },
+    {
+     "nr": 13,
+     "name": "Gelbe Freeride-Piste",
+     "items": [
+      {
+       "id": 1156,
+       "name": "Abfahrtsroute Schiltgrat - Gimmeln",
+       "label": "27",
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
+       "sort": 25
+      },
+      {
+       "id": 609,
+       "name": "Abfahrtsroute Gimmelwald",
+       "label": "27a",
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
+       "sort": 26,
+       "lengthMeter": 1280
+      }
+     ],
+     "total": 2,
+     "open": 0
+    },
+    {
+     "nr": 2,
+     "name": "Rote Piste",
+     "items": [
+      {
+       "id": 582,
+       "name": "Lauterbrunnen",
+       "label": "3",
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
+       "sort": 0,
+       "lengthMeter": 8990
+      },
+      {
+       "id": 1257,
+       "name": "Palace-Run",
+       "label": "5a",
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
+       "sort": 0
+      },
+      {
+       "id": 584,
+       "name": "Palace-Run",
+       "label": "5",
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
+       "sort": 1,
+       "lengthMeter": 2310
+      },
+      {
+       "id": 580,
+       "name": "Winteregg - Oberberg",
+       "label": "1",
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
+       "sort": 7,
+       "lengthMeter": 1540
+      },
+      {
+       "id": 593,
+       "name": "Stellifluh",
+       "label": "13",
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
+       "sort": 14,
+       "lengthMeter": 260
+      },
+      {
+       "id": 595,
+       "name": "Bietenhorn",
+       "label": "15",
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
+       "sort": 16,
+       "lengthMeter": 1540
+      },
+      {
+       "id": 601,
+       "name": "Suppen / Rad",
+       "label": "22",
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
+       "sort": 19,
+       "lengthMeter": 1030
+      },
+      {
+       "id": 604,
+       "name": "Gimmeln",
+       "label": "24",
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
+       "sort": 21,
+       "lengthMeter": 2950
+      },
+      {
+       "id": 605,
+       "name": "Finel",
+       "label": "25",
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
+       "sort": 22,
+       "lengthMeter": 1860
+      }
+     ],
+     "total": 9,
+     "open": 0
+    },
+    {
+     "nr": 3,
+     "name": "Schwarze Piste",
+     "items": [
+      {
+       "id": 590,
+       "name": "Schilthorn Abfahrt",
+       "label": "10",
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
+       "sort": 3,
+       "lengthMeter": 1930
+      },
+      {
+       "id": 597,
+       "name": "Kanonenrohr - Mürren",
+       "label": "16",
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
+       "sort": 5,
+       "lengthMeter": 1670
+      },
+      {
+       "id": 589,
+       "name": "Direttissima",
+       "label": "9",
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
+       "sort": 12,
+       "lengthMeter": 940
+      },
+      {
+       "id": 592,
+       "name": "Bond",
+       "label": "12",
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
+       "sort": 13,
+       "lengthMeter": 510
+      },
+      {
+       "id": 594,
+       "name": "Muttleren",
+       "label": "14",
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
+       "sort": 15,
+       "lengthMeter": 900
+      },
+      {
+       "id": 598,
+       "name": "FIS",
+       "label": "17",
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
+       "sort": 17,
+       "lengthMeter": 1090
+      },
+      {
+       "id": 1113,
+       "name": "Kandahar",
+       "label": "21",
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
+       "sort": 18,
+       "lengthMeter": 1160
+      }
+     ],
+     "total": 7,
+     "open": 0
+    }
+   ]
+  },
+  {
+   "nr": 4,
+   "name": "Schlittelwege",
+   "total": 2,
+   "open": 0,
+   "subcategories": [
+    {
+     "nr": 9,
+     "name": "Schlitteln",
+     "items": [
+      {
+       "id": 615,
+       "name": "Apollo",
+       "label": "",
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
+       "sort": 0,
+       "lengthMeter": 3100
+      },
+      {
+       "id": 616,
+       "name": "Bobrun",
+       "label": "",
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
+       "sort": 0,
+       "lengthMeter": 2000
+      }
+     ],
+     "total": 2,
+     "open": 0
+    }
+   ]
+  },
+  {
+   "nr": 5,
+   "name": "Wanderwege",
+   "total": 5,
+   "open": 0,
+   "subcategories": [
+    {
+     "nr": 2,
+     "name": "Wanderweg",
+     "items": [
+      {
+       "id": 413,
+       "name": "Mürren - Gimmeln",
+       "label": "40",
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
+       "sort": 0,
+       "lengthMeter": 1500
+      },
+      {
+       "id": 414,
+       "name": "Gimmeln - Schiltgrat",
+       "label": "41",
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
+       "sort": 1,
+       "lengthMeter": 2500
+      },
+      {
+       "id": 415,
+       "name": "Mürren - Sonnenberg",
+       "label": "42",
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
+       "sort": 2,
+       "lengthMeter": 1500
+      },
+      {
+       "id": 417,
+       "name": "Mürren - Winteregg",
+       "label": "44",
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
+       "sort": 3,
+       "lengthMeter": 2500
+      },
+      {
+       "id": 419,
+       "name": "Mürren - Gimmelwald",
+       "label": "45",
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
+       "sort": 4,
+       "lengthMeter": 1000
+      }
+     ],
+     "total": 5,
+     "open": 0
+    }
+   ]
+  },
+  {
+   "nr": 8,
+   "name": "Freizeit & Angebote",
+   "total": 5,
+   "open": 1,
+   "subcategories": [
+    {
+     "nr": 68,
+     "name": "Skicross",
+     "items": [
+      {
+       "id": 431,
+       "name": "Skicross Maulerhubel",
+       "label": "",
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
+       "sort": 0
+      }
+     ],
+     "total": 1,
+     "open": 0
+    },
+    {
+     "nr": 9,
+     "name": "Snowpark",
+     "items": [
+      {
+       "id": 669,
+       "name": "Snowpark Engetal",
+       "label": "",
+       "status": "open",
+       "statusLabel": "offen",
+       "statusCode": 2,
+       "isOpen": true,
+       "sort": 0
+      },
+      {
+       "id": 670,
+       "name": "Snowpark Maulerhubel",
+       "label": "",
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
+       "sort": 0
+      },
+      {
+       "id": 671,
+       "name": "Snowpark Winteregg",
+       "label": "",
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
+       "sort": 0
+      }
+     ],
+     "total": 3,
+     "open": 1
+    },
+    {
+     "nr": 25,
+     "name": "Snowtube",
+     "items": [
+      {
+       "id": 295,
+       "name": "Snowtubing Winteregg",
+       "label": "",
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
+       "sort": 0
+      }
+     ],
+     "total": 1,
+     "open": 0
+    }
+   ]
+  },
+  {
+   "nr": 9,
+   "name": "Gastronomie",
+   "total": 9,
+   "open": 2,
+   "subcategories": [
+    {
+     "nr": 2,
+     "name": "Restaurant",
+     "items": [
+      {
+       "id": 398,
+       "name": "Allmendhubel",
+       "label": "",
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
+       "sort": 0
+      },
+      {
+       "id": 397,
+       "name": "Birg Selfservice",
+       "label": "",
+       "status": "open",
+       "statusLabel": "offen",
+       "statusCode": 2,
+       "isOpen": true,
+       "sort": 0
+      },
+      {
+       "id": 396,
+       "name": "Gimmeln",
+       "label": "",
+       "status": "unknown",
+       "statusLabel": "unbekannt",
+       "statusCode": 0,
+       "isOpen": false,
+       "sort": 0
+      },
+      {
+       "id": 393,
+       "name": "Schiltgrathüsi",
+       "label": "",
+       "status": "unknown",
+       "statusLabel": "unbekannt",
+       "statusCode": 0,
+       "isOpen": false,
+       "sort": 0
+      },
+      {
+       "id": 395,
+       "name": "Schilthorn - Piz Gloria",
+       "label": "",
+       "status": "open",
+       "statusLabel": "offen",
+       "statusCode": 2,
+       "isOpen": true,
+       "sort": 0
+      },
+      {
+       "id": 394,
+       "name": "Schilthornhütte",
+       "label": "",
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
+       "sort": 0
+      },
+      {
+       "id": 392,
+       "name": "Sonnenberg",
+       "label": "",
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
+       "sort": 0
+      },
+      {
+       "id": 391,
+       "name": "Suppenalp",
+       "label": "",
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
+       "sort": 0
+      },
+      {
+       "id": 390,
+       "name": "Winteregg",
+       "label": "",
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
+       "sort": 0
+      }
+     ],
+     "total": 9,
+     "open": 2
+    }
+   ]
+  }
+ ],
+ "updated": "2026-11-13T09:04:43+01:00"
+}

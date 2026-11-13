@@ -1,0 +1,951 @@
+{
+ "tenant": "grindelwald-first",
+ "title": "Grindelwald-First",
+ "season": "summer",
+ "seasonLabel": "Sommer",
+ "categories": [
+  {
+   "nr": 1,
+   "name": "Bahnen & Lifte",
+   "total": 4,
+   "open": 0,
+   "subcategories": [
+    {
+     "nr": 2,
+     "name": "Gondelbahn",
+     "items": [
+      {
+       "id": 128,
+       "name": "Grindelwald – Bort",
+       "label": "",
+       "status": "unknown",
+       "statusLabel": "unbekannt",
+       "statusCode": 0,
+       "isOpen": false,
+       "sort": 2,
+       "info": "Betriebszeiten",
+       "links": [
+        {
+         "text": "Öffnungs- und Betriebszeiten",
+         "url": "https://www.jungfrau.ch/de-ch/live/betriebsdaten/"
+        }
+       ]
+      },
+      {
+       "id": 132,
+       "name": "Bort – Schreckfeld",
+       "label": "",
+       "status": "unknown",
+       "statusLabel": "unbekannt",
+       "statusCode": 0,
+       "isOpen": false,
+       "sort": 3,
+       "info": "Betriebszeiten",
+       "links": [
+        {
+         "text": "Öffnungs- und Betriebszeiten",
+         "url": "https://www.jungfrau.ch/de-ch/live/betriebsdaten/"
+        }
+       ]
+      },
+      {
+       "id": 134,
+       "name": "Schreckfeld – First",
+       "label": "",
+       "status": "unknown",
+       "statusLabel": "unbekannt",
+       "statusCode": 0,
+       "isOpen": false,
+       "sort": 5,
+       "info": "Betriebszeiten",
+       "links": [
+        {
+         "text": "Öffnungs- und Betriebszeiten",
+         "url": "https://www.jungfrau.ch/de-ch/live/betriebsdaten/"
+        }
+       ]
+      }
+     ],
+     "total": 3,
+     "open": 0
+    },
+    {
+     "nr": 1,
+     "name": "Pendelbahn",
+     "items": [
+      {
+       "id": 163,
+       "name": "Grindelwald – Pfingstegg",
+       "label": "",
+       "status": "unknown",
+       "statusLabel": "unbekannt",
+       "statusCode": 0,
+       "isOpen": false,
+       "sort": 14
+      }
+     ],
+     "total": 1,
+     "open": 0
+    }
+   ]
+  },
+  {
+   "nr": 5,
+   "name": "Wanderwege",
+   "total": 46,
+   "open": 34,
+   "subcategories": [
+    {
+     "nr": 2,
+     "name": "Wanderweg",
+     "items": [
+      {
+       "id": 49,
+       "name": "First - Bachalpsee",
+       "label": "1",
+       "status": "open",
+       "statusLabel": "offen",
+       "statusCode": 2,
+       "isOpen": true,
+       "sort": 0
+      },
+      {
+       "id": 60,
+       "name": "Bachalpsee - Faulhorn - Bussalp",
+       "label": "2",
+       "status": "open",
+       "statusLabel": "offen",
+       "statusCode": 2,
+       "isOpen": true,
+       "sort": 1
+      },
+      {
+       "id": 1292,
+       "name": "Faulhorn – Bussalp",
+       "label": "2a",
+       "status": "open",
+       "statusLabel": "offen",
+       "statusCode": 2,
+       "isOpen": true,
+       "sort": 2
+      },
+      {
+       "id": 63,
+       "name": "First - Bachalpsee - Hireleni - Feld - Bussalp",
+       "label": "3",
+       "status": "open",
+       "statusLabel": "offen",
+       "statusCode": 2,
+       "isOpen": true,
+       "sort": 3
+      },
+      {
+       "id": 64,
+       "name": "First - Bachalpsee - Waldspitz (Blumenweg)",
+       "label": "4",
+       "status": "open",
+       "statusLabel": "offen",
+       "statusCode": 2,
+       "isOpen": true,
+       "sort": 4
+      },
+      {
+       "id": 789,
+       "name": "First - Bachalpsee - Waldspitz",
+       "label": "4a",
+       "status": "open",
+       "statusLabel": "offen",
+       "statusCode": 2,
+       "isOpen": true,
+       "sort": 5
+      },
+      {
+       "id": 65,
+       "name": "First - Bachalpsee - Hiendertellti - Grosse Scheidegg",
+       "label": "5",
+       "status": "open",
+       "statusLabel": "offen",
+       "statusCode": 2,
+       "isOpen": true,
+       "sort": 6
+      },
+      {
+       "id": 80,
+       "name": "First - Grosse Scheidegg",
+       "label": "6",
+       "status": "open",
+       "statusLabel": "offen",
+       "statusCode": 2,
+       "isOpen": true,
+       "sort": 7
+      },
+      {
+       "id": 81,
+       "name": "First - Schreckfeld",
+       "label": "8",
+       "status": "open",
+       "statusLabel": "offen",
+       "statusCode": 2,
+       "isOpen": true,
+       "sort": 8
+      },
+      {
+       "id": 82,
+       "name": "First - Bachläger - Waldspitz (Gelber Brunnen)",
+       "label": "9",
+       "status": "open",
+       "statusLabel": "offen",
+       "statusCode": 2,
+       "isOpen": true,
+       "sort": 9
+      },
+      {
+       "id": 50,
+       "name": "Waldspitz - Feld - Bussalp",
+       "label": "10",
+       "status": "open",
+       "statusLabel": "offen",
+       "statusCode": 2,
+       "isOpen": true,
+       "sort": 10
+      },
+      {
+       "id": 51,
+       "name": "Schreckfeld - Grosse Scheidegg",
+       "label": "11",
+       "status": "open",
+       "statusLabel": "offen",
+       "statusCode": 2,
+       "isOpen": true,
+       "sort": 11
+      },
+      {
+       "id": 52,
+       "name": "Schreckfeld - Bort",
+       "label": "12",
+       "status": "open",
+       "statusLabel": "offen",
+       "statusCode": 2,
+       "isOpen": true,
+       "sort": 12
+      },
+      {
+       "id": 53,
+       "name": "Bort - Bussalp",
+       "label": "13",
+       "status": "open",
+       "statusLabel": "offen",
+       "statusCode": 2,
+       "isOpen": true,
+       "sort": 13
+      },
+      {
+       "id": 54,
+       "name": "Bort - Aellfluh - Grindelwald",
+       "label": "14",
+       "status": "open",
+       "statusLabel": "offen",
+       "statusCode": 2,
+       "isOpen": true,
+       "sort": 14
+      },
+      {
+       "id": 55,
+       "name": "Bort - Grindelwald",
+       "label": "15",
+       "status": "open",
+       "statusLabel": "offen",
+       "statusCode": 2,
+       "isOpen": true,
+       "sort": 15
+      },
+      {
+       "id": 1294,
+       "name": "Bort – Grindelwald Klusi",
+       "label": "15a",
+       "status": "open",
+       "statusLabel": "offen",
+       "statusCode": 2,
+       "isOpen": true,
+       "sort": 16
+      },
+      {
+       "id": 56,
+       "name": "Bort - Unter Lauchbühl - Hotel Wetterhorn",
+       "label": "16",
+       "status": "open",
+       "statusLabel": "offen",
+       "statusCode": 2,
+       "isOpen": true,
+       "sort": 17
+      },
+      {
+       "id": 57,
+       "name": "First - Schilt - Oberläger - Grosse Scheidegg (Murmeltierweg)",
+       "label": "17",
+       "status": "open",
+       "statusLabel": "offen",
+       "statusCode": 2,
+       "isOpen": true,
+       "sort": 18
+      },
+      {
+       "id": 58,
+       "name": "First - Schwarzhorn - First",
+       "label": "18",
+       "status": "open",
+       "statusLabel": "offen",
+       "statusCode": 2,
+       "isOpen": true,
+       "sort": 19
+      },
+      {
+       "id": 59,
+       "name": "Waldspitz - Bort",
+       "label": "19",
+       "status": "open",
+       "statusLabel": "offen",
+       "statusCode": 2,
+       "isOpen": true,
+       "sort": 20
+      },
+      {
+       "id": 1287,
+       "name": "Bort – Grindelwald Klusi",
+       "label": "20a",
+       "status": "open",
+       "statusLabel": "offen",
+       "statusCode": 2,
+       "isOpen": true,
+       "sort": 21
+      },
+      {
+       "id": 61,
+       "name": "Grindelwald - Unter Lauchbühl - Grosse Scheidegg",
+       "label": "21",
+       "status": "open",
+       "statusLabel": "offen",
+       "statusCode": 2,
+       "isOpen": true,
+       "sort": 22
+      },
+      {
+       "id": 1293,
+       "name": "Grindelwald – Vogelpark",
+       "label": "21a",
+       "status": "open",
+       "statusLabel": "offen",
+       "statusCode": 2,
+       "isOpen": true,
+       "sort": 23
+      },
+      {
+       "id": 62,
+       "name": "Grindelwald - Abbachfall - Bussalp",
+       "label": "22",
+       "status": "open",
+       "statusLabel": "offen",
+       "statusCode": 2,
+       "isOpen": true,
+       "sort": 24
+      },
+      {
+       "id": 1280,
+       "name": "Oberer Gletscher – Milchbach – Pfingstegg",
+       "label": "23",
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
+       "sort": 25
+      },
+      {
+       "id": 1281,
+       "name": "Pfingstegg – Bäregg",
+       "label": "24",
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
+       "sort": 26
+      },
+      {
+       "id": 1282,
+       "name": "Grindelwald – Halten – Pfingstegg",
+       "label": "26",
+       "status": "open",
+       "statusLabel": "offen",
+       "statusCode": 2,
+       "isOpen": true,
+       "sort": 27
+      },
+      {
+       "id": 1283,
+       "name": "Grindelwald – Sulz – Pfingstegg",
+       "label": "26a",
+       "status": "open",
+       "statusLabel": "offen",
+       "statusCode": 2,
+       "isOpen": true,
+       "sort": 28
+      },
+      {
+       "id": 1284,
+       "name": "Gletscherschlucht – Marmorbruch – Pfingstegg",
+       "label": "27",
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
+       "sort": 29
+      },
+      {
+       "id": 1432,
+       "name": "Pfingstegg – Flielewald – Grindelwald",
+       "label": "27a",
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
+       "sort": 30
+      },
+      {
+       "id": 1285,
+       "name": "Bäregg – Schreckhornhütte",
+       "label": "28",
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
+       "sort": 31
+      },
+      {
+       "id": 1286,
+       "name": "Grindelwald Grund - Trychelegg",
+       "label": "29",
+       "status": "open",
+       "statusLabel": "offen",
+       "statusCode": 2,
+       "isOpen": true,
+       "sort": 32
+      },
+      {
+       "id": 1289,
+       "name": "Rundwanderweg Bussalp",
+       "label": "50",
+       "status": "open",
+       "statusLabel": "offen",
+       "statusCode": 2,
+       "isOpen": true,
+       "sort": 37
+      },
+      {
+       "id": 1290,
+       "name": "Bussalp – Burglauenen",
+       "label": "51",
+       "status": "open",
+       "statusLabel": "offen",
+       "statusCode": 2,
+       "isOpen": true,
+       "sort": 40
+      },
+      {
+       "id": 1291,
+       "name": "Männdlenen - Burglauenen",
+       "label": "52",
+       "status": "open",
+       "statusLabel": "offen",
+       "statusCode": 2,
+       "isOpen": true,
+       "sort": 42
+      },
+      {
+       "id": 1288,
+       "name": "Unterer Lauchbühl – Glecksteinhütte",
+       "label": "77",
+       "status": "open",
+       "statusLabel": "offen",
+       "statusCode": 2,
+       "isOpen": true,
+       "sort": 50
+      },
+      {
+       "id": 114,
+       "name": "Pfingstegg - Bäregg",
+       "label": "101",
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
+       "sort": 51
+      },
+      {
+       "id": 112,
+       "name": "Pfingstegg - Milchbach - Oberer Gletscher",
+       "label": "100",
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
+       "sort": 52
+      },
+      {
+       "id": 113,
+       "name": "Bäregg - Schreckhornhütte SAC",
+       "label": "102",
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
+       "sort": 53
+      },
+      {
+       "id": 116,
+       "name": "Waldspitz - Bort",
+       "label": "4",
+       "status": "open",
+       "statusLabel": "offen",
+       "statusCode": 2,
+       "isOpen": true,
+       "sort": 54
+      },
+      {
+       "id": 115,
+       "name": "Bort - Mühlebach (entlang Trottistrecke)",
+       "label": "20",
+       "status": "open",
+       "statusLabel": "offen",
+       "statusCode": 2,
+       "isOpen": true,
+       "sort": 55
+      },
+      {
+       "id": 117,
+       "name": "Pfingstegg - Marmorbruch - Gletscherschlucht",
+       "label": "105",
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
+       "sort": 56
+      },
+      {
+       "id": 118,
+       "name": "Unterer Lauchbühl - Glecksteinhütte",
+       "label": "106",
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
+       "sort": 57
+      },
+      {
+       "id": 84,
+       "name": "Pfingstegg - Halsegg - Hotel Wetterhorn",
+       "label": "107",
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
+       "sort": 58
+      },
+      {
+       "id": 85,
+       "name": "Pfingstegg - Bäregg - Pfingstegg",
+       "label": "108",
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
+       "sort": 59
+      }
+     ],
+     "total": 46,
+     "open": 34
+    }
+   ]
+  },
+  {
+   "nr": 7,
+   "name": "Klettersteige",
+   "total": 2,
+   "open": 2,
+   "subcategories": [
+    {
+     "nr": 3,
+     "name": "Klettersteig",
+     "items": [
+      {
+       "id": 1295,
+       "name": "Klettersteig Ostegg",
+       "label": "",
+       "status": "open",
+       "statusLabel": "offen",
+       "statusCode": 2,
+       "isOpen": true,
+       "sort": 69
+      },
+      {
+       "id": 790,
+       "name": "Klettersteig Schwarzhorn",
+       "label": "",
+       "status": "open",
+       "statusLabel": "offen",
+       "statusCode": 2,
+       "isOpen": true,
+       "sort": 70
+      }
+     ],
+     "total": 2,
+     "open": 2
+    }
+   ]
+  },
+  {
+   "nr": 8,
+   "name": "Freizeit & Angebote",
+   "total": 10,
+   "open": 1,
+   "subcategories": [
+    {
+     "nr": 1,
+     "name": "Bushaltestelle",
+     "items": [
+      {
+       "id": 36,
+       "name": "Dorf Grindelwald",
+       "label": "",
+       "status": "open",
+       "statusLabel": "offen",
+       "statusCode": 2,
+       "isOpen": true,
+       "sort": 17
+      },
+      {
+       "id": 37,
+       "name": "Grindelwald - Grosse Scheidegg",
+       "label": "",
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
+       "sort": 18,
+       "info": "Bergbuslinie Grosse Scheidegg"
+      },
+      {
+       "id": 35,
+       "name": "Grindelwald - Bussalp",
+       "label": "",
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
+       "sort": 19,
+       "info": "Bergbuslinie Bussalp"
+      },
+      {
+       "id": 34,
+       "name": "Bus Waldspitz",
+       "label": "",
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
+       "sort": 22,
+       "info": "Bergbuslinie Waldspitz"
+      }
+     ],
+     "total": 4,
+     "open": 1
+    },
+    {
+     "nr": 46,
+     "name": "Gokart",
+     "items": [
+      {
+       "id": 21,
+       "name": "Mountain Cart",
+       "label": "",
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
+       "sort": 3
+      }
+     ],
+     "total": 1,
+     "open": 0
+    },
+    {
+     "nr": 52,
+     "name": "Rodeln",
+     "items": [
+      {
+       "id": 252,
+       "name": "Rodelbahn auf Pfingstegg",
+       "label": "",
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
+       "sort": 15
+      }
+     ],
+     "total": 1,
+     "open": 0
+    },
+    {
+     "nr": 48,
+     "name": "Seilrutsche",
+     "items": [
+      {
+       "id": 18,
+       "name": "First Flyer (Sommerbild)",
+       "label": "",
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
+       "sort": 1,
+       "info": "Betriebszeiten · Vorbehältlich Wind- und Wetterverhältnisse. · Information · Je nach Gästeaufkommen kann es zu Wartezeiten kommen.",
+       "links": [
+        {
+         "text": "Öffnungs- und Betriebszeiten",
+         "url": "https://www.jungfrau.ch/de-ch/grindelwaldfirst/first-flieger/\n"
+        },
+        {
+         "text": "Wartezeiten",
+         "url": "https://adventure.jungfrau.ch"
+        }
+       ]
+      },
+      {
+       "id": 19,
+       "name": "First Glider",
+       "label": "",
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
+       "sort": 2,
+       "info": "Betriebszeiten · Vorbehältlich Wind- und Wetterverhältnisse. · Information · Je nach Gästeaufkommen kann es zu Wartezeiten kommen.",
+       "links": [
+        {
+         "text": "Öffnungs- und Betriebszeiten",
+         "url": "https://www.jungfrau.ch/de-ch/grindelwaldfirst/first-glider/\n"
+        },
+        {
+         "text": "Wartezeiten",
+         "url": "https://adventure.jungfrau.ch"
+        }
+       ]
+      },
+      {
+       "id": 251,
+       "name": "Fly-Line Pfingstegg",
+       "label": "",
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
+       "sort": 16
+      }
+     ],
+     "total": 3,
+     "open": 0
+    },
+    {
+     "nr": 16,
+     "name": "Trottivermietung",
+     "items": [
+      {
+       "id": 31,
+       "name": "Trottibike (Sommer)",
+       "label": "",
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
+       "sort": 4
+      }
+     ],
+     "total": 1,
+     "open": 0
+    }
+   ]
+  },
+  {
+   "nr": 9,
+   "name": "Gastronomie",
+   "total": 15,
+   "open": 1,
+   "subcategories": [
+    {
+     "nr": 2,
+     "name": "Restaurant",
+     "items": [
+      {
+       "id": 47,
+       "name": "Berghaus Männdlenen",
+       "label": "",
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
+       "sort": 0,
+       "links": [
+        {
+         "text": "Berghaus Männdlenen",
+         "url": "https://berghaus-maenndlenen.ch/"
+        }
+       ]
+      },
+      {
+       "id": 48,
+       "name": "Bort",
+       "label": "",
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
+       "sort": 0
+      },
+      {
+       "id": 50,
+       "name": "Bussalp",
+       "label": "",
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
+       "sort": 0
+      },
+      {
+       "id": 66,
+       "name": "Bäregg",
+       "label": "",
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
+       "sort": 0
+      },
+      {
+       "id": 52,
+       "name": "Faulhorn",
+       "label": "",
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
+       "sort": 0
+      },
+      {
+       "id": 67,
+       "name": "Glecksteinhütte SAC",
+       "label": "",
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
+       "sort": 0
+      },
+      {
+       "id": 55,
+       "name": "Grosse Scheidegg",
+       "label": "",
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
+       "sort": 0
+      },
+      {
+       "id": 71,
+       "name": "Pfingstegg",
+       "label": "",
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
+       "sort": 0
+      },
+      {
+       "id": 57,
+       "name": "Rasthysi (Sommer)",
+       "label": "",
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
+       "sort": 0
+      },
+      {
+       "id": 58,
+       "name": "Schreckfeld",
+       "label": "",
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
+       "sort": 0
+      },
+      {
+       "id": 72,
+       "name": "Schreckhornhütte SAC",
+       "label": "",
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
+       "sort": 0
+      },
+      {
+       "id": 59,
+       "name": "Schynige Platte",
+       "label": "",
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
+       "sort": 0
+      },
+      {
+       "id": 53,
+       "name": "Toprestaurant",
+       "label": "",
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
+       "sort": 0
+      },
+      {
+       "id": 61,
+       "name": "Vogelpark",
+       "label": "",
+       "status": "open",
+       "statusLabel": "offen",
+       "statusCode": 2,
+       "isOpen": true,
+       "sort": 0
+      },
+      {
+       "id": 62,
+       "name": "Waldspitz",
+       "label": "",
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
+       "sort": 0
+      }
+     ],
+     "total": 15,
+     "open": 1
+    }
+   ]
+  }
+ ],
+ "updated": "2026-11-13T09:04:43+01:00"
+}

@@ -1,0 +1,1496 @@
+{
+ "tenant": "grindelwald-first",
+ "title": "Grindelwald-First",
+ "season": "winter",
+ "seasonLabel": "Winter",
+ "categories": [
+  {
+   "nr": 1,
+   "name": "Bahnen & Lifte",
+   "total": 10,
+   "open": 0,
+   "subcategories": [
+    {
+     "nr": 14,
+     "name": "Förderband",
+     "items": [
+      {
+       "id": 126,
+       "name": "bodmiARENA",
+       "label": "",
+       "status": "unknown",
+       "statusLabel": "unbekannt",
+       "statusCode": 0,
+       "isOpen": false,
+       "sort": 0,
+       "info": "14. Dezember 2024 bis 23. März 2025"
+      }
+     ],
+     "total": 1,
+     "open": 0
+    },
+    {
+     "nr": 2,
+     "name": "Gondelbahn",
+     "items": [
+      {
+       "id": 128,
+       "name": "Grindelwald – Bort",
+       "label": "",
+       "status": "unknown",
+       "statusLabel": "unbekannt",
+       "statusCode": 0,
+       "isOpen": false,
+       "sort": 2,
+       "info": "Betriebszeiten",
+       "links": [
+        {
+         "text": "Öffnungs- und Betriebszeiten",
+         "url": "https://www.jungfrau.ch/de-ch/live/betriebsdaten/"
+        }
+       ]
+      },
+      {
+       "id": 132,
+       "name": "Bort – Schreckfeld",
+       "label": "",
+       "status": "unknown",
+       "statusLabel": "unbekannt",
+       "statusCode": 0,
+       "isOpen": false,
+       "sort": 3,
+       "info": "Betriebszeiten",
+       "links": [
+        {
+         "text": "Öffnungs- und Betriebszeiten",
+         "url": "https://www.jungfrau.ch/de-ch/live/betriebsdaten/"
+        }
+       ]
+      },
+      {
+       "id": 134,
+       "name": "Schreckfeld – First",
+       "label": "",
+       "status": "unknown",
+       "statusLabel": "unbekannt",
+       "statusCode": 0,
+       "isOpen": false,
+       "sort": 5,
+       "info": "Betriebszeiten",
+       "links": [
+        {
+         "text": "Öffnungs- und Betriebszeiten",
+         "url": "https://www.jungfrau.ch/de-ch/live/betriebsdaten/"
+        }
+       ]
+      }
+     ],
+     "total": 3,
+     "open": 0
+    },
+    {
+     "nr": 6,
+     "name": "Sesselbahn 4er",
+     "items": [
+      {
+       "id": 136,
+       "name": "Oberjoch",
+       "label": "",
+       "status": "unknown",
+       "statusLabel": "unbekannt",
+       "statusCode": 0,
+       "isOpen": false,
+       "sort": 9,
+       "firstRide": "09:00",
+       "lastRide": "16:15",
+       "info": "Saisonzeiten · Betriebszeiten · täglich 09:00 - 16:15 Uhr · Anlagetyp · 4er Sesselbahn · Beförderungskapazität · 2000 Personen/Stunde · Fahrzeit · 7 Minuten · Höhendifferenz · 336 Meter",
+       "links": [
+        {
+         "text": "Pistendaten",
+         "url": "https://www.jungfrau.ch/de-ch/live/pistendaten/"
+        }
+       ]
+      },
+      {
+       "id": 131,
+       "name": "Grindel",
+       "label": "",
+       "status": "unknown",
+       "statusLabel": "unbekannt",
+       "statusCode": 0,
+       "isOpen": false,
+       "sort": 10,
+       "firstRide": "09:00",
+       "lastRide": "16:30",
+       "info": "Saisonzeiten · Betriebszeiten · täglich 09:00 - 16:30Uhr · Anlagetyp · 4er Sesselbahn · Beförderungskapazität · 1950 Personen/Stunde · Fahrzeit · 4 Minuten · Höhendifferenz · 290 Meter",
+       "links": [
+        {
+         "text": "Pistendaten",
+         "url": "https://www.jungfrau.ch/de-ch/live/pistendaten/"
+        }
+       ]
+      },
+      {
+       "id": 137,
+       "name": "Schilt",
+       "label": "",
+       "status": "unknown",
+       "statusLabel": "unbekannt",
+       "statusCode": 0,
+       "isOpen": false,
+       "sort": 11,
+       "firstRide": "09:00",
+       "lastRide": "16:00",
+       "info": "Saisonzeiten · Betriebszeiten · täglich 09:00 - 16:00 Uhr · Anlagetyp · 4er Sesselbahn mit Hauben · Beförderungskapazität · 1800 Personen/Stunde · Fahrzeit · 6 Minuten · Höhendifferenz · 311 Meter",
+       "links": [
+        {
+         "text": "Pistendaten",
+         "url": "https://www.jungfrau.ch/de-ch/live/pistendaten/"
+        }
+       ]
+      }
+     ],
+     "total": 3,
+     "open": 0
+    },
+    {
+     "nr": 3,
+     "name": "Skilift",
+     "items": [
+      {
+       "id": 127,
+       "name": "bodmiLIFT",
+       "label": "",
+       "status": "unknown",
+       "statusLabel": "unbekannt",
+       "statusCode": 0,
+       "isOpen": false,
+       "sort": 1,
+       "info": "Saisonzeiten · 14 .Dezember 2024 bis 23. März 2025 · Betriebszeiten · täglich 09:00 - 16:30 Uhr · Anlagetyp · Doppel - Skilift · Beförderungskapazität · 2 x 700 Personen/Stunde · Fahrzeit · 2 Minuten · Höhendifferenz · 48 Meter",
+       "links": [
+        {
+         "text": "Webcam",
+         "url": "http://qr.jungfrau.ch/bodmi"
+        }
+       ]
+      },
+      {
+       "id": 130,
+       "name": "Bärgelegg",
+       "label": "",
+       "status": "unknown",
+       "statusLabel": "unbekannt",
+       "statusCode": 0,
+       "isOpen": false,
+       "sort": 12,
+       "firstRide": "09:00",
+       "lastRide": "16:00",
+       "info": "Saisonzeiten · Betriebszeiten · täglich 09:00 - 16:00 Uhr · Anlagetyp · Bügellift · Beförderungskapazität · 800 Personen/Stunde · Fahrzeit · 5 Minuten · Höhendifferenz · 205 Meter",
+       "links": [
+        {
+         "text": "Pistendaten",
+         "url": "https://www.jungfrau.ch/de-ch/live/pistendaten/"
+        }
+       ]
+      },
+      {
+       "id": 135,
+       "name": "Hohwald",
+       "label": "",
+       "status": "unknown",
+       "statusLabel": "unbekannt",
+       "statusCode": 0,
+       "isOpen": false,
+       "sort": 13,
+       "firstRide": "09:00",
+       "lastRide": "16:15",
+       "info": "Saisonzeiten · Betriebszeiten · täglich 09:00 - 16:15 Uhr · Anlagetyp · Bügellift · Beförderungskapazität · 800 Personen/Stunde · Fahrzeit · 6 Minuten · Höhendifferenz · 243 Meter",
+       "links": [
+        {
+         "text": "Pistendaten",
+         "url": "https://www.jungfrau.ch/de-ch/live/pistendaten/"
+        }
+       ]
+      }
+     ],
+     "total": 3,
+     "open": 0
+    }
+   ]
+  },
+  {
+   "nr": 2,
+   "name": "Pisten",
+   "total": 27,
+   "open": 0,
+   "subcategories": [
+    {
+     "nr": 1,
+     "name": "Blaue Piste",
+     "items": [
+      {
+       "id": 144,
+       "name": "Oberjoch blau",
+       "label": "1",
+       "status": "unknown",
+       "statusLabel": "unbekannt",
+       "statusCode": 0,
+       "isOpen": false,
+       "sort": 0,
+       "lengthMeter": 2580
+      },
+      {
+       "id": 146,
+       "name": "Gemsberg",
+       "label": "10",
+       "status": "unknown",
+       "statusLabel": "unbekannt",
+       "statusCode": 0,
+       "isOpen": false,
+       "sort": 3,
+       "lengthMeter": 2920
+      },
+      {
+       "id": 945,
+       "name": "Hohwald - Bärgelegg",
+       "label": "10",
+       "status": "unknown",
+       "statusLabel": "unbekannt",
+       "statusCode": 0,
+       "isOpen": false,
+       "sort": 4
+      },
+      {
+       "id": 147,
+       "name": "Hambiel",
+       "label": "11",
+       "status": "unknown",
+       "statusLabel": "unbekannt",
+       "statusCode": 0,
+       "isOpen": false,
+       "sort": 5,
+       "lengthMeter": 1750
+      },
+      {
+       "id": 149,
+       "name": "Bärgelegg",
+       "label": "13",
+       "status": "unknown",
+       "statusLabel": "unbekannt",
+       "statusCode": 0,
+       "isOpen": false,
+       "sort": 7,
+       "lengthMeter": 3130
+      },
+      {
+       "id": 165,
+       "name": "Bodmi",
+       "label": "",
+       "status": "unknown",
+       "statusLabel": "unbekannt",
+       "statusCode": 0,
+       "isOpen": false,
+       "sort": 8,
+       "lengthMeter": 820
+      },
+      {
+       "id": 153,
+       "name": "Bort - Mühlebach",
+       "label": "21",
+       "status": "unknown",
+       "statusLabel": "unbekannt",
+       "statusCode": 0,
+       "isOpen": false,
+       "sort": 12,
+       "lengthMeter": 3520
+      },
+      {
+       "id": 334,
+       "name": "Mühlebach",
+       "label": "21",
+       "status": "unknown",
+       "statusLabel": "unbekannt",
+       "statusCode": 0,
+       "isOpen": false,
+       "sort": 15
+      },
+      {
+       "id": 154,
+       "name": "Stählisboden - Kirche",
+       "label": "22/21",
+       "status": "unknown",
+       "statusLabel": "unbekannt",
+       "statusCode": 0,
+       "isOpen": false,
+       "sort": 16,
+       "lengthMeter": 500
+      },
+      {
+       "id": 157,
+       "name": "Berme",
+       "label": "3",
+       "status": "unknown",
+       "statusLabel": "unbekannt",
+       "statusCode": 0,
+       "isOpen": false,
+       "sort": 18,
+       "lengthMeter": 3280
+      },
+      {
+       "id": 158,
+       "name": "Üsserbärgel",
+       "label": "3",
+       "status": "unknown",
+       "statusLabel": "unbekannt",
+       "statusCode": 0,
+       "isOpen": false,
+       "sort": 19,
+       "lengthMeter": 1050
+      },
+      {
+       "id": 1168,
+       "name": "Berme",
+       "label": "3a",
+       "status": "unknown",
+       "statusLabel": "unbekannt",
+       "statusCode": 0,
+       "isOpen": false,
+       "sort": 20
+      },
+      {
+       "id": 159,
+       "name": "Tirrli",
+       "label": "4",
+       "status": "unknown",
+       "statusLabel": "unbekannt",
+       "statusCode": 0,
+       "isOpen": false,
+       "sort": 21,
+       "lengthMeter": 350
+      },
+      {
+       "id": 163,
+       "name": "Distelboden",
+       "label": "8",
+       "status": "unknown",
+       "statusLabel": "unbekannt",
+       "statusCode": 0,
+       "isOpen": false,
+       "sort": 25,
+       "lengthMeter": 1770
+      }
+     ],
+     "total": 14,
+     "open": 0
+    },
+    {
+     "nr": 2,
+     "name": "Rote Piste",
+     "items": [
+      {
+       "id": 145,
+       "name": "Oberjoch rot",
+       "label": "1",
+       "status": "unknown",
+       "statusLabel": "unbekannt",
+       "statusCode": 0,
+       "isOpen": false,
+       "sort": 1,
+       "lengthMeter": 2110
+      },
+      {
+       "id": 944,
+       "name": "Oberjoch Steilhang",
+       "label": "2",
+       "status": "unknown",
+       "statusLabel": "unbekannt",
+       "statusCode": 0,
+       "isOpen": false,
+       "sort": 2
+      },
+      {
+       "id": 148,
+       "name": "Innerbärgel",
+       "label": "12",
+       "status": "unknown",
+       "statusLabel": "unbekannt",
+       "statusCode": 0,
+       "isOpen": false,
+       "sort": 6,
+       "lengthMeter": 1150
+      },
+      {
+       "id": 152,
+       "name": "Bort - Chapf",
+       "label": "20",
+       "status": "unknown",
+       "statusLabel": "unbekannt",
+       "statusCode": 0,
+       "isOpen": false,
+       "sort": 11,
+       "lengthMeter": 2920
+      },
+      {
+       "id": 155,
+       "name": "Grindel",
+       "label": "22",
+       "status": "unknown",
+       "statusLabel": "unbekannt",
+       "statusCode": 0,
+       "isOpen": false,
+       "sort": 13,
+       "lengthMeter": 4070
+      },
+      {
+       "id": 156,
+       "name": "Stepfi",
+       "label": "23",
+       "status": "unknown",
+       "statusLabel": "unbekannt",
+       "statusCode": 0,
+       "isOpen": false,
+       "sort": 17,
+       "lengthMeter": 6070
+      },
+      {
+       "id": 162,
+       "name": "Faxhubel Ost",
+       "label": "7",
+       "status": "unknown",
+       "statusLabel": "unbekannt",
+       "statusCode": 0,
+       "isOpen": false,
+       "sort": 24,
+       "lengthMeter": 1530
+      },
+      {
+       "id": 164,
+       "name": "Furggi",
+       "label": "9",
+       "status": "unknown",
+       "statusLabel": "unbekannt",
+       "statusCode": 0,
+       "isOpen": false,
+       "sort": 26,
+       "lengthMeter": 2010
+      }
+     ],
+     "total": 8,
+     "open": 0
+    },
+    {
+     "nr": 3,
+     "name": "Schwarze Piste",
+     "items": [
+      {
+       "id": 150,
+       "name": "Gemsberg West",
+       "label": "14",
+       "status": "unknown",
+       "statusLabel": "unbekannt",
+       "statusCode": 0,
+       "isOpen": false,
+       "sort": 9,
+       "lengthMeter": 1050
+      },
+      {
+       "id": 151,
+       "name": "Faxhubel West",
+       "label": "16",
+       "status": "unknown",
+       "statusLabel": "unbekannt",
+       "statusCode": 0,
+       "isOpen": false,
+       "sort": 10,
+       "lengthMeter": 1050
+      },
+      {
+       "id": 160,
+       "name": "Bort direkt",
+       "label": "5",
+       "status": "unknown",
+       "statusLabel": "unbekannt",
+       "statusCode": 0,
+       "isOpen": false,
+       "sort": 22,
+       "lengthMeter": 2580
+      },
+      {
+       "id": 161,
+       "name": "Schreckfeld - Egg",
+       "label": "6",
+       "status": "unknown",
+       "statusLabel": "unbekannt",
+       "statusCode": 0,
+       "isOpen": false,
+       "sort": 23,
+       "lengthMeter": 1070
+      }
+     ],
+     "total": 4,
+     "open": 0
+    },
+    {
+     "nr": 8,
+     "name": "Talabfahrt",
+     "items": [
+      {
+       "id": 166,
+       "name": "Skischulgelände Bodmi",
+       "label": "",
+       "status": "unknown",
+       "statusLabel": "unbekannt",
+       "statusCode": 0,
+       "isOpen": false,
+       "sort": 27,
+       "lengthMeter": 500
+      }
+     ],
+     "total": 1,
+     "open": 0
+    }
+   ]
+  },
+  {
+   "nr": 3,
+   "name": "Langlauf",
+   "total": 2,
+   "open": 0,
+   "subcategories": [
+    {
+     "nr": 5,
+     "name": "Langlauf klassisch",
+     "items": [
+      {
+       "id": 180,
+       "name": "Grund Gletscherschlucht (Classic)",
+       "label": "",
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
+       "sort": 27,
+       "lengthMeter": 9000
+      }
+     ],
+     "total": 1,
+     "open": 0
+    },
+    {
+     "nr": 6,
+     "name": "Langlauf skating",
+     "items": [
+      {
+       "id": 182,
+       "name": "Grund Gletscherschlucht (Skating)",
+       "label": "",
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
+       "sort": 28,
+       "lengthMeter": 10000
+      }
+     ],
+     "total": 1,
+     "open": 0
+    }
+   ]
+  },
+  {
+   "nr": 4,
+   "name": "Schlittelwege",
+   "total": 11,
+   "open": 0,
+   "subcategories": [
+    {
+     "nr": 9,
+     "name": "Schlitteln",
+     "items": [
+      {
+       "id": 185,
+       "name": "First - Bachalpsee",
+       "label": "50",
+       "status": "unknown",
+       "statusLabel": "unbekannt",
+       "statusCode": 0,
+       "isOpen": false,
+       "sort": 0,
+       "lengthMeter": 7000
+      },
+      {
+       "id": 186,
+       "name": "Bachalpsee - Faulhorn",
+       "label": "50",
+       "status": "unknown",
+       "statusLabel": "unbekannt",
+       "statusCode": 0,
+       "isOpen": false,
+       "sort": 1,
+       "lengthMeter": 6500
+      },
+      {
+       "id": 187,
+       "name": "Faulhorn - Bussalp",
+       "label": "50",
+       "status": "unknown",
+       "statusLabel": "unbekannt",
+       "statusCode": 0,
+       "isOpen": false,
+       "sort": 2
+      },
+      {
+       "id": 184,
+       "name": "Bussalp - Holzmatten (Bussalp Run)",
+       "label": "50",
+       "status": "unknown",
+       "statusLabel": "unbekannt",
+       "statusCode": 0,
+       "isOpen": false,
+       "sort": 3,
+       "lengthMeter": 1500
+      },
+      {
+       "id": 188,
+       "name": "First - Waldspitz - Bort",
+       "label": "51",
+       "status": "unknown",
+       "statusLabel": "unbekannt",
+       "statusCode": 0,
+       "isOpen": false,
+       "sort": 4,
+       "lengthMeter": 10000,
+       "info": "Zum See Geschlossen"
+      },
+      {
+       "id": 189,
+       "name": "First - Schreckfeld",
+       "label": "53",
+       "status": "unknown",
+       "statusLabel": "unbekannt",
+       "statusCode": 0,
+       "isOpen": false,
+       "sort": 5,
+       "lengthMeter": 3000
+      },
+      {
+       "id": 190,
+       "name": "Schreckfeld - Bort",
+       "label": "55",
+       "status": "unknown",
+       "statusLabel": "unbekannt",
+       "statusCode": 0,
+       "isOpen": false,
+       "sort": 6,
+       "lengthMeter": 2000
+      },
+      {
+       "id": 191,
+       "name": "Bussalp - Rasthysi - Lochsteinen (Family Run)",
+       "label": "56",
+       "status": "unknown",
+       "statusLabel": "unbekannt",
+       "statusCode": 0,
+       "isOpen": false,
+       "sort": 7,
+       "lengthMeter": 6500
+      },
+      {
+       "id": 194,
+       "name": "Bussalp - Weidli ( City Run )",
+       "label": "57",
+       "status": "unknown",
+       "statusLabel": "unbekannt",
+       "statusCode": 0,
+       "isOpen": false,
+       "sort": 9,
+       "lengthMeter": 4000
+      },
+      {
+       "id": 193,
+       "name": "Bussalp - Grindelwald (City Run)",
+       "label": "57",
+       "status": "unknown",
+       "statusLabel": "unbekannt",
+       "statusCode": 0,
+       "isOpen": false,
+       "sort": 10
+      },
+      {
+       "id": 196,
+       "name": "Bort M`bach Grindelwald",
+       "label": "59",
+       "status": "unknown",
+       "statusLabel": "unbekannt",
+       "statusCode": 0,
+       "isOpen": false,
+       "sort": 12,
+       "lengthMeter": 3500
+      }
+     ],
+     "total": 11,
+     "open": 0
+    }
+   ]
+  },
+  {
+   "nr": 5,
+   "name": "Wanderwege",
+   "total": 15,
+   "open": 6,
+   "subcategories": [
+    {
+     "nr": 2,
+     "name": "Wanderweg",
+     "items": [
+      {
+       "id": 67,
+       "name": "First - Bachalpsee",
+       "label": "50",
+       "status": "open",
+       "statusLabel": "offen",
+       "statusCode": 2,
+       "isOpen": true,
+       "sort": 33,
+       "info": "Details zur Winterwanderung First - Bachalpsee",
+       "links": [
+        {
+         "text": "First - Bachalpsee",
+         "url": "https://www.jungfrau.ch/de-ch/sommersport/wandern/wanderweg/first-bachalpsee-nr-50-34187659/"
+        }
+       ]
+      },
+      {
+       "id": 68,
+       "name": "Bachalpsee - Faulhorn",
+       "label": "50",
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
+       "sort": 34,
+       "lengthMeter": 6500
+      },
+      {
+       "id": 66,
+       "name": "Faulhorn - Bussalp",
+       "label": "50",
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
+       "sort": 35,
+       "lengthMeter": 7000
+      },
+      {
+       "id": 69,
+       "name": "First - Faulhorn - Bussalp",
+       "label": "50",
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
+       "sort": 36
+      },
+      {
+       "id": 70,
+       "name": "Bort - Waldspitz",
+       "label": "51",
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
+       "sort": 38,
+       "lengthMeter": 10000
+      },
+      {
+       "id": 71,
+       "name": "First - Waldspitz",
+       "label": "51",
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
+       "sort": 39
+      },
+      {
+       "id": 72,
+       "name": "Bort - Bussalp",
+       "label": "51/56",
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
+       "sort": 41,
+       "lengthMeter": 5400
+      },
+      {
+       "id": 73,
+       "name": "First - Schreckfeld",
+       "label": "53",
+       "status": "open",
+       "statusLabel": "offen",
+       "statusCode": 2,
+       "isOpen": true,
+       "sort": 43,
+       "lengthMeter": 3000
+      },
+      {
+       "id": 74,
+       "name": "Schreckfeld - Bort",
+       "label": "55",
+       "status": "open",
+       "statusLabel": "offen",
+       "statusCode": 2,
+       "isOpen": true,
+       "sort": 44,
+       "lengthMeter": 2000
+      },
+      {
+       "id": 75,
+       "name": "Bort - Rasthysi",
+       "label": "56",
+       "status": "open",
+       "statusLabel": "offen",
+       "statusCode": 2,
+       "isOpen": true,
+       "sort": 45
+      },
+      {
+       "id": 76,
+       "name": "Bussalp - Grindelwald",
+       "label": "57",
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
+       "sort": 46,
+       "lengthMeter": 8500
+      },
+      {
+       "id": 77,
+       "name": "Bussalp - Lochsteinen",
+       "label": "57",
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
+       "sort": 47,
+       "lengthMeter": 6500
+      },
+      {
+       "id": 78,
+       "name": "Bussalp - Weidli",
+       "label": "57",
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
+       "sort": 48,
+       "lengthMeter": 4000
+      },
+      {
+       "id": 79,
+       "name": "Bort M`bach Grindelwald",
+       "label": "59",
+       "status": "open",
+       "statusLabel": "offen",
+       "statusCode": 2,
+       "isOpen": true,
+       "sort": 49,
+       "lengthMeter": 3500
+      },
+      {
+       "id": 779,
+       "name": "Rundwanderweg Bussalp",
+       "label": "",
+       "status": "open",
+       "statusLabel": "offen",
+       "statusCode": 2,
+       "isOpen": true,
+       "sort": 68
+      }
+     ],
+     "total": 15,
+     "open": 6
+    }
+   ]
+  },
+  {
+   "nr": 6,
+   "name": "Schneeschuhwege",
+   "total": 8,
+   "open": 0,
+   "subcategories": [
+    {
+     "nr": 1,
+     "name": "Schneeschuhwanderweg",
+     "items": [
+      {
+       "id": 42,
+       "name": "Schneeschuhtrail - Alpweg",
+       "label": "S1",
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
+       "sort": 60,
+       "lengthMeter": 3000
+      },
+      {
+       "id": 43,
+       "name": "Schneeschuhtrail - Aspen",
+       "label": "S2",
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
+       "sort": 61,
+       "lengthMeter": 1300
+      },
+      {
+       "id": 44,
+       "name": "Schneeschuhtrail - Eiger",
+       "label": "S3",
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
+       "sort": 62,
+       "lengthMeter": 5000
+      },
+      {
+       "id": 45,
+       "name": "Schneeschuhtrail - Mühlebach",
+       "label": "S4",
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
+       "sort": 63,
+       "lengthMeter": 3000
+      },
+      {
+       "id": 46,
+       "name": "Schneeschuhtrail - Panorama",
+       "label": "S5",
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
+       "sort": 64,
+       "lengthMeter": 7000
+      },
+      {
+       "id": 47,
+       "name": "Schneeschuhtrail - Wetterhorn blau",
+       "label": "S6",
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
+       "sort": 65,
+       "lengthMeter": 1800
+      },
+      {
+       "id": 48,
+       "name": "Schneeschuhtrail - Wetterhorn rot",
+       "label": "S7",
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
+       "sort": 66,
+       "lengthMeter": 1800
+      },
+      {
+       "id": 1117,
+       "name": "Schneeschuhtrail – Lauchbühl",
+       "label": "S8",
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
+       "sort": 67
+      }
+     ],
+     "total": 8,
+     "open": 0
+    }
+   ]
+  },
+  {
+   "nr": 8,
+   "name": "Freizeit & Angebote",
+   "total": 17,
+   "open": 1,
+   "subcategories": [
+    {
+     "nr": 3,
+     "name": "Avalanche Training Center",
+     "items": [
+      {
+       "id": 32,
+       "name": "Schreckfeld ATC",
+       "label": "",
+       "status": "unknown",
+       "statusLabel": "unbekannt",
+       "statusCode": 0,
+       "isOpen": false,
+       "sort": 11
+      }
+     ],
+     "total": 1,
+     "open": 0
+    },
+    {
+     "nr": 1,
+     "name": "Bushaltestelle",
+     "items": [
+      {
+       "id": 36,
+       "name": "Dorf Grindelwald",
+       "label": "",
+       "status": "open",
+       "statusLabel": "offen",
+       "statusCode": 2,
+       "isOpen": true,
+       "sort": 17
+      },
+      {
+       "id": 38,
+       "name": "Grindelwald - Lochsteinen",
+       "label": "",
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
+       "sort": 20
+      },
+      {
+       "id": 39,
+       "name": "Lochsteinen - Bussalp",
+       "label": "",
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
+       "sort": 21
+      },
+      {
+       "id": 40,
+       "name": "Park & Ride Grindelwald",
+       "label": "",
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
+       "sort": 23
+      },
+      {
+       "id": 33,
+       "name": "Abendfahrten Bussalp",
+       "label": "",
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
+       "sort": 24
+      }
+     ],
+     "total": 5,
+     "open": 1
+    },
+    {
+     "nr": 10,
+     "name": "Diverses",
+     "items": [
+      {
+       "id": 30,
+       "name": "Fun Slope",
+       "label": "",
+       "status": "unknown",
+       "statusLabel": "unbekannt",
+       "statusCode": 0,
+       "isOpen": false,
+       "sort": 5
+      },
+      {
+       "id": 24,
+       "name": "Park Oberjoch",
+       "label": "",
+       "status": "unknown",
+       "statusLabel": "unbekannt",
+       "statusCode": 0,
+       "isOpen": false,
+       "sort": 8
+      },
+      {
+       "id": 25,
+       "name": "Rennstrecke Oberjoch",
+       "label": "",
+       "status": "unknown",
+       "statusLabel": "unbekannt",
+       "statusCode": 0,
+       "isOpen": false,
+       "sort": 9
+      },
+      {
+       "id": 23,
+       "name": "Trainings Piste Bärgelegg",
+       "label": "",
+       "status": "unknown",
+       "statusLabel": "unbekannt",
+       "statusCode": 0,
+       "isOpen": false,
+       "sort": 14
+      }
+     ],
+     "total": 4,
+     "open": 0
+    },
+    {
+     "nr": 31,
+     "name": "Gleitschirm Startplatz",
+     "items": [
+      {
+       "id": 22,
+       "name": "Paragliding-Startplatz First",
+       "label": "",
+       "status": "unknown",
+       "statusLabel": "unbekannt",
+       "statusCode": 0,
+       "isOpen": false,
+       "sort": 7
+      }
+     ],
+     "total": 1,
+     "open": 0
+    },
+    {
+     "nr": 49,
+     "name": "Halfpipe",
+     "items": [
+      {
+       "id": 20,
+       "name": "Halfpipe Oberjoch",
+       "label": "",
+       "status": "unknown",
+       "statusLabel": "unbekannt",
+       "statusCode": 0,
+       "isOpen": false,
+       "sort": 6
+      }
+     ],
+     "total": 1,
+     "open": 0
+    },
+    {
+     "nr": 48,
+     "name": "Seilrutsche",
+     "items": [
+      {
+       "id": 17,
+       "name": "First Flyer",
+       "label": "",
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
+       "sort": 0,
+       "info": "Betriebszeiten · Vorbehältlich Wind- und Wetterverhältnisse. · Information · Je nach Gästeaufkommen kann es zu Wartezeiten kommen.",
+       "links": [
+        {
+         "text": "Öffnungs- und Betriebszeiten",
+         "url": "https://www.jungfrau.ch/de-ch/grindelwaldfirst/first-flieger/\n"
+        },
+        {
+         "text": "Wartezeiten",
+         "url": "https://adventure.jungfrau.ch"
+        }
+       ]
+      },
+      {
+       "id": 19,
+       "name": "First Glider",
+       "label": "",
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
+       "sort": 2,
+       "info": "Betriebszeiten · Vorbehältlich Wind- und Wetterverhältnisse. · Information · Je nach Gästeaufkommen kann es zu Wartezeiten kommen.",
+       "links": [
+        {
+         "text": "Öffnungs- und Betriebszeiten",
+         "url": "https://www.jungfrau.ch/de-ch/grindelwaldfirst/first-glider/\n"
+        },
+        {
+         "text": "Wartezeiten",
+         "url": "https://adventure.jungfrau.ch"
+        }
+       ]
+      }
+     ],
+     "total": 2,
+     "open": 0
+    },
+    {
+     "nr": 76,
+     "name": "Ski Spezial",
+     "items": [
+      {
+       "id": 29,
+       "name": "Skitour Oberläger",
+       "label": "",
+       "status": "unknown",
+       "statusLabel": "unbekannt",
+       "statusCode": 0,
+       "isOpen": false,
+       "sort": 13
+      }
+     ],
+     "total": 1,
+     "open": 0
+    },
+    {
+     "nr": 73,
+     "name": "Ski Vermietung",
+     "items": [
+      {
+       "id": 27,
+       "name": "Schlittenvermietung",
+       "label": "",
+       "status": "unknown",
+       "statusLabel": "unbekannt",
+       "statusCode": 0,
+       "isOpen": false,
+       "sort": 10
+      }
+     ],
+     "total": 1,
+     "open": 0
+    },
+    {
+     "nr": 68,
+     "name": "Skicross",
+     "items": [
+      {
+       "id": 28,
+       "name": "Skicross-Strecke",
+       "label": "",
+       "status": "unknown",
+       "statusLabel": "unbekannt",
+       "statusCode": 0,
+       "isOpen": false,
+       "sort": 12
+      }
+     ],
+     "total": 1,
+     "open": 0
+    }
+   ]
+  },
+  {
+   "nr": 9,
+   "name": "Gastronomie",
+   "total": 17,
+   "open": 0,
+   "subcategories": [
+    {
+     "nr": 1,
+     "name": "Bar",
+     "items": [
+      {
+       "id": 44,
+       "name": "Alpweg Bar",
+       "label": "",
+       "status": "unknown",
+       "statusLabel": "unbekannt",
+       "statusCode": 0,
+       "isOpen": false,
+       "sort": 0
+      },
+      {
+       "id": 45,
+       "name": "Bus Stop Après Ride Bar",
+       "label": "",
+       "status": "unknown",
+       "statusLabel": "unbekannt",
+       "statusCode": 0,
+       "isOpen": false,
+       "sort": 0
+      },
+      {
+       "id": 46,
+       "name": "Rancher Bar",
+       "label": "",
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
+       "sort": 0
+      },
+      {
+       "id": 43,
+       "name": "Skibar Widderfeldhütte",
+       "label": "",
+       "status": "unknown",
+       "statusLabel": "unbekannt",
+       "statusCode": 0,
+       "isOpen": false,
+       "sort": 0
+      }
+     ],
+     "total": 4,
+     "open": 0
+    },
+    {
+     "nr": 2,
+     "name": "Restaurant",
+     "items": [
+      {
+       "id": 47,
+       "name": "Berghaus Männdlenen",
+       "label": "",
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
+       "sort": 0,
+       "links": [
+        {
+         "text": "Berghaus Männdlenen",
+         "url": "https://berghaus-maenndlenen.ch/"
+        }
+       ]
+      },
+      {
+       "id": 48,
+       "name": "Bort",
+       "label": "",
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
+       "sort": 0
+      },
+      {
+       "id": 49,
+       "name": "Brügg-Beizli",
+       "label": "",
+       "status": "unknown",
+       "statusLabel": "unbekannt",
+       "statusCode": 0,
+       "isOpen": false,
+       "sort": 0
+      },
+      {
+       "id": 50,
+       "name": "Bussalp",
+       "label": "",
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
+       "sort": 0
+      },
+      {
+       "id": 51,
+       "name": "Bärgelegghütte",
+       "label": "",
+       "status": "unknown",
+       "statusLabel": "unbekannt",
+       "statusCode": 0,
+       "isOpen": false,
+       "sort": 0
+      },
+      {
+       "id": 52,
+       "name": "Faulhorn",
+       "label": "",
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
+       "sort": 0
+      },
+      {
+       "id": 54,
+       "name": "Genepi",
+       "label": "",
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
+       "sort": 0
+      },
+      {
+       "id": 56,
+       "name": "Rasthysi",
+       "label": "",
+       "status": "unknown",
+       "statusLabel": "unbekannt",
+       "statusCode": 0,
+       "isOpen": false,
+       "sort": 0
+      },
+      {
+       "id": 58,
+       "name": "Schreckfeld",
+       "label": "",
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
+       "sort": 0
+      },
+      {
+       "id": 60,
+       "name": "Steintorbar",
+       "label": "",
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
+       "sort": 0
+      },
+      {
+       "id": 53,
+       "name": "Toprestaurant",
+       "label": "",
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
+       "sort": 0
+      },
+      {
+       "id": 62,
+       "name": "Waldspitz",
+       "label": "",
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
+       "sort": 0
+      },
+      {
+       "id": 63,
+       "name": "Weidli Bar",
+       "label": "",
+       "status": "unknown",
+       "statusLabel": "unbekannt",
+       "statusCode": 0,
+       "isOpen": false,
+       "sort": 0
+      }
+     ],
+     "total": 13,
+     "open": 0
+    }
+   ]
+  }
+ ],
+ "updated": "2026-11-13T09:04:43+01:00"
+}

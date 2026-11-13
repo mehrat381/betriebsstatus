@@ -1,0 +1,259 @@
+{
+ "tenant": "muerren-schilthorn",
+ "title": "Mürren-Schilthorn",
+ "season": "summer",
+ "seasonLabel": "Sommer",
+ "categories": [
+  {
+   "nr": 1,
+   "name": "Bahnen & Lifte",
+   "total": 6,
+   "open": 5,
+   "subcategories": [
+    {
+     "nr": 1,
+     "name": "Pendelbahn",
+     "items": [
+      {
+       "id": 573,
+       "name": "Stechelberg – Mürren",
+       "label": "",
+       "status": "open",
+       "statusLabel": "offen",
+       "statusCode": 2,
+       "isOpen": true,
+       "sort": 1,
+       "firstRide": "08:01",
+       "lastRide": "17:51",
+       "info": "Betriebszeiten · 08:01 - 17:51 Uhr",
+       "website": "https://www.schilthorn.ch"
+      },
+      {
+       "id": 366,
+       "name": "Stechelberg – Gimmelwald",
+       "label": "",
+       "status": "open",
+       "statusLabel": "offen",
+       "statusCode": 2,
+       "isOpen": true,
+       "sort": 2,
+       "firstRide": "05:53",
+       "lastRide": "23:57",
+       "info": "Betriebszeiten · 05:53 - 23:57 Uhr",
+       "website": "https://www.schilthorn.ch"
+      },
+      {
+       "id": 369,
+       "name": "Gimmelwald – Mürren",
+       "label": "",
+       "status": "open",
+       "statusLabel": "offen",
+       "statusCode": 2,
+       "isOpen": true,
+       "sort": 3,
+       "firstRide": "05:59",
+       "lastRide": "00:04",
+       "info": "Betriebszeiten · 05:59 - 00:04 Uhr",
+       "website": "https://www.schilthorn.ch"
+      },
+      {
+       "id": 370,
+       "name": "Mürren – Birg",
+       "label": "",
+       "status": "open",
+       "statusLabel": "offen",
+       "statusCode": 2,
+       "isOpen": true,
+       "sort": 4,
+       "firstRide": "08:10",
+       "lastRide": "17:00",
+       "info": "Betriebszeiten · 08:10 - 17:00 Uhr"
+      },
+      {
+       "id": 367,
+       "name": "Birg – Schilthorn",
+       "label": "",
+       "status": "open",
+       "statusLabel": "offen",
+       "statusCode": 2,
+       "isOpen": true,
+       "sort": 5,
+       "firstRide": "08:20",
+       "lastRide": "16:50",
+       "info": "Betriebszeiten · 8:20 - 16:50 Uhr"
+      }
+     ],
+     "total": 5,
+     "open": 5
+    },
+    {
+     "nr": 9,
+     "name": "Standseilbahn",
+     "items": [
+      {
+       "id": 373,
+       "name": "Mürren – Allmendhubel",
+       "label": "",
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
+       "sort": 6,
+       "firstRide": "09:00",
+       "lastRide": "17:00",
+       "info": "Betriebszeiten · 09:00 - 17:00 Uhr",
+       "website": "https://www.schilthorn.ch"
+      }
+     ],
+     "total": 1,
+     "open": 0
+    }
+   ]
+  },
+  {
+   "nr": 5,
+   "name": "Wanderwege",
+   "total": 2,
+   "open": 0,
+   "subcategories": [
+    {
+     "nr": 2,
+     "name": "Wanderweg",
+     "items": [
+      {
+       "id": 417,
+       "name": "Mürren - Winteregg",
+       "label": "44",
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
+       "sort": 3,
+       "lengthMeter": 2500
+      },
+      {
+       "id": 419,
+       "name": "Mürren - Gimmelwald",
+       "label": "45",
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
+       "sort": 4,
+       "lengthMeter": 1000
+      }
+     ],
+     "total": 2,
+     "open": 0
+    }
+   ]
+  },
+  {
+   "nr": 9,
+   "name": "Gastronomie",
+   "total": 9,
+   "open": 2,
+   "subcategories": [
+    {
+     "nr": 2,
+     "name": "Restaurant",
+     "items": [
+      {
+       "id": 398,
+       "name": "Allmendhubel",
+       "label": "",
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
+       "sort": 0
+      },
+      {
+       "id": 397,
+       "name": "Birg Selfservice",
+       "label": "",
+       "status": "open",
+       "statusLabel": "offen",
+       "statusCode": 2,
+       "isOpen": true,
+       "sort": 0
+      },
+      {
+       "id": 396,
+       "name": "Gimmeln",
+       "label": "",
+       "status": "unknown",
+       "statusLabel": "unbekannt",
+       "statusCode": 0,
+       "isOpen": false,
+       "sort": 0
+      },
+      {
+       "id": 393,
+       "name": "Schiltgrathüsi",
+       "label": "",
+       "status": "unknown",
+       "statusLabel": "unbekannt",
+       "statusCode": 0,
+       "isOpen": false,
+       "sort": 0
+      },
+      {
+       "id": 395,
+       "name": "Schilthorn - Piz Gloria",
+       "label": "",
+       "status": "open",
+       "statusLabel": "offen",
+       "statusCode": 2,
+       "isOpen": true,
+       "sort": 0
+      },
+      {
+       "id": 394,
+       "name": "Schilthornhütte",
+       "label": "",
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
+       "sort": 0
+      },
+      {
+       "id": 392,
+       "name": "Sonnenberg",
+       "label": "",
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
+       "sort": 0
+      },
+      {
+       "id": 391,
+       "name": "Suppenalp",
+       "label": "",
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
+       "sort": 0
+      },
+      {
+       "id": 390,
+       "name": "Winteregg",
+       "label": "",
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
+       "sort": 0
+      }
+     ],
+     "total": 9,
+     "open": 2
+    }
+   ]
+  }
+ ],
+ "updated": "2026-11-13T09:04:43+01:00"
+}
