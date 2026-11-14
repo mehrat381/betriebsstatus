@@ -8,7 +8,7 @@
    "nr": 1,
    "name": "Bahnen & Lifte",
    "total": 15,
-   "open": 5,
+   "open": 6,
    "subcategories": [
     {
      "nr": 1,
@@ -158,10 +158,10 @@
        "id": 364,
        "name": "Riggli",
        "label": "",
-       "status": "closed",
-       "statusLabel": "geschlossen",
-       "statusCode": 1,
-       "isOpen": false,
+       "status": "open",
+       "statusLabel": "offen",
+       "statusCode": 2,
+       "isOpen": true,
        "sort": 11,
        "firstRide": "08:30",
        "lastRide": "16:15",
@@ -198,7 +198,7 @@
       }
      ],
      "total": 3,
-     "open": 0
+     "open": 1
     },
     {
      "nr": 3,
@@ -264,7 +264,7 @@
    "nr": 2,
    "name": "Pisten",
    "total": 28,
-   "open": 0,
+   "open": 1,
    "subcategories": [
     {
      "nr": 1,
@@ -295,10 +295,10 @@
        "id": 591,
        "name": "Engetal",
        "label": "11",
-       "status": "closed",
-       "statusLabel": "geschlossen",
-       "statusCode": 1,
-       "isOpen": false,
+       "status": "open",
+       "statusLabel": "offen",
+       "statusCode": 2,
+       "isOpen": true,
        "sort": 4,
        "lengthMeter": 3850
       },
@@ -381,7 +381,7 @@
       }
      ],
      "total": 10,
-     "open": 0
+     "open": 1
     },
     {
      "nr": 13,
@@ -903,5 +903,5 @@
    ]
   }
  ],
- "updated": "2026-11-13T09:04:43+01:00"
+ "updated": "2026-11-14T08:37:20+01:00"
 }
