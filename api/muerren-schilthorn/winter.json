@@ -8,7 +8,7 @@
    "nr": 1,
    "name": "Bahnen & Lifte",
    "total": 15,
-   "open": 6,
+   "open": 4,
    "subcategories": [
     {
      "nr": 1,
@@ -32,10 +32,10 @@
        "id": 366,
        "name": "Stechelberg – Gimmelwald",
        "label": "",
-       "status": "open",
-       "statusLabel": "offen",
-       "statusCode": 2,
-       "isOpen": true,
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
        "sort": 2,
        "firstRide": "05:53",
        "lastRide": "23:57",
@@ -46,10 +46,10 @@
        "id": 369,
        "name": "Gimmelwald – Mürren",
        "label": "",
-       "status": "open",
-       "statusLabel": "offen",
-       "statusCode": 2,
-       "isOpen": true,
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
        "sort": 3,
        "firstRide": "05:59",
        "lastRide": "00:04",
@@ -84,7 +84,7 @@
       }
      ],
      "total": 5,
-     "open": 5
+     "open": 3
     },
     {
      "nr": 5,
@@ -903,5 +903,5 @@
    ]
   }
  ],
- "updated": "2026-11-14T08:37:20+01:00"
+ "updated": "2026-11-14T14:47:33+01:00"
 }
