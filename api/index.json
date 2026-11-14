@@ -1,5 +1,5 @@
 {
- "currentSeason": "summer",
+ "currentSeason": "winter",
  "tenants": [
   {
    "slug": "kleine-scheidegg",
@@ -14,5 +14,5 @@
    "title": "Mürren-Schilthorn"
   }
  ],
- "updated": "2026-11-13T09:04:43+01:00"
+ "updated": "2026-11-15T00:07:11+01:00"
 }
