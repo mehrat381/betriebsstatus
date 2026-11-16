@@ -8,7 +8,7 @@
    "nr": 1,
    "name": "Bahnen & Lifte",
    "total": 6,
-   "open": 5,
+   "open": 4,
    "subcategories": [
     {
      "nr": 1,
@@ -18,10 +18,10 @@
        "id": 573,
        "name": "Stechelberg – Mürren",
        "label": "",
-       "status": "open",
-       "statusLabel": "offen",
-       "statusCode": 2,
-       "isOpen": true,
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
        "sort": 1,
        "firstRide": "08:01",
        "lastRide": "17:51",
@@ -84,7 +84,7 @@
       }
      ],
      "total": 5,
-     "open": 5
+     "open": 4
     },
     {
      "nr": 9,
@@ -255,5 +255,5 @@
    ]
   }
  ],
- "updated": "2026-11-14T15:38:53+01:00"
+ "updated": "2026-11-16T08:08:54+01:00"
 }
