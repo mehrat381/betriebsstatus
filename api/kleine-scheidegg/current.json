@@ -8,7 +8,7 @@
    "nr": 1,
    "name": "Bahnen & Lifte",
    "total": 32,
-   "open": 9,
+   "open": 2,
    "subcategories": [
     {
      "nr": 2,
@@ -362,10 +362,10 @@
        "id": 107,
        "name": "Grund – Brandegg",
        "label": "",
-       "status": "open",
-       "statusLabel": "offen",
-       "statusCode": 2,
-       "isOpen": true,
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
        "sort": 1,
        "info": "Betriebszeiten",
        "links": [
@@ -379,10 +379,10 @@
        "id": 97,
        "name": "Brandegg – Alpiglen",
        "label": "",
-       "status": "open",
-       "statusLabel": "offen",
-       "statusCode": 2,
-       "isOpen": true,
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
        "sort": 2,
        "info": "Betriebszeiten",
        "links": [
@@ -396,10 +396,10 @@
        "id": 95,
        "name": "Alpiglen – Kleine Scheidegg",
        "label": "",
-       "status": "open",
-       "statusLabel": "offen",
-       "statusCode": 2,
-       "isOpen": true,
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
        "sort": 3,
        "info": "Betriebszeiten",
        "links": [
@@ -413,10 +413,10 @@
        "id": 104,
        "name": "Grindelwald – Kleine Scheidegg",
        "label": "",
-       "status": "open",
-       "statusLabel": "offen",
-       "statusCode": 2,
-       "isOpen": true,
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
        "sort": 4,
        "info": "Betriebszeiten",
        "links": [
@@ -515,10 +515,10 @@
        "id": 112,
        "name": "Kleine Scheidegg – Eigergletscher",
        "label": "",
-       "status": "open",
-       "statusLabel": "offen",
-       "statusCode": 2,
-       "isOpen": true,
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
        "sort": 10,
        "info": "Betriebszeiten",
        "links": [
@@ -532,10 +532,10 @@
        "id": 99,
        "name": "Eigergletscher – Jungfraujoch",
        "label": "",
-       "status": "open",
-       "statusLabel": "offen",
-       "statusCode": 2,
-       "isOpen": true,
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
        "sort": 11,
        "info": "Betriebszeiten",
        "links": [
@@ -549,10 +549,10 @@
        "id": 113,
        "name": "Kleine Scheidegg – Jungfraujoch",
        "label": "",
-       "status": "open",
-       "statusLabel": "offen",
-       "statusCode": 2,
-       "isOpen": true,
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
        "sort": 12,
        "info": "Betriebszeiten",
        "links": [
@@ -564,7 +564,7 @@
       }
      ],
      "total": 13,
-     "open": 9
+     "open": 2
     }
    ]
   },
@@ -2135,5 +2135,5 @@
    ]
   }
  ],
- "updated": "2026-11-17T14:58:04+01:00"
+ "updated": "2026-11-17T15:54:32+01:00"
 }
