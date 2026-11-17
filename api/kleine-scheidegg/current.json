@@ -1482,7 +1482,7 @@
    "nr": 5,
    "name": "Wanderwege",
    "total": 15,
-   "open": 1,
+   "open": 0,
    "subcategories": [
     {
      "nr": 2,
@@ -1632,10 +1632,10 @@
        "id": 119,
        "name": "Jungfrau Eiger Run",
        "label": "68",
-       "status": "open",
-       "statusLabel": "offen",
-       "statusCode": 2,
-       "isOpen": true,
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
        "sort": 41
       },
       {
@@ -1650,7 +1650,7 @@
       }
      ],
      "total": 15,
-     "open": 1
+     "open": 0
     }
    ]
   },
@@ -2135,5 +2135,5 @@
    ]
   }
  ],
- "updated": "2026-11-17T07:49:22+01:00"
+ "updated": "2026-11-17T14:58:04+01:00"
 }

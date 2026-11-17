@@ -505,7 +505,7 @@
    "nr": 5,
    "name": "Wanderwege",
    "total": 25,
-   "open": 7,
+   "open": 6,
    "subcategories": [
     {
      "nr": 2,
@@ -635,10 +635,10 @@
        "id": 18,
        "name": "Jungfrau Eiger Walk (Eigergletscher - Kleine Scheidegg)",
        "label": "37",
-       "status": "open",
-       "statusLabel": "offen",
-       "statusCode": 2,
-       "isOpen": true,
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
        "sort": 14
       },
       {
@@ -763,7 +763,7 @@
       }
      ],
      "total": 25,
-     "open": 7
+     "open": 6
     }
    ]
   },
@@ -1154,5 +1154,5 @@
    ]
   }
  ],
- "updated": "2026-11-13T09:04:43+01:00"
+ "updated": "2026-11-17T14:58:04+01:00"
 }
