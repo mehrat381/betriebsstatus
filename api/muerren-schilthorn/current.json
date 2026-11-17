@@ -8,7 +8,7 @@
    "nr": 1,
    "name": "Bahnen & Lifte",
    "total": 15,
-   "open": 4,
+   "open": 3,
    "subcategories": [
     {
      "nr": 1,
@@ -73,10 +73,10 @@
        "id": 367,
        "name": "Birg – Schilthorn",
        "label": "",
-       "status": "open",
-       "statusLabel": "offen",
-       "statusCode": 2,
-       "isOpen": true,
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
        "sort": 5,
        "firstRide": "08:20",
        "lastRide": "16:50",
@@ -84,7 +84,7 @@
       }
      ],
      "total": 5,
-     "open": 4
+     "open": 3
     },
     {
      "nr": 5,
@@ -718,7 +718,7 @@
    "nr": 8,
    "name": "Freizeit & Angebote",
    "total": 5,
-   "open": 1,
+   "open": 0,
    "subcategories": [
     {
      "nr": 68,
@@ -746,10 +746,10 @@
        "id": 669,
        "name": "Snowpark Engetal",
        "label": "",
-       "status": "open",
-       "statusLabel": "offen",
-       "statusCode": 2,
-       "isOpen": true,
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
        "sort": 0
       },
       {
@@ -774,7 +774,7 @@
       }
      ],
      "total": 3,
-     "open": 1
+     "open": 0
     },
     {
      "nr": 25,
@@ -903,5 +903,5 @@
    ]
   }
  ],
- "updated": "2026-11-17T09:19:42+01:00"
+ "updated": "2026-11-17T11:42:54+01:00"
 }
