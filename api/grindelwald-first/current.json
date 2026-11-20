@@ -737,7 +737,7 @@
    "nr": 5,
    "name": "Wanderwege",
    "total": 15,
-   "open": 4,
+   "open": 0,
    "subcategories": [
     {
      "nr": 2,
@@ -747,10 +747,10 @@
        "id": 67,
        "name": "First - Bachalpsee",
        "label": "50",
-       "status": "open",
-       "statusLabel": "offen",
-       "statusCode": 2,
-       "isOpen": true,
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
        "sort": 33,
        "info": "Details zur Winterwanderung First - Bachalpsee",
        "links": [
@@ -828,10 +828,10 @@
        "id": 73,
        "name": "First - Schreckfeld",
        "label": "53",
-       "status": "open",
-       "statusLabel": "offen",
-       "statusCode": 2,
-       "isOpen": true,
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
        "sort": 43,
        "lengthMeter": 3000
       },
@@ -839,10 +839,10 @@
        "id": 74,
        "name": "Schreckfeld - Bort",
        "label": "55",
-       "status": "open",
-       "statusLabel": "offen",
-       "statusCode": 2,
-       "isOpen": true,
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
        "sort": 44,
        "lengthMeter": 2000
       },
@@ -904,15 +904,15 @@
        "id": 779,
        "name": "Rundwanderweg Bussalp",
        "label": "",
-       "status": "open",
-       "statusLabel": "offen",
-       "statusCode": 2,
-       "isOpen": true,
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
        "sort": 68
       }
      ],
      "total": 15,
-     "open": 4
+     "open": 0
     }
    ]
   },
@@ -1061,9 +1061,9 @@
        "id": 38,
        "name": "Grindelwald - Lochsteinen",
        "label": "",
-       "status": "closed",
-       "statusLabel": "geschlossen",
-       "statusCode": 1,
+       "status": "unknown",
+       "statusLabel": "unbekannt",
+       "statusCode": 0,
        "isOpen": false,
        "sort": 20
       },
@@ -1071,9 +1071,9 @@
        "id": 39,
        "name": "Lochsteinen - Bussalp",
        "label": "",
-       "status": "closed",
-       "statusLabel": "geschlossen",
-       "statusCode": 1,
+       "status": "unknown",
+       "statusLabel": "unbekannt",
+       "statusCode": 0,
        "isOpen": false,
        "sort": 21
       },
@@ -1081,9 +1081,9 @@
        "id": 40,
        "name": "Park & Ride Grindelwald",
        "label": "",
-       "status": "closed",
-       "statusLabel": "geschlossen",
-       "statusCode": 1,
+       "status": "unknown",
+       "statusLabel": "unbekannt",
+       "statusCode": 0,
        "isOpen": false,
        "sort": 23
       },
@@ -1091,9 +1091,9 @@
        "id": 33,
        "name": "Abendfahrten Bussalp",
        "label": "",
-       "status": "closed",
-       "statusLabel": "geschlossen",
-       "statusCode": 1,
+       "status": "unknown",
+       "statusLabel": "unbekannt",
+       "statusCode": 0,
        "isOpen": false,
        "sort": 24
       }
@@ -1492,5 +1492,5 @@
    ]
   }
  ],
- "updated": "2026-11-20T06:59:50+01:00"
+ "updated": "2026-11-20T12:42:28+01:00"
 }
