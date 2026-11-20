@@ -8,7 +8,7 @@
    "nr": 1,
    "name": "Bahnen & Lifte",
    "total": 15,
-   "open": 4,
+   "open": 2,
    "subcategories": [
     {
      "nr": 1,
@@ -60,10 +60,10 @@
        "id": 370,
        "name": "Mürren – Birg",
        "label": "",
-       "status": "open",
-       "statusLabel": "offen",
-       "statusCode": 2,
-       "isOpen": true,
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
        "sort": 4,
        "firstRide": "08:10",
        "lastRide": "17:00",
@@ -73,10 +73,10 @@
        "id": 367,
        "name": "Birg – Schilthorn",
        "label": "",
-       "status": "open",
-       "statusLabel": "offen",
-       "statusCode": 2,
-       "isOpen": true,
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
        "sort": 5,
        "firstRide": "08:20",
        "lastRide": "16:50",
@@ -84,7 +84,7 @@
       }
      ],
      "total": 5,
-     "open": 4
+     "open": 2
     },
     {
      "nr": 5,
@@ -903,5 +903,5 @@
    ]
   }
  ],
- "updated": "2026-11-19T15:18:54+01:00"
+ "updated": "2026-11-20T16:10:39+01:00"
 }
