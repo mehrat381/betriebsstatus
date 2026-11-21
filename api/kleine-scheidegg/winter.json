@@ -8,7 +8,7 @@
    "nr": 1,
    "name": "Bahnen & Lifte",
    "total": 32,
-   "open": 9,
+   "open": 10,
    "subcategories": [
     {
      "nr": 2,
@@ -63,10 +63,10 @@
        "id": 165,
        "name": "Eiger Express",
        "label": "",
-       "status": "closed",
-       "statusLabel": "geschlossen",
-       "statusCode": 1,
-       "isOpen": false,
+       "status": "open",
+       "statusLabel": "offen",
+       "statusCode": 2,
+       "isOpen": true,
        "sort": 16,
        "info": "Betriebszeiten",
        "links": [
@@ -78,7 +78,7 @@
       }
      ],
      "total": 4,
-     "open": 0
+     "open": 1
     },
     {
      "nr": 1,
@@ -2135,5 +2135,5 @@
    ]
   }
  ],
- "updated": "2026-11-21T06:52:40+01:00"
+ "updated": "2026-11-21T10:06:53+01:00"
 }
