@@ -1543,9 +1543,9 @@
        "id": 205,
        "name": "Eigergletscher - Kleine Scheidegg (Jungfrau Eiger Run)",
        "label": "68",
-       "status": "unknown",
-       "statusLabel": "unbekannt",
-       "statusCode": 0,
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
        "isOpen": false,
        "sort": 14,
        "lengthMeter": 2500,
@@ -2306,5 +2306,5 @@
    ]
   }
  ],
- "updated": "2026-11-24T13:08:49+01:00"
+ "updated": "2026-11-24T13:47:54+01:00"
 }
