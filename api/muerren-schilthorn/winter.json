@@ -158,9 +158,9 @@
        "id": 364,
        "name": "Riggli",
        "label": "",
-       "status": "closed",
-       "statusLabel": "geschlossen",
-       "statusCode": 1,
+       "status": "preparation",
+       "statusLabel": "in Vorbereitung",
+       "statusCode": 3,
        "isOpen": false,
        "sort": 11,
        "firstRide": "08:30",
@@ -295,9 +295,9 @@
        "id": 591,
        "name": "Engetal",
        "label": "11",
-       "status": "closed",
-       "statusLabel": "geschlossen",
-       "statusCode": 1,
+       "status": "preparation",
+       "statusLabel": "in Vorbereitung",
+       "statusCode": 3,
        "isOpen": false,
        "sort": 4,
        "lengthMeter": 3850
@@ -350,9 +350,9 @@
        "id": 587,
        "name": "Riggli",
        "label": "8",
-       "status": "closed",
-       "statusLabel": "geschlossen",
-       "statusCode": 1,
+       "status": "preparation",
+       "statusLabel": "in Vorbereitung",
+       "statusCode": 3,
        "isOpen": false,
        "sort": 11,
        "lengthMeter": 1610
@@ -526,9 +526,9 @@
        "id": 590,
        "name": "Schilthorn Abfahrt",
        "label": "10",
-       "status": "closed",
-       "statusLabel": "geschlossen",
-       "statusCode": 1,
+       "status": "preparation",
+       "statusLabel": "in Vorbereitung",
+       "statusCode": 3,
        "isOpen": false,
        "sort": 3,
        "lengthMeter": 1930
@@ -746,9 +746,9 @@
        "id": 669,
        "name": "Snowpark Engetal",
        "label": "",
-       "status": "closed",
-       "statusLabel": "geschlossen",
-       "statusCode": 1,
+       "status": "preparation",
+       "statusLabel": "in Vorbereitung",
+       "statusCode": 3,
        "isOpen": false,
        "sort": 0
       },
@@ -903,5 +903,5 @@
    ]
   }
  ],
- "updated": "2026-11-22T13:53:48+01:00"
+ "updated": "2026-11-24T07:43:36+01:00"
 }
