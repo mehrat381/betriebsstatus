@@ -56,6 +56,14 @@ Das Script muss pro Seite nur einmal eingebunden werden, auch bei mehreren Widge
 
 ### Kategorien
 
+Bei **Bahnen & Lifte** und **Pisten** erscheinen Unterkategorien als Zwischentitel (z.B. «Blaue Piste 0/14»).
+Alle anderen Kategorien werden als einfache Liste gezeigt.
+
+Bahnen & Lifte sind in dieser Reihenfolge gruppiert: Gondelbahn, Pendelbahn, Zahnradbahn, Förderband,
+Standseilbahn, **Skilift**. Unter «Skilift» stehen Sesselbahnen 2er/4er/6er und Skilifte zusammen;
+die genaue Anlagenart steht klein unter dem Namen. Einstellbar mit `groups` in `config.json`.
+Einstellbar pro Kategorie mit `subdivide` in `config.json`.
+
 | Nr. | Kategorie | Unterkategorien (Typ-Code aus dem Feed) |
 |---|---|---|
 | 1 | Bahnen & Lifte | Pendelbahn (1), Gondelbahn (2), Skilift (3), Sesselbahn 2er/4er/6er (5/6/7), Standseilbahn (9), Schienenbahn (10), Zahnradbahn (11), Förderband (14), Kinderlift (15) |
@@ -89,7 +97,7 @@ Alles Inhaltliche steht in **`config.json`**:
 - `tenants` – Kurzname (für `data-bss-tenant`) und Titel pro Gebiet.
 - `season` – ab welchem Datum `auto` Winter bzw. Sommer zeigt (Standard: Winter ab 15.11., Sommer ab 01.05.).
 - `status` – Anzeigetexte und welche Status als «offen» zählen.
-- `categories` – Kategorien, Nummern und welche Typ-Codes dazugehören.
+- `categories` – Kategorien, Nummern, welche Typ-Codes dazugehören und ob nach Unterkategorien gegliedert wird (`subdivide`).
 
 Nach dem Committen einer Änderung läuft die Action automatisch einmal neu.
 Farben und Schrift des Widgets stehen oben in `widget.js` (Funktion `injectStyles`).

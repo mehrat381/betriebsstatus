@@ -124,23 +124,37 @@ def build_tenant(tenant, season, type_names):
             if web.startswith("http"):
                 item["website"] = web
 
-            c = cats.setdefault(cat["nr"], {"nr": cat["nr"], "name": cat["name"], "subcategories": {}})
+            c = cats.setdefault(cat["nr"], {"nr": cat["nr"], "name": cat["name"],
+                                            "subdivide": bool(cat.get("subdivide")), "subcategories": {}})
             tid = o.get("type")
-            sub = c["subcategories"].setdefault(tid, {
-                "nr": tid, "name": type_names[source].get(tid, f"Typ {tid}"), "items": []})
+            item["type"] = type_names[source].get(tid, f"Typ {tid}")
+            # Eigene Gruppen aus config.json ("groups"): mehrere Typen unter einem Zwischentitel
+            group = next((g for g in cat.get("groups") or [] if tid in g["types"]), None)
+            if group:
+                key = ("g", cat["groups"].index(group))
+                sub = c["subcategories"].setdefault(key, {
+                    "nr": group["types"][0], "name": group["name"], "types": group["types"],
+                    "order": key[1], "items": []})
+            else:
+                key = ("t", tid)
+                sub = c["subcategories"].setdefault(key, {
+                    "nr": tid, "name": item["type"], "order": 1000, "items": []})
             sub["items"].append(item)
 
     out = []
     for nr in sorted(cats):
         c = cats[nr]
         subs = []
-        for tid in sorted(c["subcategories"], key=lambda t: c["subcategories"][t]["name"]):
+        # Gruppen in der Reihenfolge von config.json, übrige Typen danach alphabetisch
+        for tid in sorted(c["subcategories"], key=lambda t: (c["subcategories"][t]["order"],
+                                                              c["subcategories"][t]["name"])):
             s = c["subcategories"][tid]
             s["items"].sort(key=lambda i: (i["sort"], i["name"]))
+            s.pop("order", None)
             s["total"] = len(s["items"])
             s["open"] = sum(i["isOpen"] for i in s["items"])
             subs.append(s)
-        out.append({"nr": c["nr"], "name": c["name"], "total": sum(s["total"] for s in subs),
+        out.append({"nr": c["nr"], "name": c["name"], "subdivide": c["subdivide"], "total": sum(s["total"] for s in subs),
                     "open": sum(s["open"] for s in subs), "subcategories": subs})
     return out
 

@@ -1,5 +1,5 @@
 {
-  "_hinweis": "Konfiguration für scripts/build.py. types = null heisst: alle übrigen Typen dieser Quelle. Nach einer Änderung einfach committen; der nächste Lauf übernimmt sie.",
+  "_hinweis": "Konfiguration für scripts/build.py. types = null heisst: alle übrigen Typen dieser Quelle. subdivide = true zeigt die Unterkategorien (z.B. Blaue/Rote Piste) als Zwischentitel, false eine einfache Liste. groups (optional) fasst mehrere Typ-Codes unter einem Zwischentitel zusammen und legt die Reihenfolge fest; Typen ohne Gruppe erscheinen danach mit ihrem eigenen Namen. Lift-Typen: 1 Pendelbahn, 2 Gondelbahn, 3 Skilift, 5/6/7 Sesselbahn 2er/4er/6er, 9 Standseilbahn, 10 Schienenbahn, 11 Zahnradbahn, 14 Förderband, 15 Kinderlift. Nach einer Änderung einfach committen; der nächste Lauf übernimmt sie.",
 
   "exclude": ["Jungfrau Region"],
 
@@ -26,14 +26,22 @@
   },
 
   "categories": [
-    { "nr": 1, "name": "Bahnen & Lifte",      "source": "lifts",   "types": null },
-    { "nr": 2, "name": "Pisten",              "source": "slopes",  "types": null },
-    { "nr": 3, "name": "Langlauf",            "source": "slopes",  "types": [5, 6] },
-    { "nr": 4, "name": "Schlittelwege",       "source": "slopes",  "types": [9] },
-    { "nr": 5, "name": "Wanderwege",          "source": "trails",  "types": [2] },
-    { "nr": 6, "name": "Schneeschuhwege",     "source": "trails",  "types": [1] },
-    { "nr": 7, "name": "Klettersteige",       "source": "trails",  "types": [3] },
-    { "nr": 8, "name": "Freizeit & Angebote", "source": "pois",    "types": null },
-    { "nr": 9, "name": "Gastronomie",         "source": "gastros", "types": null }
+    { "nr": 1, "name": "Bahnen & Lifte",      "source": "lifts",   "types": null,  "subdivide": true,
+      "groups": [
+        { "name": "Gondelbahn",    "types": [2] },
+        { "name": "Pendelbahn",    "types": [1] },
+        { "name": "Zahnradbahn",   "types": [11] },
+        { "name": "Förderband",    "types": [14] },
+        { "name": "Standseilbahn", "types": [9] },
+        { "name": "Skilift",       "types": [5, 6, 7, 3] }
+      ] },
+    { "nr": 2, "name": "Pisten",              "source": "slopes",  "types": null,  "subdivide": true  },
+    { "nr": 3, "name": "Langlauf",            "source": "slopes",  "types": [5, 6], "subdivide": false },
+    { "nr": 4, "name": "Schlittelwege",       "source": "slopes",  "types": [9], "subdivide": false },
+    { "nr": 5, "name": "Wanderwege",          "source": "trails",  "types": [2], "subdivide": false },
+    { "nr": 6, "name": "Schneeschuhwege",     "source": "trails",  "types": [1], "subdivide": false },
+    { "nr": 7, "name": "Klettersteige",       "source": "trails",  "types": [3], "subdivide": false },
+    { "nr": 8, "name": "Freizeit & Angebote", "source": "pois",    "types": null, "subdivide": false },
+    { "nr": 9, "name": "Gastronomie",         "source": "gastros", "types": null, "subdivide": false }
   ]
 }

@@ -108,8 +108,10 @@
     };
   }
 
-  function itemHtml(item, o) {
+  function itemHtml(item, o, showType) {
     var meta = [];
+    // In zusammengefassten Gruppen (z.B. Skilift) die genaue Anlagenart zeigen
+    if (showType && item.type) meta.push(esc(item.type));
     if (o.details) {
       if (item.firstRide && item.lastRide) meta.push(esc(item.firstRide) + '–' + esc(item.lastRide) + ' Uhr');
       if (item.lengthMeter) meta.push(esc(item.lengthMeter) + ' m');
@@ -137,9 +139,16 @@
     cats.forEach(function (cat) {
       var subs = (cat.subcategories || []).map(function (s) {
         var items = (s.items || []).filter(function (i) { return !(o.hideUnknown && i.status === 'unknown'); });
-        return { name: s.name, items: items, open: items.filter(function (i) { return i.isOpen; }).length };
+        return { name: s.name, mixed: (s.types || []).length > 1, items: items, open: items.filter(function (i) { return i.isOpen; }).length };
       }).filter(function (s) { return s.items.length; });
       if (!subs.length) return;
+      // Nicht unterteilte Kategorien: alle Objekte in einer Liste
+      if (!cat.subdivide && subs.length > 1) {
+        var all = [];
+        subs.forEach(function (s) { all = all.concat(s.items); });
+        all.sort(function (x, y) { return (x.sort - y.sort) || String(x.name).localeCompare(String(y.name), 'de'); });
+        subs = [{ name: cat.name, items: all, open: all.filter(function (i) { return i.isOpen; }).length }];
+      }
       var total = 0, open = 0;
       subs.forEach(function (s) { total += s.items.length; open += s.open; });
 
@@ -149,7 +158,7 @@
         if (subs.length > 1) {
           html += '<div class="bss-sub"><span>' + esc(s.name) + '</span><span>' + s.open + '/' + s.items.length + '</span></div>';
         }
-        html += '<ul class="bss-list">' + s.items.map(function (i) { return itemHtml(i, o); }).join('') + '</ul>';
+        html += '<ul class="bss-list">' + s.items.map(function (i) { return itemHtml(i, o, s.mixed); }).join('') + '</ul>';
       });
       html += '</details>';
     });
