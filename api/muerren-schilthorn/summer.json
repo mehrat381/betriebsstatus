@@ -7,12 +7,16 @@
   {
    "nr": 1,
    "name": "Bahnen & Lifte",
+   "subdivide": true,
    "total": 6,
    "open": 5,
    "subcategories": [
     {
      "nr": 1,
      "name": "Pendelbahn",
+     "types": [
+      1
+     ],
      "items": [
       {
        "id": 573,
@@ -26,7 +30,8 @@
        "firstRide": "08:01",
        "lastRide": "17:51",
        "info": "Betriebszeiten · 08:01 - 17:51 Uhr",
-       "website": "https://www.schilthorn.ch"
+       "website": "https://www.schilthorn.ch",
+       "type": "Pendelbahn"
       },
       {
        "id": 366,
@@ -40,7 +45,8 @@
        "firstRide": "05:53",
        "lastRide": "23:57",
        "info": "Betriebszeiten · 05:53 - 23:57 Uhr",
-       "website": "https://www.schilthorn.ch"
+       "website": "https://www.schilthorn.ch",
+       "type": "Pendelbahn"
       },
       {
        "id": 369,
@@ -54,7 +60,8 @@
        "firstRide": "05:59",
        "lastRide": "00:04",
        "info": "Betriebszeiten · 05:59 - 00:04 Uhr",
-       "website": "https://www.schilthorn.ch"
+       "website": "https://www.schilthorn.ch",
+       "type": "Pendelbahn"
       },
       {
        "id": 370,
@@ -67,7 +74,8 @@
        "sort": 4,
        "firstRide": "08:10",
        "lastRide": "17:00",
-       "info": "Betriebszeiten · 08:10 - 17:00 Uhr"
+       "info": "Betriebszeiten · 08:10 - 17:00 Uhr",
+       "type": "Pendelbahn"
       },
       {
        "id": 367,
@@ -80,7 +88,8 @@
        "sort": 5,
        "firstRide": "08:20",
        "lastRide": "16:50",
-       "info": "Betriebszeiten · 8:20 - 16:50 Uhr"
+       "info": "Betriebszeiten · 8:20 - 16:50 Uhr",
+       "type": "Pendelbahn"
       }
      ],
      "total": 5,
@@ -89,6 +98,9 @@
     {
      "nr": 9,
      "name": "Standseilbahn",
+     "types": [
+      9
+     ],
      "items": [
       {
        "id": 373,
@@ -102,7 +114,8 @@
        "firstRide": "09:00",
        "lastRide": "17:00",
        "info": "Betriebszeiten · 09:00 - 17:00 Uhr",
-       "website": "https://www.schilthorn.ch"
+       "website": "https://www.schilthorn.ch",
+       "type": "Standseilbahn"
       }
      ],
      "total": 1,
@@ -113,6 +126,7 @@
   {
    "nr": 5,
    "name": "Wanderwege",
+   "subdivide": false,
    "total": 2,
    "open": 0,
    "subcategories": [
@@ -129,7 +143,8 @@
        "statusCode": 1,
        "isOpen": false,
        "sort": 3,
-       "lengthMeter": 2500
+       "lengthMeter": 2500,
+       "type": "Wanderweg"
       },
       {
        "id": 419,
@@ -140,7 +155,8 @@
        "statusCode": 1,
        "isOpen": false,
        "sort": 4,
-       "lengthMeter": 1000
+       "lengthMeter": 1000,
+       "type": "Wanderweg"
       }
      ],
      "total": 2,
@@ -151,6 +167,7 @@
   {
    "nr": 9,
    "name": "Gastronomie",
+   "subdivide": false,
    "total": 9,
    "open": 2,
    "subcategories": [
@@ -166,7 +183,8 @@
        "statusLabel": "geschlossen",
        "statusCode": 1,
        "isOpen": false,
-       "sort": 0
+       "sort": 0,
+       "type": "Restaurant"
       },
       {
        "id": 397,
@@ -176,7 +194,8 @@
        "statusLabel": "offen",
        "statusCode": 2,
        "isOpen": true,
-       "sort": 0
+       "sort": 0,
+       "type": "Restaurant"
       },
       {
        "id": 396,
@@ -186,7 +205,8 @@
        "statusLabel": "unbekannt",
        "statusCode": 0,
        "isOpen": false,
-       "sort": 0
+       "sort": 0,
+       "type": "Restaurant"
       },
       {
        "id": 393,
@@ -196,7 +216,8 @@
        "statusLabel": "unbekannt",
        "statusCode": 0,
        "isOpen": false,
-       "sort": 0
+       "sort": 0,
+       "type": "Restaurant"
       },
       {
        "id": 395,
@@ -206,7 +227,8 @@
        "statusLabel": "offen",
        "statusCode": 2,
        "isOpen": true,
-       "sort": 0
+       "sort": 0,
+       "type": "Restaurant"
       },
       {
        "id": 394,
@@ -216,7 +238,8 @@
        "statusLabel": "geschlossen",
        "statusCode": 1,
        "isOpen": false,
-       "sort": 0
+       "sort": 0,
+       "type": "Restaurant"
       },
       {
        "id": 392,
@@ -226,7 +249,8 @@
        "statusLabel": "geschlossen",
        "statusCode": 1,
        "isOpen": false,
-       "sort": 0
+       "sort": 0,
+       "type": "Restaurant"
       },
       {
        "id": 391,
@@ -236,7 +260,8 @@
        "statusLabel": "geschlossen",
        "statusCode": 1,
        "isOpen": false,
-       "sort": 0
+       "sort": 0,
+       "type": "Restaurant"
       },
       {
        "id": 390,
@@ -246,7 +271,8 @@
        "statusLabel": "geschlossen",
        "statusCode": 1,
        "isOpen": false,
-       "sort": 0
+       "sort": 0,
+       "type": "Restaurant"
       }
      ],
      "total": 9,
@@ -255,5 +281,5 @@
    ]
   }
  ],
- "updated": "2026-11-21T09:14:08+01:00"
+ "updated": "2026-11-24T13:08:49+01:00"
 }

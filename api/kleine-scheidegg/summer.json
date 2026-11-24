@@ -7,12 +7,16 @@
   {
    "nr": 1,
    "name": "Bahnen & Lifte",
+   "subdivide": true,
    "total": 27,
    "open": 10,
    "subcategories": [
     {
      "nr": 2,
      "name": "Gondelbahn",
+     "types": [
+      2
+     ],
      "items": [
       {
        "id": 105,
@@ -29,7 +33,8 @@
          "text": "Öffnungs- und Betriebszeiten",
          "url": "https://www.jungfrau.ch/de-ch/live/betriebsdaten/"
         }
-       ]
+       ],
+       "type": "Gondelbahn"
       },
       {
        "id": 109,
@@ -46,7 +51,8 @@
          "text": "Öffnungs- und Betriebszeiten",
          "url": "https://www.jungfrau.ch/de-ch/live/betriebsdaten/"
         }
-       ]
+       ],
+       "type": "Gondelbahn"
       },
       {
        "id": 106,
@@ -57,7 +63,8 @@
        "statusCode": 0,
        "isOpen": false,
        "sort": 15,
-       "info": "Gondelbahn Grindelwald Männlichen · Saisonzeiten: · 07.12.2024 bis 06.04.2025 · 7. Dezember 2024 bis 24. Januar 2025 · ab Grindelwald Terminal: 8.00 – 16.00 Uhr · Letzte Talfahrt ab Männlichen: 16.30 Uhr · 25. Januar bis 6. April 2025 · ab Grindelwald Terminal: 8.00 – 16.30 Uhr · Letzte Talfahrt ab Männlichen"
+       "info": "Gondelbahn Grindelwald Männlichen · Saisonzeiten: · 07.12.2024 bis 06.04.2025 · 7. Dezember 2024 bis 24. Januar 2025 · ab Grindelwald Terminal: 8.00 – 16.00 Uhr · Letzte Talfahrt ab Männlichen: 16.30 Uhr · 25. Januar bis 6. April 2025 · ab Grindelwald Terminal: 8.00 – 16.30 Uhr · Letzte Talfahrt ab Männlichen",
+       "type": "Gondelbahn"
       },
       {
        "id": 165,
@@ -74,7 +81,8 @@
          "text": "Öffnungs- und Betriebszeiten",
          "url": "https://www.jungfrau.ch/de-ch/live/betriebsdaten/"
         }
-       ]
+       ],
+       "type": "Gondelbahn"
       }
      ],
      "total": 4,
@@ -83,6 +91,9 @@
     {
      "nr": 1,
      "name": "Pendelbahn",
+     "types": [
+      1
+     ],
      "items": [
       {
        "id": 122,
@@ -95,15 +106,267 @@
        "sort": 17,
        "firstRide": "08:15",
        "lastRide": "16:30",
-       "info": "Saisonzeiten: · 13. Dezember 2025 bis 06. April 2026 · Betriebszeiten: · Bergfahrt: Täglich 08:15-16:15 Uhr / ab 31.01.2026 bis 16:45 Uhr · Talfahrt: Täglich 08:15-16:30 Uhr / ab 31.01.2026 bis 17:00 Uhr · Beförderungskapazität: · 800 Pers./h in jeder Richtung · Fahrzeit: · 6 Minuten · Höhendifferenz: · 947 Meter"
+       "info": "Saisonzeiten: · 13. Dezember 2025 bis 06. April 2026 · Betriebszeiten: · Bergfahrt: Täglich 08:15-16:15 Uhr / ab 31.01.2026 bis 16:45 Uhr · Talfahrt: Täglich 08:15-16:30 Uhr / ab 31.01.2026 bis 17:00 Uhr · Beförderungskapazität: · 800 Pers./h in jeder Richtung · Fahrzeit: · 6 Minuten · Höhendifferenz: · 947 Meter",
+       "type": "Pendelbahn"
       }
      ],
      "total": 1,
      "open": 0
     },
     {
-     "nr": 6,
-     "name": "Sesselbahn 4er",
+     "nr": 11,
+     "name": "Zahnradbahn",
+     "types": [
+      11
+     ],
+     "items": [
+      {
+       "id": 103,
+       "name": "Grindelwald – Grund",
+       "label": "",
+       "status": "open",
+       "statusLabel": "offen",
+       "statusCode": 2,
+       "isOpen": true,
+       "sort": 0,
+       "info": "Betriebszeiten",
+       "links": [
+        {
+         "text": "Öffnungs- und Betriebszeiten",
+         "url": "https://www.jungfrau.ch/de-ch/live/betriebsdaten/"
+        }
+       ],
+       "type": "Zahnradbahn"
+      },
+      {
+       "id": 107,
+       "name": "Grund – Brandegg",
+       "label": "",
+       "status": "open",
+       "statusLabel": "offen",
+       "statusCode": 2,
+       "isOpen": true,
+       "sort": 1,
+       "info": "Betriebszeiten",
+       "links": [
+        {
+         "text": "Öffnungs- und Betriebszeiten",
+         "url": "https://www.jungfrau.ch/de-ch/live/betriebsdaten/"
+        }
+       ],
+       "type": "Zahnradbahn"
+      },
+      {
+       "id": 97,
+       "name": "Brandegg – Alpiglen",
+       "label": "",
+       "status": "open",
+       "statusLabel": "offen",
+       "statusCode": 2,
+       "isOpen": true,
+       "sort": 2,
+       "info": "Betriebszeiten",
+       "links": [
+        {
+         "text": "Öffnungs- und Betriebszeiten",
+         "url": "https://www.jungfrau.ch/de-ch/live/betriebsdaten/"
+        }
+       ],
+       "type": "Zahnradbahn"
+      },
+      {
+       "id": 95,
+       "name": "Alpiglen – Kleine Scheidegg",
+       "label": "",
+       "status": "open",
+       "statusLabel": "offen",
+       "statusCode": 2,
+       "isOpen": true,
+       "sort": 3,
+       "info": "Betriebszeiten",
+       "links": [
+        {
+         "text": "Öffnungs- und Betriebszeiten",
+         "url": "https://www.jungfrau.ch/de-ch/live/betriebsdaten/"
+        }
+       ],
+       "type": "Zahnradbahn"
+      },
+      {
+       "id": 104,
+       "name": "Grindelwald – Kleine Scheidegg",
+       "label": "",
+       "status": "open",
+       "statusLabel": "offen",
+       "statusCode": 2,
+       "isOpen": true,
+       "sort": 4,
+       "info": "Betriebszeiten",
+       "links": [
+        {
+         "text": "Öffnungs- und Betriebszeiten",
+         "url": "https://www.jungfrau.ch/de-ch/live/betriebsdaten/"
+        }
+       ],
+       "type": "Zahnradbahn"
+      },
+      {
+       "id": 116,
+       "name": "Lauterbrunnen – Wengen",
+       "label": "",
+       "status": "open",
+       "statusLabel": "offen",
+       "statusCode": 2,
+       "isOpen": true,
+       "sort": 5,
+       "info": "Betriebszeiten",
+       "links": [
+        {
+         "text": "Öffnungs- und Betriebszeiten",
+         "url": "https://www.jungfrau.ch/de-ch/live/betriebsdaten/"
+        }
+       ],
+       "type": "Zahnradbahn"
+      },
+      {
+       "id": 121,
+       "name": "Wengen – Allmend",
+       "label": "",
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
+       "sort": 6,
+       "info": "Betriebszeiten",
+       "links": [
+        {
+         "text": "Öffnungs- und Betriebszeiten",
+         "url": "https://www.jungfrau.ch/de-ch/live/betriebsdaten/"
+        }
+       ],
+       "type": "Zahnradbahn"
+      },
+      {
+       "id": 94,
+       "name": "Allmend – Wengernalp",
+       "label": "",
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
+       "sort": 7,
+       "info": "Betriebszeiten",
+       "links": [
+        {
+         "text": "Öffnungs- und Betriebszeiten",
+         "url": "https://www.jungfrau.ch/de-ch/live/betriebsdaten/"
+        }
+       ],
+       "type": "Zahnradbahn"
+      },
+      {
+       "id": 123,
+       "name": "Wengernalp – Kleine Scheidegg",
+       "label": "",
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
+       "sort": 8,
+       "info": "Betriebszeiten",
+       "links": [
+        {
+         "text": "Öffnungs- und Betriebszeiten",
+         "url": "https://www.jungfrau.ch/de-ch/live/betriebsdaten/"
+        }
+       ],
+       "type": "Zahnradbahn"
+      },
+      {
+       "id": 115,
+       "name": "Lauterbrunnen – Kleine Scheidegg",
+       "label": "",
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
+       "sort": 9,
+       "info": "Betriebszeiten",
+       "links": [
+        {
+         "text": "Öffnungs- und Betriebszeiten",
+         "url": "https://www.jungfrau.ch/de-ch/live/betriebsdaten/"
+        }
+       ],
+       "type": "Zahnradbahn"
+      },
+      {
+       "id": 112,
+       "name": "Kleine Scheidegg – Eigergletscher",
+       "label": "",
+       "status": "open",
+       "statusLabel": "offen",
+       "statusCode": 2,
+       "isOpen": true,
+       "sort": 10,
+       "info": "Betriebszeiten",
+       "links": [
+        {
+         "text": "Öffnungs- und Betriebszeiten",
+         "url": "https://www.jungfrau.ch/de-ch/live/betriebsdaten/"
+        }
+       ],
+       "type": "Zahnradbahn"
+      },
+      {
+       "id": 99,
+       "name": "Eigergletscher – Jungfraujoch",
+       "label": "",
+       "status": "open",
+       "statusLabel": "offen",
+       "statusCode": 2,
+       "isOpen": true,
+       "sort": 11,
+       "info": "Betriebszeiten",
+       "links": [
+        {
+         "text": "Öffnungs- und Betriebszeiten",
+         "url": "https://www.jungfrau.ch/de-ch/live/betriebsdaten/"
+        }
+       ],
+       "type": "Zahnradbahn"
+      },
+      {
+       "id": 113,
+       "name": "Kleine Scheidegg – Jungfraujoch",
+       "label": "",
+       "status": "open",
+       "statusLabel": "offen",
+       "statusCode": 2,
+       "isOpen": true,
+       "sort": 12,
+       "info": "Betriebszeiten",
+       "links": [
+        {
+         "text": "Öffnungs- und Betriebszeiten",
+         "url": "https://www.jungfrau.ch/de-ch/live/betriebsdaten/"
+        }
+       ],
+       "type": "Zahnradbahn"
+      }
+     ],
+     "total": 13,
+     "open": 9
+    },
+    {
+     "nr": 5,
+     "name": "Skilift",
+     "types": [
+      5,
+      6,
+      7,
+      3
+     ],
      "items": [
       {
        "id": 119,
@@ -116,7 +379,8 @@
        "sort": 18,
        "firstRide": "08:30",
        "lastRide": "16:30",
-       "info": "Saisonzeiten: · 12.12.2026 bis 04.04.2027 · Betriebszeiten · Täglich 08:30 – 16:00 Uhr / ab 30.01.2027 bis 16:30 Uhr · Anlagetyp · 4er mit Hauben · Beförderungskapazität · 1800 Personen/Stunde · Fahrzeit · 8 Minuten · Höhendifferenz · 435 Meter"
+       "info": "Saisonzeiten: · 12.12.2026 bis 04.04.2027 · Betriebszeiten · Täglich 08:30 – 16:00 Uhr / ab 30.01.2027 bis 16:30 Uhr · Anlagetyp · 4er mit Hauben · Beförderungskapazität · 1800 Personen/Stunde · Fahrzeit · 8 Minuten · Höhendifferenz · 435 Meter",
+       "type": "Sesselbahn 4er"
       },
       {
        "id": 117,
@@ -129,15 +393,16 @@
        "sort": 19,
        "firstRide": "09:00",
        "lastRide": "16:30",
-       "info": "Saisonzeiten: · 12.12.2026 bis 04.04.2027 · Betriebszeiten · Täglich 09:00 – 16:00 Uhr / ab 30.01.2027 bis 16:30 Uhr · Anlagetyp · 4er mit Hauben · Beförderungskapazität · 1800 Personen/Stunde · Fahrzeit · 7 Minuten · Höhendifferenz · 446 Meter"
+       "info": "Saisonzeiten: · 12.12.2026 bis 04.04.2027 · Betriebszeiten · Täglich 09:00 – 16:00 Uhr / ab 30.01.2027 bis 16:30 Uhr · Anlagetyp · 4er mit Hauben · Beförderungskapazität · 1800 Personen/Stunde · Fahrzeit · 7 Minuten · Höhendifferenz · 446 Meter",
+       "type": "Sesselbahn 4er"
       },
       {
        "id": 96,
        "name": "Arven",
        "label": "",
-       "status": "unknown",
-       "statusLabel": "unbekannt",
-       "statusCode": 0,
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
        "isOpen": false,
        "sort": 20,
        "firstRide": "09:00",
@@ -148,7 +413,8 @@
          "text": "Pistendaten",
          "url": "https://www.jungfrau.ch/de-ch/live/pistendaten/"
         }
-       ]
+       ],
+       "type": "Sesselbahn 4er"
       },
       {
        "id": 108,
@@ -167,15 +433,16 @@
          "text": "Pistendaten",
          "url": "https://www.jungfrau.ch/de-ch/live/pistendaten/"
         }
-       ]
+       ],
+       "type": "Sesselbahn 4er"
       },
       {
        "id": 114,
        "name": "Lauberhorn",
        "label": "",
-       "status": "unknown",
-       "statusLabel": "unbekannt",
-       "statusCode": 0,
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
        "isOpen": false,
        "sort": 22,
        "firstRide": "09:00",
@@ -186,7 +453,8 @@
          "text": "Pistendaten",
          "url": "https://www.jungfrau.ch/de-ch/live/pistendaten/"
         }
-       ]
+       ],
+       "type": "Sesselbahn 4er"
       },
       {
        "id": 111,
@@ -199,23 +467,16 @@
        "sort": 23,
        "firstRide": "09:00",
        "lastRide": "16:45",
-       "info": "Saisonzeiten · 25.12.2025 - 29.3.2026 · Betriebszeiten · Täglich 09:00 - 16:45  hr · Anlagetyp · 4er Sesselbahn · Beförderungskapazität · 1600 Personen/Stunde · Fahrzeit · 3 Minuten"
-      }
-     ],
-     "total": 6,
-     "open": 0
-    },
-    {
-     "nr": 7,
-     "name": "Sesselbahn 6er",
-     "items": [
+       "info": "Saisonzeiten · 25.12.2025 - 29.3.2026 · Betriebszeiten · Täglich 09:00 - 16:45  hr · Anlagetyp · 4er Sesselbahn · Beförderungskapazität · 1600 Personen/Stunde · Fahrzeit · 3 Minuten",
+       "type": "Sesselbahn 4er"
+      },
       {
        "id": 125,
        "name": "Wixi",
        "label": "",
-       "status": "unknown",
-       "statusLabel": "unbekannt",
-       "statusCode": 0,
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
        "isOpen": false,
        "sort": 25,
        "firstRide": "09:00",
@@ -226,7 +487,8 @@
          "text": "Pistendaten",
          "url": "https://www.jungfrau.ch/de-ch/live/pistendaten/"
         }
-       ]
+       ],
+       "type": "Sesselbahn 6er"
       },
       {
        "id": 110,
@@ -245,15 +507,16 @@
          "text": "Pistendaten",
          "url": "https://www.jungfrau.ch/de-ch/live/pistendaten/"
         }
-       ]
+       ],
+       "type": "Sesselbahn 6er"
       },
       {
        "id": 100,
        "name": "Eigernordwand",
        "label": "",
-       "status": "unknown",
-       "statusLabel": "unbekannt",
-       "statusCode": 0,
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
        "isOpen": false,
        "sort": 27,
        "firstRide": "08:30",
@@ -264,246 +527,19 @@
          "text": "Pistendaten",
          "url": "https://www.jungfrau.ch/de-ch/live/pistendaten/"
         }
-       ]
+       ],
+       "type": "Sesselbahn 6er"
       }
      ],
-     "total": 3,
+     "total": 9,
      "open": 0
-    },
-    {
-     "nr": 11,
-     "name": "Zahnradbahn",
-     "items": [
-      {
-       "id": 103,
-       "name": "Grindelwald – Grund",
-       "label": "",
-       "status": "open",
-       "statusLabel": "offen",
-       "statusCode": 2,
-       "isOpen": true,
-       "sort": 0,
-       "info": "Betriebszeiten",
-       "links": [
-        {
-         "text": "Öffnungs- und Betriebszeiten",
-         "url": "https://www.jungfrau.ch/de-ch/live/betriebsdaten/"
-        }
-       ]
-      },
-      {
-       "id": 107,
-       "name": "Grund – Brandegg",
-       "label": "",
-       "status": "open",
-       "statusLabel": "offen",
-       "statusCode": 2,
-       "isOpen": true,
-       "sort": 1,
-       "info": "Betriebszeiten",
-       "links": [
-        {
-         "text": "Öffnungs- und Betriebszeiten",
-         "url": "https://www.jungfrau.ch/de-ch/live/betriebsdaten/"
-        }
-       ]
-      },
-      {
-       "id": 97,
-       "name": "Brandegg – Alpiglen",
-       "label": "",
-       "status": "open",
-       "statusLabel": "offen",
-       "statusCode": 2,
-       "isOpen": true,
-       "sort": 2,
-       "info": "Betriebszeiten",
-       "links": [
-        {
-         "text": "Öffnungs- und Betriebszeiten",
-         "url": "https://www.jungfrau.ch/de-ch/live/betriebsdaten/"
-        }
-       ]
-      },
-      {
-       "id": 95,
-       "name": "Alpiglen – Kleine Scheidegg",
-       "label": "",
-       "status": "open",
-       "statusLabel": "offen",
-       "statusCode": 2,
-       "isOpen": true,
-       "sort": 3,
-       "info": "Betriebszeiten",
-       "links": [
-        {
-         "text": "Öffnungs- und Betriebszeiten",
-         "url": "https://www.jungfrau.ch/de-ch/live/betriebsdaten/"
-        }
-       ]
-      },
-      {
-       "id": 104,
-       "name": "Grindelwald – Kleine Scheidegg",
-       "label": "",
-       "status": "open",
-       "statusLabel": "offen",
-       "statusCode": 2,
-       "isOpen": true,
-       "sort": 4,
-       "info": "Betriebszeiten",
-       "links": [
-        {
-         "text": "Öffnungs- und Betriebszeiten",
-         "url": "https://www.jungfrau.ch/de-ch/live/betriebsdaten/"
-        }
-       ]
-      },
-      {
-       "id": 116,
-       "name": "Lauterbrunnen – Wengen",
-       "label": "",
-       "status": "open",
-       "statusLabel": "offen",
-       "statusCode": 2,
-       "isOpen": true,
-       "sort": 5,
-       "info": "Betriebszeiten",
-       "links": [
-        {
-         "text": "Öffnungs- und Betriebszeiten",
-         "url": "https://www.jungfrau.ch/de-ch/live/betriebsdaten/"
-        }
-       ]
-      },
-      {
-       "id": 121,
-       "name": "Wengen – Allmend",
-       "label": "",
-       "status": "closed",
-       "statusLabel": "geschlossen",
-       "statusCode": 1,
-       "isOpen": false,
-       "sort": 6,
-       "info": "Betriebszeiten",
-       "links": [
-        {
-         "text": "Öffnungs- und Betriebszeiten",
-         "url": "https://www.jungfrau.ch/de-ch/live/betriebsdaten/"
-        }
-       ]
-      },
-      {
-       "id": 94,
-       "name": "Allmend – Wengernalp",
-       "label": "",
-       "status": "closed",
-       "statusLabel": "geschlossen",
-       "statusCode": 1,
-       "isOpen": false,
-       "sort": 7,
-       "info": "Betriebszeiten",
-       "links": [
-        {
-         "text": "Öffnungs- und Betriebszeiten",
-         "url": "https://www.jungfrau.ch/de-ch/live/betriebsdaten/"
-        }
-       ]
-      },
-      {
-       "id": 123,
-       "name": "Wengernalp – Kleine Scheidegg",
-       "label": "",
-       "status": "closed",
-       "statusLabel": "geschlossen",
-       "statusCode": 1,
-       "isOpen": false,
-       "sort": 8,
-       "info": "Betriebszeiten",
-       "links": [
-        {
-         "text": "Öffnungs- und Betriebszeiten",
-         "url": "https://www.jungfrau.ch/de-ch/live/betriebsdaten/"
-        }
-       ]
-      },
-      {
-       "id": 115,
-       "name": "Lauterbrunnen – Kleine Scheidegg",
-       "label": "",
-       "status": "closed",
-       "statusLabel": "geschlossen",
-       "statusCode": 1,
-       "isOpen": false,
-       "sort": 9,
-       "info": "Betriebszeiten",
-       "links": [
-        {
-         "text": "Öffnungs- und Betriebszeiten",
-         "url": "https://www.jungfrau.ch/de-ch/live/betriebsdaten/"
-        }
-       ]
-      },
-      {
-       "id": 112,
-       "name": "Kleine Scheidegg – Eigergletscher",
-       "label": "",
-       "status": "open",
-       "statusLabel": "offen",
-       "statusCode": 2,
-       "isOpen": true,
-       "sort": 10,
-       "info": "Betriebszeiten",
-       "links": [
-        {
-         "text": "Öffnungs- und Betriebszeiten",
-         "url": "https://www.jungfrau.ch/de-ch/live/betriebsdaten/"
-        }
-       ]
-      },
-      {
-       "id": 99,
-       "name": "Eigergletscher – Jungfraujoch",
-       "label": "",
-       "status": "open",
-       "statusLabel": "offen",
-       "statusCode": 2,
-       "isOpen": true,
-       "sort": 11,
-       "info": "Betriebszeiten",
-       "links": [
-        {
-         "text": "Öffnungs- und Betriebszeiten",
-         "url": "https://www.jungfrau.ch/de-ch/live/betriebsdaten/"
-        }
-       ]
-      },
-      {
-       "id": 113,
-       "name": "Kleine Scheidegg – Jungfraujoch",
-       "label": "",
-       "status": "open",
-       "statusLabel": "offen",
-       "statusCode": 2,
-       "isOpen": true,
-       "sort": 12,
-       "info": "Betriebszeiten",
-       "links": [
-        {
-         "text": "Öffnungs- und Betriebszeiten",
-         "url": "https://www.jungfrau.ch/de-ch/live/betriebsdaten/"
-        }
-       ]
-      }
-     ],
-     "total": 13,
-     "open": 9
     }
    ]
   },
   {
    "nr": 5,
    "name": "Wanderwege",
+   "subdivide": false,
    "total": 25,
    "open": 6,
    "subcategories": [
@@ -519,7 +555,8 @@
        "statusLabel": "geschlossen",
        "statusCode": 1,
        "isOpen": false,
-       "sort": 0
+       "sort": 0,
+       "type": "Wanderweg"
       },
       {
        "id": 9,
@@ -529,7 +566,8 @@
        "statusLabel": "geschlossen",
        "statusCode": 1,
        "isOpen": false,
-       "sort": 1
+       "sort": 1,
+       "type": "Wanderweg"
       },
       {
        "id": 357,
@@ -539,7 +577,8 @@
        "statusLabel": "geschlossen",
        "statusCode": 1,
        "isOpen": false,
-       "sort": 3
+       "sort": 3,
+       "type": "Wanderweg"
       },
       {
        "id": 358,
@@ -549,7 +588,8 @@
        "statusLabel": "geschlossen",
        "statusCode": 1,
        "isOpen": false,
-       "sort": 4
+       "sort": 4,
+       "type": "Wanderweg"
       },
       {
        "id": 11,
@@ -559,7 +599,8 @@
        "statusLabel": "geschlossen",
        "statusCode": 1,
        "isOpen": false,
-       "sort": 5
+       "sort": 5,
+       "type": "Wanderweg"
       },
       {
        "id": 12,
@@ -569,7 +610,8 @@
        "statusLabel": "geschlossen",
        "statusCode": 1,
        "isOpen": false,
-       "sort": 6
+       "sort": 6,
+       "type": "Wanderweg"
       },
       {
        "id": 13,
@@ -579,7 +621,8 @@
        "statusLabel": "geschlossen",
        "statusCode": 1,
        "isOpen": false,
-       "sort": 7
+       "sort": 7,
+       "type": "Wanderweg"
       },
       {
        "id": 14,
@@ -589,7 +632,8 @@
        "statusLabel": "offen",
        "statusCode": 2,
        "isOpen": true,
-       "sort": 8
+       "sort": 8,
+       "type": "Wanderweg"
       },
       {
        "id": 1269,
@@ -599,7 +643,8 @@
        "statusLabel": "offen",
        "statusCode": 2,
        "isOpen": true,
-       "sort": 9
+       "sort": 9,
+       "type": "Wanderweg"
       },
       {
        "id": 1270,
@@ -609,7 +654,8 @@
        "statusLabel": "offen",
        "statusCode": 2,
        "isOpen": true,
-       "sort": 10
+       "sort": 10,
+       "type": "Wanderweg"
       },
       {
        "id": 15,
@@ -619,7 +665,8 @@
        "statusLabel": "geschlossen",
        "statusCode": 1,
        "isOpen": false,
-       "sort": 11
+       "sort": 11,
+       "type": "Wanderweg"
       },
       {
        "id": 16,
@@ -629,7 +676,8 @@
        "statusLabel": "geschlossen",
        "statusCode": 1,
        "isOpen": false,
-       "sort": 12
+       "sort": 12,
+       "type": "Wanderweg"
       },
       {
        "id": 18,
@@ -639,7 +687,8 @@
        "statusLabel": "geschlossen",
        "statusCode": 1,
        "isOpen": false,
-       "sort": 14
+       "sort": 14,
+       "type": "Wanderweg"
       },
       {
        "id": 19,
@@ -649,7 +698,8 @@
        "statusLabel": "geschlossen",
        "statusCode": 1,
        "isOpen": false,
-       "sort": 15
+       "sort": 15,
+       "type": "Wanderweg"
       },
       {
        "id": 20,
@@ -659,7 +709,8 @@
        "statusLabel": "geschlossen",
        "statusCode": 1,
        "isOpen": false,
-       "sort": 16
+       "sort": 16,
+       "type": "Wanderweg"
       },
       {
        "id": 21,
@@ -669,7 +720,8 @@
        "statusLabel": "geschlossen",
        "statusCode": 1,
        "isOpen": false,
-       "sort": 17
+       "sort": 17,
+       "type": "Wanderweg"
       },
       {
        "id": 22,
@@ -679,7 +731,8 @@
        "statusLabel": "offen",
        "statusCode": 2,
        "isOpen": true,
-       "sort": 18
+       "sort": 18,
+       "type": "Wanderweg"
       },
       {
        "id": 23,
@@ -689,7 +742,8 @@
        "statusLabel": "geschlossen",
        "statusCode": 1,
        "isOpen": false,
-       "sort": 19
+       "sort": 19,
+       "type": "Wanderweg"
       },
       {
        "id": 24,
@@ -699,7 +753,8 @@
        "statusLabel": "geschlossen",
        "statusCode": 1,
        "isOpen": false,
-       "sort": 20
+       "sort": 20,
+       "type": "Wanderweg"
       },
       {
        "id": 25,
@@ -709,7 +764,8 @@
        "statusLabel": "geschlossen",
        "statusCode": 1,
        "isOpen": false,
-       "sort": 21
+       "sort": 21,
+       "type": "Wanderweg"
       },
       {
        "id": 26,
@@ -719,7 +775,8 @@
        "statusLabel": "geschlossen",
        "statusCode": 1,
        "isOpen": false,
-       "sort": 22
+       "sort": 22,
+       "type": "Wanderweg"
       },
       {
        "id": 27,
@@ -729,7 +786,8 @@
        "statusLabel": "geschlossen",
        "statusCode": 1,
        "isOpen": false,
-       "sort": 23
+       "sort": 23,
+       "type": "Wanderweg"
       },
       {
        "id": 28,
@@ -739,7 +797,8 @@
        "statusLabel": "geschlossen",
        "statusCode": 1,
        "isOpen": false,
-       "sort": 24
+       "sort": 24,
+       "type": "Wanderweg"
       },
       {
        "id": 29,
@@ -749,7 +808,8 @@
        "statusLabel": "offen",
        "statusCode": 2,
        "isOpen": true,
-       "sort": 25
+       "sort": 25,
+       "type": "Wanderweg"
       },
       {
        "id": 30,
@@ -759,7 +819,8 @@
        "statusLabel": "offen",
        "statusCode": 2,
        "isOpen": true,
-       "sort": 26
+       "sort": 26,
+       "type": "Wanderweg"
       }
      ],
      "total": 25,
@@ -770,6 +831,7 @@
   {
    "nr": 7,
    "name": "Klettersteige",
+   "subdivide": false,
    "total": 1,
    "open": 0,
    "subcategories": [
@@ -785,7 +847,8 @@
        "statusLabel": "geschlossen",
        "statusCode": 1,
        "isOpen": false,
-       "sort": 27
+       "sort": 27,
+       "type": "Klettersteig"
       }
      ],
      "total": 1,
@@ -796,6 +859,7 @@
   {
    "nr": 8,
    "name": "Freizeit & Angebote",
+   "subdivide": false,
    "total": 2,
    "open": 0,
    "subcategories": [
@@ -811,7 +875,8 @@
        "statusLabel": "unbekannt",
        "statusCode": 0,
        "isOpen": false,
-       "sort": 3
+       "sort": 3,
+       "type": "Gleitschirm Startplatz"
       }
      ],
      "total": 1,
@@ -829,7 +894,8 @@
        "statusLabel": "unbekannt",
        "statusCode": 0,
        "isOpen": false,
-       "sort": 4
+       "sort": 4,
+       "type": "Ski Vermietung"
       }
      ],
      "total": 1,
@@ -840,6 +906,7 @@
   {
    "nr": 9,
    "name": "Gastronomie",
+   "subdivide": false,
    "total": 30,
    "open": 6,
    "subcategories": [
@@ -855,7 +922,8 @@
        "statusLabel": "geschlossen",
        "statusCode": 1,
        "isOpen": false,
-       "sort": 0
+       "sort": 0,
+       "type": "Restaurant"
       },
       {
        "id": 14,
@@ -865,7 +933,8 @@
        "statusLabel": "geschlossen",
        "statusCode": 1,
        "isOpen": false,
-       "sort": 0
+       "sort": 0,
+       "type": "Restaurant"
       },
       {
        "id": 16,
@@ -875,7 +944,8 @@
        "statusLabel": "offen",
        "statusCode": 2,
        "isOpen": true,
-       "sort": 0
+       "sort": 0,
+       "type": "Restaurant"
       },
       {
        "id": 17,
@@ -885,7 +955,8 @@
        "statusLabel": "offen",
        "statusCode": 2,
        "isOpen": true,
-       "sort": 0
+       "sort": 0,
+       "type": "Restaurant"
       },
       {
        "id": 18,
@@ -895,7 +966,8 @@
        "statusLabel": "geschlossen",
        "statusCode": 1,
        "isOpen": false,
-       "sort": 0
+       "sort": 0,
+       "type": "Restaurant"
       },
       {
        "id": 19,
@@ -905,7 +977,8 @@
        "statusLabel": "geschlossen",
        "statusCode": 1,
        "isOpen": false,
-       "sort": 0
+       "sort": 0,
+       "type": "Restaurant"
       },
       {
        "id": 15,
@@ -915,7 +988,8 @@
        "statusLabel": "unbekannt",
        "statusCode": 0,
        "isOpen": false,
-       "sort": 0
+       "sort": 0,
+       "type": "Restaurant"
       },
       {
        "id": 20,
@@ -925,7 +999,8 @@
        "statusLabel": "unbekannt",
        "statusCode": 0,
        "isOpen": false,
-       "sort": 0
+       "sort": 0,
+       "type": "Restaurant"
       },
       {
        "id": 21,
@@ -935,7 +1010,8 @@
        "statusLabel": "geschlossen",
        "statusCode": 1,
        "isOpen": false,
-       "sort": 0
+       "sort": 0,
+       "type": "Restaurant"
       },
       {
        "id": 39,
@@ -945,7 +1021,8 @@
        "statusLabel": "unbekannt",
        "statusCode": 0,
        "isOpen": false,
-       "sort": 0
+       "sort": 0,
+       "type": "Restaurant"
       },
       {
        "id": 22,
@@ -955,7 +1032,8 @@
        "statusLabel": "geschlossen",
        "statusCode": 1,
        "isOpen": false,
-       "sort": 0
+       "sort": 0,
+       "type": "Restaurant"
       },
       {
        "id": 23,
@@ -965,7 +1043,8 @@
        "statusLabel": "unbekannt",
        "statusCode": 0,
        "isOpen": false,
-       "sort": 0
+       "sort": 0,
+       "type": "Restaurant"
       },
       {
        "id": 24,
@@ -975,7 +1054,8 @@
        "statusLabel": "unbekannt",
        "statusCode": 0,
        "isOpen": false,
-       "sort": 0
+       "sort": 0,
+       "type": "Restaurant"
       },
       {
        "id": 25,
@@ -985,7 +1065,8 @@
        "statusLabel": "offen",
        "statusCode": 2,
        "isOpen": true,
-       "sort": 0
+       "sort": 0,
+       "type": "Restaurant"
       },
       {
        "id": 26,
@@ -995,7 +1076,8 @@
        "statusLabel": "offen",
        "statusCode": 2,
        "isOpen": true,
-       "sort": 0
+       "sort": 0,
+       "type": "Restaurant"
       },
       {
        "id": 27,
@@ -1005,7 +1087,8 @@
        "statusLabel": "geschlossen",
        "statusCode": 1,
        "isOpen": false,
-       "sort": 0
+       "sort": 0,
+       "type": "Restaurant"
       },
       {
        "id": 28,
@@ -1015,7 +1098,8 @@
        "statusLabel": "unbekannt",
        "statusCode": 0,
        "isOpen": false,
-       "sort": 0
+       "sort": 0,
+       "type": "Restaurant"
       },
       {
        "id": 29,
@@ -1025,7 +1109,8 @@
        "statusLabel": "geschlossen",
        "statusCode": 1,
        "isOpen": false,
-       "sort": 0
+       "sort": 0,
+       "type": "Restaurant"
       },
       {
        "id": 30,
@@ -1035,7 +1120,8 @@
        "statusLabel": "unbekannt",
        "statusCode": 0,
        "isOpen": false,
-       "sort": 0
+       "sort": 0,
+       "type": "Restaurant"
       },
       {
        "id": 31,
@@ -1045,7 +1131,8 @@
        "statusLabel": "unbekannt",
        "statusCode": 0,
        "isOpen": false,
-       "sort": 0
+       "sort": 0,
+       "type": "Restaurant"
       },
       {
        "id": 32,
@@ -1055,7 +1142,8 @@
        "statusLabel": "offen",
        "statusCode": 2,
        "isOpen": true,
-       "sort": 0
+       "sort": 0,
+       "type": "Restaurant"
       },
       {
        "id": 33,
@@ -1065,7 +1153,8 @@
        "statusLabel": "offen",
        "statusCode": 2,
        "isOpen": true,
-       "sort": 0
+       "sort": 0,
+       "type": "Restaurant"
       },
       {
        "id": 34,
@@ -1075,7 +1164,8 @@
        "statusLabel": "unbekannt",
        "statusCode": 0,
        "isOpen": false,
-       "sort": 0
+       "sort": 0,
+       "type": "Restaurant"
       },
       {
        "id": 35,
@@ -1085,7 +1175,8 @@
        "statusLabel": "unbekannt",
        "statusCode": 0,
        "isOpen": false,
-       "sort": 0
+       "sort": 0,
+       "type": "Restaurant"
       },
       {
        "id": 37,
@@ -1095,7 +1186,8 @@
        "statusLabel": "unbekannt",
        "statusCode": 0,
        "isOpen": false,
-       "sort": 0
+       "sort": 0,
+       "type": "Restaurant"
       },
       {
        "id": 38,
@@ -1105,7 +1197,8 @@
        "statusLabel": "unbekannt",
        "statusCode": 0,
        "isOpen": false,
-       "sort": 0
+       "sort": 0,
+       "type": "Restaurant"
       },
       {
        "id": 36,
@@ -1115,7 +1208,8 @@
        "statusLabel": "geschlossen",
        "statusCode": 1,
        "isOpen": false,
-       "sort": 0
+       "sort": 0,
+       "type": "Restaurant"
       },
       {
        "id": 40,
@@ -1125,7 +1219,8 @@
        "statusLabel": "unbekannt",
        "statusCode": 0,
        "isOpen": false,
-       "sort": 0
+       "sort": 0,
+       "type": "Restaurant"
       },
       {
        "id": 41,
@@ -1135,7 +1230,8 @@
        "statusLabel": "unbekannt",
        "statusCode": 0,
        "isOpen": false,
-       "sort": 0
+       "sort": 0,
+       "type": "Restaurant"
       },
       {
        "id": 42,
@@ -1145,7 +1241,8 @@
        "statusLabel": "unbekannt",
        "statusCode": 0,
        "isOpen": false,
-       "sort": 0
+       "sort": 0,
+       "type": "Restaurant"
       }
      ],
      "total": 30,
@@ -1154,5 +1251,5 @@
    ]
   }
  ],
- "updated": "2026-11-21T10:06:53+01:00"
+ "updated": "2026-11-24T13:08:49+01:00"
 }

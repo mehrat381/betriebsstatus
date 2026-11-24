@@ -7,12 +7,16 @@
   {
    "nr": 1,
    "name": "Bahnen & Lifte",
+   "subdivide": true,
    "total": 32,
    "open": 10,
    "subcategories": [
     {
      "nr": 2,
      "name": "Gondelbahn",
+     "types": [
+      2
+     ],
      "items": [
       {
        "id": 105,
@@ -29,7 +33,8 @@
          "text": "Öffnungs- und Betriebszeiten",
          "url": "https://www.jungfrau.ch/de-ch/live/betriebsdaten/"
         }
-       ]
+       ],
+       "type": "Gondelbahn"
       },
       {
        "id": 109,
@@ -46,7 +51,8 @@
          "text": "Öffnungs- und Betriebszeiten",
          "url": "https://www.jungfrau.ch/de-ch/live/betriebsdaten/"
         }
-       ]
+       ],
+       "type": "Gondelbahn"
       },
       {
        "id": 106,
@@ -57,7 +63,8 @@
        "statusCode": 0,
        "isOpen": false,
        "sort": 15,
-       "info": "Gondelbahn Grindelwald Männlichen · Saisonzeiten: · 07.12.2024 bis 06.04.2025 · 7. Dezember 2024 bis 24. Januar 2025 · ab Grindelwald Terminal: 8.00 – 16.00 Uhr · Letzte Talfahrt ab Männlichen: 16.30 Uhr · 25. Januar bis 6. April 2025 · ab Grindelwald Terminal: 8.00 – 16.30 Uhr · Letzte Talfahrt ab Männlichen"
+       "info": "Gondelbahn Grindelwald Männlichen · Saisonzeiten: · 07.12.2024 bis 06.04.2025 · 7. Dezember 2024 bis 24. Januar 2025 · ab Grindelwald Terminal: 8.00 – 16.00 Uhr · Letzte Talfahrt ab Männlichen: 16.30 Uhr · 25. Januar bis 6. April 2025 · ab Grindelwald Terminal: 8.00 – 16.30 Uhr · Letzte Talfahrt ab Männlichen",
+       "type": "Gondelbahn"
       },
       {
        "id": 165,
@@ -74,7 +81,8 @@
          "text": "Öffnungs- und Betriebszeiten",
          "url": "https://www.jungfrau.ch/de-ch/live/betriebsdaten/"
         }
-       ]
+       ],
+       "type": "Gondelbahn"
       }
      ],
      "total": 4,
@@ -83,6 +91,9 @@
     {
      "nr": 1,
      "name": "Pendelbahn",
+     "types": [
+      1
+     ],
      "items": [
       {
        "id": 122,
@@ -95,15 +106,267 @@
        "sort": 17,
        "firstRide": "08:15",
        "lastRide": "16:30",
-       "info": "Saisonzeiten: · 13. Dezember 2025 bis 06. April 2026 · Betriebszeiten: · Bergfahrt: Täglich 08:15-16:15 Uhr / ab 31.01.2026 bis 16:45 Uhr · Talfahrt: Täglich 08:15-16:30 Uhr / ab 31.01.2026 bis 17:00 Uhr · Beförderungskapazität: · 800 Pers./h in jeder Richtung · Fahrzeit: · 6 Minuten · Höhendifferenz: · 947 Meter"
+       "info": "Saisonzeiten: · 13. Dezember 2025 bis 06. April 2026 · Betriebszeiten: · Bergfahrt: Täglich 08:15-16:15 Uhr / ab 31.01.2026 bis 16:45 Uhr · Talfahrt: Täglich 08:15-16:30 Uhr / ab 31.01.2026 bis 17:00 Uhr · Beförderungskapazität: · 800 Pers./h in jeder Richtung · Fahrzeit: · 6 Minuten · Höhendifferenz: · 947 Meter",
+       "type": "Pendelbahn"
       }
      ],
      "total": 1,
      "open": 0
     },
     {
-     "nr": 6,
-     "name": "Sesselbahn 4er",
+     "nr": 11,
+     "name": "Zahnradbahn",
+     "types": [
+      11
+     ],
+     "items": [
+      {
+       "id": 103,
+       "name": "Grindelwald – Grund",
+       "label": "",
+       "status": "open",
+       "statusLabel": "offen",
+       "statusCode": 2,
+       "isOpen": true,
+       "sort": 0,
+       "info": "Betriebszeiten",
+       "links": [
+        {
+         "text": "Öffnungs- und Betriebszeiten",
+         "url": "https://www.jungfrau.ch/de-ch/live/betriebsdaten/"
+        }
+       ],
+       "type": "Zahnradbahn"
+      },
+      {
+       "id": 107,
+       "name": "Grund – Brandegg",
+       "label": "",
+       "status": "open",
+       "statusLabel": "offen",
+       "statusCode": 2,
+       "isOpen": true,
+       "sort": 1,
+       "info": "Betriebszeiten",
+       "links": [
+        {
+         "text": "Öffnungs- und Betriebszeiten",
+         "url": "https://www.jungfrau.ch/de-ch/live/betriebsdaten/"
+        }
+       ],
+       "type": "Zahnradbahn"
+      },
+      {
+       "id": 97,
+       "name": "Brandegg – Alpiglen",
+       "label": "",
+       "status": "open",
+       "statusLabel": "offen",
+       "statusCode": 2,
+       "isOpen": true,
+       "sort": 2,
+       "info": "Betriebszeiten",
+       "links": [
+        {
+         "text": "Öffnungs- und Betriebszeiten",
+         "url": "https://www.jungfrau.ch/de-ch/live/betriebsdaten/"
+        }
+       ],
+       "type": "Zahnradbahn"
+      },
+      {
+       "id": 95,
+       "name": "Alpiglen – Kleine Scheidegg",
+       "label": "",
+       "status": "open",
+       "statusLabel": "offen",
+       "statusCode": 2,
+       "isOpen": true,
+       "sort": 3,
+       "info": "Betriebszeiten",
+       "links": [
+        {
+         "text": "Öffnungs- und Betriebszeiten",
+         "url": "https://www.jungfrau.ch/de-ch/live/betriebsdaten/"
+        }
+       ],
+       "type": "Zahnradbahn"
+      },
+      {
+       "id": 104,
+       "name": "Grindelwald – Kleine Scheidegg",
+       "label": "",
+       "status": "open",
+       "statusLabel": "offen",
+       "statusCode": 2,
+       "isOpen": true,
+       "sort": 4,
+       "info": "Betriebszeiten",
+       "links": [
+        {
+         "text": "Öffnungs- und Betriebszeiten",
+         "url": "https://www.jungfrau.ch/de-ch/live/betriebsdaten/"
+        }
+       ],
+       "type": "Zahnradbahn"
+      },
+      {
+       "id": 116,
+       "name": "Lauterbrunnen – Wengen",
+       "label": "",
+       "status": "open",
+       "statusLabel": "offen",
+       "statusCode": 2,
+       "isOpen": true,
+       "sort": 5,
+       "info": "Betriebszeiten",
+       "links": [
+        {
+         "text": "Öffnungs- und Betriebszeiten",
+         "url": "https://www.jungfrau.ch/de-ch/live/betriebsdaten/"
+        }
+       ],
+       "type": "Zahnradbahn"
+      },
+      {
+       "id": 121,
+       "name": "Wengen – Allmend",
+       "label": "",
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
+       "sort": 6,
+       "info": "Betriebszeiten",
+       "links": [
+        {
+         "text": "Öffnungs- und Betriebszeiten",
+         "url": "https://www.jungfrau.ch/de-ch/live/betriebsdaten/"
+        }
+       ],
+       "type": "Zahnradbahn"
+      },
+      {
+       "id": 94,
+       "name": "Allmend – Wengernalp",
+       "label": "",
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
+       "sort": 7,
+       "info": "Betriebszeiten",
+       "links": [
+        {
+         "text": "Öffnungs- und Betriebszeiten",
+         "url": "https://www.jungfrau.ch/de-ch/live/betriebsdaten/"
+        }
+       ],
+       "type": "Zahnradbahn"
+      },
+      {
+       "id": 123,
+       "name": "Wengernalp – Kleine Scheidegg",
+       "label": "",
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
+       "sort": 8,
+       "info": "Betriebszeiten",
+       "links": [
+        {
+         "text": "Öffnungs- und Betriebszeiten",
+         "url": "https://www.jungfrau.ch/de-ch/live/betriebsdaten/"
+        }
+       ],
+       "type": "Zahnradbahn"
+      },
+      {
+       "id": 115,
+       "name": "Lauterbrunnen – Kleine Scheidegg",
+       "label": "",
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
+       "isOpen": false,
+       "sort": 9,
+       "info": "Betriebszeiten",
+       "links": [
+        {
+         "text": "Öffnungs- und Betriebszeiten",
+         "url": "https://www.jungfrau.ch/de-ch/live/betriebsdaten/"
+        }
+       ],
+       "type": "Zahnradbahn"
+      },
+      {
+       "id": 112,
+       "name": "Kleine Scheidegg – Eigergletscher",
+       "label": "",
+       "status": "open",
+       "statusLabel": "offen",
+       "statusCode": 2,
+       "isOpen": true,
+       "sort": 10,
+       "info": "Betriebszeiten",
+       "links": [
+        {
+         "text": "Öffnungs- und Betriebszeiten",
+         "url": "https://www.jungfrau.ch/de-ch/live/betriebsdaten/"
+        }
+       ],
+       "type": "Zahnradbahn"
+      },
+      {
+       "id": 99,
+       "name": "Eigergletscher – Jungfraujoch",
+       "label": "",
+       "status": "open",
+       "statusLabel": "offen",
+       "statusCode": 2,
+       "isOpen": true,
+       "sort": 11,
+       "info": "Betriebszeiten",
+       "links": [
+        {
+         "text": "Öffnungs- und Betriebszeiten",
+         "url": "https://www.jungfrau.ch/de-ch/live/betriebsdaten/"
+        }
+       ],
+       "type": "Zahnradbahn"
+      },
+      {
+       "id": 113,
+       "name": "Kleine Scheidegg – Jungfraujoch",
+       "label": "",
+       "status": "open",
+       "statusLabel": "offen",
+       "statusCode": 2,
+       "isOpen": true,
+       "sort": 12,
+       "info": "Betriebszeiten",
+       "links": [
+        {
+         "text": "Öffnungs- und Betriebszeiten",
+         "url": "https://www.jungfrau.ch/de-ch/live/betriebsdaten/"
+        }
+       ],
+       "type": "Zahnradbahn"
+      }
+     ],
+     "total": 13,
+     "open": 9
+    },
+    {
+     "nr": 5,
+     "name": "Skilift",
+     "types": [
+      5,
+      6,
+      7,
+      3
+     ],
      "items": [
       {
        "id": 119,
@@ -116,7 +379,8 @@
        "sort": 18,
        "firstRide": "08:30",
        "lastRide": "16:30",
-       "info": "Saisonzeiten: · 12.12.2026 bis 04.04.2027 · Betriebszeiten · Täglich 08:30 – 16:00 Uhr / ab 30.01.2027 bis 16:30 Uhr · Anlagetyp · 4er mit Hauben · Beförderungskapazität · 1800 Personen/Stunde · Fahrzeit · 8 Minuten · Höhendifferenz · 435 Meter"
+       "info": "Saisonzeiten: · 12.12.2026 bis 04.04.2027 · Betriebszeiten · Täglich 08:30 – 16:00 Uhr / ab 30.01.2027 bis 16:30 Uhr · Anlagetyp · 4er mit Hauben · Beförderungskapazität · 1800 Personen/Stunde · Fahrzeit · 8 Minuten · Höhendifferenz · 435 Meter",
+       "type": "Sesselbahn 4er"
       },
       {
        "id": 117,
@@ -129,15 +393,16 @@
        "sort": 19,
        "firstRide": "09:00",
        "lastRide": "16:30",
-       "info": "Saisonzeiten: · 12.12.2026 bis 04.04.2027 · Betriebszeiten · Täglich 09:00 – 16:00 Uhr / ab 30.01.2027 bis 16:30 Uhr · Anlagetyp · 4er mit Hauben · Beförderungskapazität · 1800 Personen/Stunde · Fahrzeit · 7 Minuten · Höhendifferenz · 446 Meter"
+       "info": "Saisonzeiten: · 12.12.2026 bis 04.04.2027 · Betriebszeiten · Täglich 09:00 – 16:00 Uhr / ab 30.01.2027 bis 16:30 Uhr · Anlagetyp · 4er mit Hauben · Beförderungskapazität · 1800 Personen/Stunde · Fahrzeit · 7 Minuten · Höhendifferenz · 446 Meter",
+       "type": "Sesselbahn 4er"
       },
       {
        "id": 96,
        "name": "Arven",
        "label": "",
-       "status": "unknown",
-       "statusLabel": "unbekannt",
-       "statusCode": 0,
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
        "isOpen": false,
        "sort": 20,
        "firstRide": "09:00",
@@ -148,7 +413,8 @@
          "text": "Pistendaten",
          "url": "https://www.jungfrau.ch/de-ch/live/pistendaten/"
         }
-       ]
+       ],
+       "type": "Sesselbahn 4er"
       },
       {
        "id": 108,
@@ -167,15 +433,16 @@
          "text": "Pistendaten",
          "url": "https://www.jungfrau.ch/de-ch/live/pistendaten/"
         }
-       ]
+       ],
+       "type": "Sesselbahn 4er"
       },
       {
        "id": 114,
        "name": "Lauberhorn",
        "label": "",
-       "status": "unknown",
-       "statusLabel": "unbekannt",
-       "statusCode": 0,
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
        "isOpen": false,
        "sort": 22,
        "firstRide": "09:00",
@@ -186,7 +453,8 @@
          "text": "Pistendaten",
          "url": "https://www.jungfrau.ch/de-ch/live/pistendaten/"
         }
-       ]
+       ],
+       "type": "Sesselbahn 4er"
       },
       {
        "id": 111,
@@ -199,23 +467,16 @@
        "sort": 23,
        "firstRide": "09:00",
        "lastRide": "16:45",
-       "info": "Saisonzeiten · 25.12.2025 - 29.3.2026 · Betriebszeiten · Täglich 09:00 - 16:45  hr · Anlagetyp · 4er Sesselbahn · Beförderungskapazität · 1600 Personen/Stunde · Fahrzeit · 3 Minuten"
-      }
-     ],
-     "total": 6,
-     "open": 0
-    },
-    {
-     "nr": 7,
-     "name": "Sesselbahn 6er",
-     "items": [
+       "info": "Saisonzeiten · 25.12.2025 - 29.3.2026 · Betriebszeiten · Täglich 09:00 - 16:45  hr · Anlagetyp · 4er Sesselbahn · Beförderungskapazität · 1600 Personen/Stunde · Fahrzeit · 3 Minuten",
+       "type": "Sesselbahn 4er"
+      },
       {
        "id": 125,
        "name": "Wixi",
        "label": "",
-       "status": "unknown",
-       "statusLabel": "unbekannt",
-       "statusCode": 0,
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
        "isOpen": false,
        "sort": 25,
        "firstRide": "09:00",
@@ -226,7 +487,8 @@
          "text": "Pistendaten",
          "url": "https://www.jungfrau.ch/de-ch/live/pistendaten/"
         }
-       ]
+       ],
+       "type": "Sesselbahn 6er"
       },
       {
        "id": 110,
@@ -245,15 +507,16 @@
          "text": "Pistendaten",
          "url": "https://www.jungfrau.ch/de-ch/live/pistendaten/"
         }
-       ]
+       ],
+       "type": "Sesselbahn 6er"
       },
       {
        "id": 100,
        "name": "Eigernordwand",
        "label": "",
-       "status": "unknown",
-       "statusLabel": "unbekannt",
-       "statusCode": 0,
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
        "isOpen": false,
        "sort": 27,
        "firstRide": "08:30",
@@ -264,16 +527,9 @@
          "text": "Pistendaten",
          "url": "https://www.jungfrau.ch/de-ch/live/pistendaten/"
         }
-       ]
-      }
-     ],
-     "total": 3,
-     "open": 0
-    },
-    {
-     "nr": 3,
-     "name": "Skilift",
-     "items": [
+       ],
+       "type": "Sesselbahn 6er"
+      },
       {
        "id": 98,
        "name": "Bumps",
@@ -285,7 +541,8 @@
        "sort": 28,
        "firstRide": "09:30",
        "lastRide": "16:30",
-       "info": "Saisonzeiten · 25.12.2025 bis 22.3.2026 · Betriebszeiten · täglich 09:30 - 16:00 Uhr · Anlagetyp · Bügellift · Beförderungskapazität · 800 Personen/Stunde · Fahrzeit · 3 Minuten · Höhendifferenz · 154 Meter"
+       "info": "Saisonzeiten · 25.12.2025 bis 22.3.2026 · Betriebszeiten · täglich 09:30 - 16:00 Uhr · Anlagetyp · Bügellift · Beförderungskapazität · 800 Personen/Stunde · Fahrzeit · 3 Minuten · Höhendifferenz · 154 Meter",
+       "type": "Skilift"
       },
       {
        "id": 124,
@@ -295,7 +552,8 @@
        "statusLabel": "unbekannt",
        "statusCode": 0,
        "isOpen": false,
-       "sort": 29
+       "sort": 29,
+       "type": "Skilift"
       },
       {
        "id": 102,
@@ -305,7 +563,8 @@
        "statusLabel": "unbekannt",
        "statusCode": 0,
        "isOpen": false,
-       "sort": 30
+       "sort": 30,
+       "type": "Skilift"
       },
       {
        "id": 118,
@@ -318,7 +577,8 @@
        "sort": 31,
        "firstRide": "08:30",
        "lastRide": "16:30",
-       "info": "Saisonzeiten: · 12.12.2026 bis 04.04.2027 · Betriebszeiten · Täglich 09:00 – 16:00 Uhr / ab 30.01.2027 bis 16:30 Uhr · Anlagetyp · Skilift · Beförderungskapazität · 800 Personen/Stunde · Fahrzeit · 1 Minuten · Höhendifferenz · 20 Meter"
+       "info": "Saisonzeiten: · 12.12.2026 bis 04.04.2027 · Betriebszeiten · Täglich 09:00 – 16:00 Uhr / ab 30.01.2027 bis 16:30 Uhr · Anlagetyp · Skilift · Beförderungskapazität · 800 Personen/Stunde · Fahrzeit · 1 Minuten · Höhendifferenz · 20 Meter",
+       "type": "Skilift"
       },
       {
        "id": 120,
@@ -331,246 +591,19 @@
        "sort": 32,
        "firstRide": "08:30",
        "lastRide": "16:30",
-       "info": "Saisonzeiten: · 12.12.2026 bis 04.04.2027 · Betriebszeiten · Täglich 09:00 – 16:00 Uhr / ab 30.01.2027 bis 16:30 Uhr · Anlagetyp · Bügellift · Beförderungskapazität · 1000 Personen/Stunde · Fahrzeit · 7 Minuten · Höhendifferenz · 345 Meter"
+       "info": "Saisonzeiten: · 12.12.2026 bis 04.04.2027 · Betriebszeiten · Täglich 09:00 – 16:00 Uhr / ab 30.01.2027 bis 16:30 Uhr · Anlagetyp · Bügellift · Beförderungskapazität · 1000 Personen/Stunde · Fahrzeit · 7 Minuten · Höhendifferenz · 345 Meter",
+       "type": "Skilift"
       }
      ],
-     "total": 5,
+     "total": 14,
      "open": 0
-    },
-    {
-     "nr": 11,
-     "name": "Zahnradbahn",
-     "items": [
-      {
-       "id": 103,
-       "name": "Grindelwald – Grund",
-       "label": "",
-       "status": "open",
-       "statusLabel": "offen",
-       "statusCode": 2,
-       "isOpen": true,
-       "sort": 0,
-       "info": "Betriebszeiten",
-       "links": [
-        {
-         "text": "Öffnungs- und Betriebszeiten",
-         "url": "https://www.jungfrau.ch/de-ch/live/betriebsdaten/"
-        }
-       ]
-      },
-      {
-       "id": 107,
-       "name": "Grund – Brandegg",
-       "label": "",
-       "status": "open",
-       "statusLabel": "offen",
-       "statusCode": 2,
-       "isOpen": true,
-       "sort": 1,
-       "info": "Betriebszeiten",
-       "links": [
-        {
-         "text": "Öffnungs- und Betriebszeiten",
-         "url": "https://www.jungfrau.ch/de-ch/live/betriebsdaten/"
-        }
-       ]
-      },
-      {
-       "id": 97,
-       "name": "Brandegg – Alpiglen",
-       "label": "",
-       "status": "open",
-       "statusLabel": "offen",
-       "statusCode": 2,
-       "isOpen": true,
-       "sort": 2,
-       "info": "Betriebszeiten",
-       "links": [
-        {
-         "text": "Öffnungs- und Betriebszeiten",
-         "url": "https://www.jungfrau.ch/de-ch/live/betriebsdaten/"
-        }
-       ]
-      },
-      {
-       "id": 95,
-       "name": "Alpiglen – Kleine Scheidegg",
-       "label": "",
-       "status": "open",
-       "statusLabel": "offen",
-       "statusCode": 2,
-       "isOpen": true,
-       "sort": 3,
-       "info": "Betriebszeiten",
-       "links": [
-        {
-         "text": "Öffnungs- und Betriebszeiten",
-         "url": "https://www.jungfrau.ch/de-ch/live/betriebsdaten/"
-        }
-       ]
-      },
-      {
-       "id": 104,
-       "name": "Grindelwald – Kleine Scheidegg",
-       "label": "",
-       "status": "open",
-       "statusLabel": "offen",
-       "statusCode": 2,
-       "isOpen": true,
-       "sort": 4,
-       "info": "Betriebszeiten",
-       "links": [
-        {
-         "text": "Öffnungs- und Betriebszeiten",
-         "url": "https://www.jungfrau.ch/de-ch/live/betriebsdaten/"
-        }
-       ]
-      },
-      {
-       "id": 116,
-       "name": "Lauterbrunnen – Wengen",
-       "label": "",
-       "status": "open",
-       "statusLabel": "offen",
-       "statusCode": 2,
-       "isOpen": true,
-       "sort": 5,
-       "info": "Betriebszeiten",
-       "links": [
-        {
-         "text": "Öffnungs- und Betriebszeiten",
-         "url": "https://www.jungfrau.ch/de-ch/live/betriebsdaten/"
-        }
-       ]
-      },
-      {
-       "id": 121,
-       "name": "Wengen – Allmend",
-       "label": "",
-       "status": "closed",
-       "statusLabel": "geschlossen",
-       "statusCode": 1,
-       "isOpen": false,
-       "sort": 6,
-       "info": "Betriebszeiten",
-       "links": [
-        {
-         "text": "Öffnungs- und Betriebszeiten",
-         "url": "https://www.jungfrau.ch/de-ch/live/betriebsdaten/"
-        }
-       ]
-      },
-      {
-       "id": 94,
-       "name": "Allmend – Wengernalp",
-       "label": "",
-       "status": "closed",
-       "statusLabel": "geschlossen",
-       "statusCode": 1,
-       "isOpen": false,
-       "sort": 7,
-       "info": "Betriebszeiten",
-       "links": [
-        {
-         "text": "Öffnungs- und Betriebszeiten",
-         "url": "https://www.jungfrau.ch/de-ch/live/betriebsdaten/"
-        }
-       ]
-      },
-      {
-       "id": 123,
-       "name": "Wengernalp – Kleine Scheidegg",
-       "label": "",
-       "status": "closed",
-       "statusLabel": "geschlossen",
-       "statusCode": 1,
-       "isOpen": false,
-       "sort": 8,
-       "info": "Betriebszeiten",
-       "links": [
-        {
-         "text": "Öffnungs- und Betriebszeiten",
-         "url": "https://www.jungfrau.ch/de-ch/live/betriebsdaten/"
-        }
-       ]
-      },
-      {
-       "id": 115,
-       "name": "Lauterbrunnen – Kleine Scheidegg",
-       "label": "",
-       "status": "closed",
-       "statusLabel": "geschlossen",
-       "statusCode": 1,
-       "isOpen": false,
-       "sort": 9,
-       "info": "Betriebszeiten",
-       "links": [
-        {
-         "text": "Öffnungs- und Betriebszeiten",
-         "url": "https://www.jungfrau.ch/de-ch/live/betriebsdaten/"
-        }
-       ]
-      },
-      {
-       "id": 112,
-       "name": "Kleine Scheidegg – Eigergletscher",
-       "label": "",
-       "status": "open",
-       "statusLabel": "offen",
-       "statusCode": 2,
-       "isOpen": true,
-       "sort": 10,
-       "info": "Betriebszeiten",
-       "links": [
-        {
-         "text": "Öffnungs- und Betriebszeiten",
-         "url": "https://www.jungfrau.ch/de-ch/live/betriebsdaten/"
-        }
-       ]
-      },
-      {
-       "id": 99,
-       "name": "Eigergletscher – Jungfraujoch",
-       "label": "",
-       "status": "open",
-       "statusLabel": "offen",
-       "statusCode": 2,
-       "isOpen": true,
-       "sort": 11,
-       "info": "Betriebszeiten",
-       "links": [
-        {
-         "text": "Öffnungs- und Betriebszeiten",
-         "url": "https://www.jungfrau.ch/de-ch/live/betriebsdaten/"
-        }
-       ]
-      },
-      {
-       "id": 113,
-       "name": "Kleine Scheidegg – Jungfraujoch",
-       "label": "",
-       "status": "open",
-       "statusLabel": "offen",
-       "statusCode": 2,
-       "isOpen": true,
-       "sort": 12,
-       "info": "Betriebszeiten",
-       "links": [
-        {
-         "text": "Öffnungs- und Betriebszeiten",
-         "url": "https://www.jungfrau.ch/de-ch/live/betriebsdaten/"
-        }
-       ]
-      }
-     ],
-     "total": 13,
-     "open": 9
     }
    ]
   },
   {
    "nr": 2,
    "name": "Pisten",
+   "subdivide": true,
    "total": 60,
    "open": 0,
    "subcategories": [
@@ -587,7 +620,8 @@
        "statusCode": 0,
        "isOpen": false,
        "sort": 2,
-       "lengthMeter": 3190
+       "lengthMeter": 3190,
+       "type": "Blaue Piste"
       },
       {
        "id": 137,
@@ -598,7 +632,8 @@
        "statusCode": 0,
        "isOpen": false,
        "sort": 10,
-       "lengthMeter": 3050
+       "lengthMeter": 3050,
+       "type": "Blaue Piste"
       },
       {
        "id": 94,
@@ -609,7 +644,8 @@
        "statusCode": 0,
        "isOpen": false,
        "sort": 16,
-       "lengthMeter": 1820
+       "lengthMeter": 1820,
+       "type": "Blaue Piste"
       },
       {
        "id": 107,
@@ -620,7 +656,8 @@
        "statusCode": 0,
        "isOpen": false,
        "sort": 26,
-       "lengthMeter": 1710
+       "lengthMeter": 1710,
+       "type": "Blaue Piste"
       },
       {
        "id": 105,
@@ -631,7 +668,8 @@
        "statusCode": 0,
        "isOpen": false,
        "sort": 27,
-       "lengthMeter": 5090
+       "lengthMeter": 5090,
+       "type": "Blaue Piste"
       },
       {
        "id": 106,
@@ -642,7 +680,8 @@
        "statusCode": 0,
        "isOpen": false,
        "sort": 28,
-       "lengthMeter": 2730
+       "lengthMeter": 2730,
+       "type": "Blaue Piste"
       },
       {
        "id": 108,
@@ -653,7 +692,8 @@
        "statusCode": 0,
        "isOpen": false,
        "sort": 30,
-       "lengthMeter": 2260
+       "lengthMeter": 2260,
+       "type": "Blaue Piste"
       },
       {
        "id": 110,
@@ -664,7 +704,8 @@
        "statusCode": 0,
        "isOpen": false,
        "sort": 31,
-       "lengthMeter": 2160
+       "lengthMeter": 2160,
+       "type": "Blaue Piste"
       },
       {
        "id": 111,
@@ -675,7 +716,8 @@
        "statusCode": 0,
        "isOpen": false,
        "sort": 32,
-       "lengthMeter": 1810
+       "lengthMeter": 1810,
+       "type": "Blaue Piste"
       },
       {
        "id": 728,
@@ -686,7 +728,8 @@
        "statusCode": 0,
        "isOpen": false,
        "sort": 35,
-       "lengthMeter": 1400
+       "lengthMeter": 1400,
+       "type": "Blaue Piste"
       },
       {
        "id": 123,
@@ -697,7 +740,8 @@
        "statusCode": 0,
        "isOpen": false,
        "sort": 40,
-       "lengthMeter": 2160
+       "lengthMeter": 2160,
+       "type": "Blaue Piste"
       },
       {
        "id": 124,
@@ -708,7 +752,8 @@
        "statusCode": 0,
        "isOpen": false,
        "sort": 41,
-       "lengthMeter": 3750
+       "lengthMeter": 3750,
+       "type": "Blaue Piste"
       },
       {
        "id": 303,
@@ -718,7 +763,8 @@
        "statusLabel": "unbekannt",
        "statusCode": 0,
        "isOpen": false,
-       "sort": 42
+       "sort": 42,
+       "type": "Blaue Piste"
       },
       {
        "id": 302,
@@ -728,7 +774,8 @@
        "statusLabel": "unbekannt",
        "statusCode": 0,
        "isOpen": false,
-       "sort": 43
+       "sort": 43,
+       "type": "Blaue Piste"
       },
       {
        "id": 122,
@@ -739,7 +786,8 @@
        "statusCode": 0,
        "isOpen": false,
        "sort": 44,
-       "lengthMeter": 2280
+       "lengthMeter": 2280,
+       "type": "Blaue Piste"
       },
       {
        "id": 1211,
@@ -749,7 +797,8 @@
        "statusLabel": "unbekannt",
        "statusCode": 0,
        "isOpen": false,
-       "sort": 45
+       "sort": 45,
+       "type": "Blaue Piste"
       },
       {
        "id": 125,
@@ -760,7 +809,8 @@
        "statusCode": 0,
        "isOpen": false,
        "sort": 46,
-       "lengthMeter": 1020
+       "lengthMeter": 1020,
+       "type": "Blaue Piste"
       }
      ],
      "total": 17,
@@ -778,7 +828,8 @@
        "statusLabel": "unbekannt",
        "statusCode": 0,
        "isOpen": false,
-       "sort": 8
+       "sort": 8,
+       "type": "Gelbe Freeride-Piste"
       },
       {
        "id": 97,
@@ -790,7 +841,8 @@
        "isOpen": false,
        "sort": 19,
        "lengthMeter": 500,
-       "info": "nicht präpariert · keine Schlusskontrolle"
+       "info": "nicht präpariert · keine Schlusskontrolle",
+       "type": "Gelbe Freeride-Piste"
       }
      ],
      "total": 2,
@@ -809,7 +861,8 @@
        "statusCode": 0,
        "isOpen": false,
        "sort": 3,
-       "lengthMeter": 3070
+       "lengthMeter": 3070,
+       "type": "Rote Piste"
       },
       {
        "id": 117,
@@ -820,7 +873,8 @@
        "statusCode": 0,
        "isOpen": false,
        "sort": 4,
-       "lengthMeter": 1600
+       "lengthMeter": 1600,
+       "type": "Rote Piste"
       },
       {
        "id": 114,
@@ -831,7 +885,8 @@
        "statusCode": 0,
        "isOpen": false,
        "sort": 5,
-       "lengthMeter": 3070
+       "lengthMeter": 3070,
+       "type": "Rote Piste"
       },
       {
        "id": 116,
@@ -842,7 +897,8 @@
        "statusCode": 0,
        "isOpen": false,
        "sort": 6,
-       "lengthMeter": 550
+       "lengthMeter": 550,
+       "type": "Rote Piste"
       },
       {
        "id": 126,
@@ -853,7 +909,8 @@
        "statusCode": 0,
        "isOpen": false,
        "sort": 7,
-       "lengthMeter": 3290
+       "lengthMeter": 3290,
+       "type": "Rote Piste"
       },
       {
        "id": 136,
@@ -864,7 +921,8 @@
        "statusCode": 0,
        "isOpen": false,
        "sort": 9,
-       "lengthMeter": 1040
+       "lengthMeter": 1040,
+       "type": "Rote Piste"
       },
       {
        "id": 138,
@@ -875,7 +933,8 @@
        "statusCode": 0,
        "isOpen": false,
        "sort": 11,
-       "lengthMeter": 2510
+       "lengthMeter": 2510,
+       "type": "Rote Piste"
       },
       {
        "id": 139,
@@ -886,7 +945,8 @@
        "statusCode": 0,
        "isOpen": false,
        "sort": 12,
-       "lengthMeter": 2280
+       "lengthMeter": 2280,
+       "type": "Rote Piste"
       },
       {
        "id": 297,
@@ -896,7 +956,8 @@
        "statusLabel": "unbekannt",
        "statusCode": 0,
        "isOpen": false,
-       "sort": 13
+       "sort": 13,
+       "type": "Rote Piste"
       },
       {
        "id": 92,
@@ -907,7 +968,8 @@
        "statusCode": 0,
        "isOpen": false,
        "sort": 14,
-       "lengthMeter": 4310
+       "lengthMeter": 4310,
+       "type": "Rote Piste"
       },
       {
        "id": 93,
@@ -918,7 +980,8 @@
        "statusCode": 0,
        "isOpen": false,
        "sort": 15,
-       "lengthMeter": 1030
+       "lengthMeter": 1030,
+       "type": "Rote Piste"
       },
       {
        "id": 95,
@@ -929,7 +992,8 @@
        "statusCode": 0,
        "isOpen": false,
        "sort": 17,
-       "lengthMeter": 2280
+       "lengthMeter": 2280,
+       "type": "Rote Piste"
       },
       {
        "id": 96,
@@ -940,7 +1004,8 @@
        "statusCode": 0,
        "isOpen": false,
        "sort": 18,
-       "lengthMeter": 2160
+       "lengthMeter": 2160,
+       "type": "Rote Piste"
       },
       {
        "id": 98,
@@ -951,7 +1016,8 @@
        "statusCode": 0,
        "isOpen": false,
        "sort": 20,
-       "lengthMeter": 450
+       "lengthMeter": 450,
+       "type": "Rote Piste"
       },
       {
        "id": 101,
@@ -962,7 +1028,8 @@
        "statusCode": 0,
        "isOpen": false,
        "sort": 21,
-       "lengthMeter": 1710
+       "lengthMeter": 1710,
+       "type": "Rote Piste"
       },
       {
        "id": 102,
@@ -973,7 +1040,8 @@
        "statusCode": 0,
        "isOpen": false,
        "sort": 22,
-       "lengthMeter": 3410
+       "lengthMeter": 3410,
+       "type": "Rote Piste"
       },
       {
        "id": 103,
@@ -983,7 +1051,8 @@
        "statusLabel": "unbekannt",
        "statusCode": 0,
        "isOpen": false,
-       "sort": 23
+       "sort": 23,
+       "type": "Rote Piste"
       },
       {
        "id": 100,
@@ -994,7 +1063,8 @@
        "statusCode": 0,
        "isOpen": false,
        "sort": 24,
-       "lengthMeter": 2500
+       "lengthMeter": 2500,
+       "type": "Rote Piste"
       },
       {
        "id": 104,
@@ -1005,7 +1075,8 @@
        "statusCode": 0,
        "isOpen": false,
        "sort": 25,
-       "lengthMeter": 3730
+       "lengthMeter": 3730,
+       "type": "Rote Piste"
       },
       {
        "id": 109,
@@ -1016,7 +1087,8 @@
        "statusCode": 0,
        "isOpen": false,
        "sort": 29,
-       "lengthMeter": 2390
+       "lengthMeter": 2390,
+       "type": "Rote Piste"
       },
       {
        "id": 112,
@@ -1027,7 +1099,8 @@
        "statusCode": 0,
        "isOpen": false,
        "sort": 33,
-       "lengthMeter": 2050
+       "lengthMeter": 2050,
+       "type": "Rote Piste"
       },
       {
        "id": 120,
@@ -1038,7 +1111,8 @@
        "statusCode": 0,
        "isOpen": false,
        "sort": 38,
-       "lengthMeter": 2050
+       "lengthMeter": 2050,
+       "type": "Rote Piste"
       },
       {
        "id": 121,
@@ -1049,7 +1123,8 @@
        "statusCode": 0,
        "isOpen": false,
        "sort": 39,
-       "lengthMeter": 1020
+       "lengthMeter": 1020,
+       "type": "Rote Piste"
       },
       {
        "id": 129,
@@ -1060,7 +1135,8 @@
        "statusCode": 0,
        "isOpen": false,
        "sort": 49,
-       "lengthMeter": 2040
+       "lengthMeter": 2040,
+       "type": "Rote Piste"
       },
       {
        "id": 130,
@@ -1071,7 +1147,8 @@
        "statusCode": 0,
        "isOpen": false,
        "sort": 50,
-       "lengthMeter": 1380
+       "lengthMeter": 1380,
+       "type": "Rote Piste"
       },
       {
        "id": 131,
@@ -1082,7 +1159,8 @@
        "statusCode": 0,
        "isOpen": false,
        "sort": 51,
-       "lengthMeter": 2160
+       "lengthMeter": 2160,
+       "type": "Rote Piste"
       },
       {
        "id": 134,
@@ -1093,7 +1171,8 @@
        "statusCode": 0,
        "isOpen": false,
        "sort": 54,
-       "lengthMeter": 790
+       "lengthMeter": 790,
+       "type": "Rote Piste"
       }
      ],
      "total": 27,
@@ -1112,7 +1191,8 @@
        "statusCode": 0,
        "isOpen": false,
        "sort": 0,
-       "lengthMeter": 620
+       "lengthMeter": 620,
+       "type": "Schwarze Piste"
       },
       {
        "id": 91,
@@ -1123,7 +1203,8 @@
        "statusCode": 0,
        "isOpen": false,
        "sort": 1,
-       "lengthMeter": 650
+       "lengthMeter": 650,
+       "type": "Schwarze Piste"
       },
       {
        "id": 113,
@@ -1134,7 +1215,8 @@
        "statusCode": 0,
        "isOpen": false,
        "sort": 34,
-       "lengthMeter": 900
+       "lengthMeter": 900,
+       "type": "Schwarze Piste"
       },
       {
        "id": 118,
@@ -1145,7 +1227,8 @@
        "statusCode": 0,
        "isOpen": false,
        "sort": 36,
-       "lengthMeter": 1600
+       "lengthMeter": 1600,
+       "type": "Schwarze Piste"
       },
       {
        "id": 119,
@@ -1156,7 +1239,8 @@
        "statusCode": 0,
        "isOpen": false,
        "sort": 37,
-       "lengthMeter": 2160
+       "lengthMeter": 2160,
+       "type": "Schwarze Piste"
       },
       {
        "id": 127,
@@ -1167,7 +1251,8 @@
        "statusCode": 0,
        "isOpen": false,
        "sort": 47,
-       "lengthMeter": 1700
+       "lengthMeter": 1700,
+       "type": "Schwarze Piste"
       },
       {
        "id": 128,
@@ -1178,7 +1263,8 @@
        "statusCode": 0,
        "isOpen": false,
        "sort": 48,
-       "lengthMeter": 550
+       "lengthMeter": 550,
+       "type": "Schwarze Piste"
       },
       {
        "id": 133,
@@ -1189,7 +1275,8 @@
        "statusCode": 0,
        "isOpen": false,
        "sort": 52,
-       "lengthMeter": 3290
+       "lengthMeter": 3290,
+       "type": "Schwarze Piste"
       },
       {
        "id": 132,
@@ -1200,7 +1287,8 @@
        "statusCode": 0,
        "isOpen": false,
        "sort": 53,
-       "lengthMeter": 1370
+       "lengthMeter": 1370,
+       "type": "Schwarze Piste"
       },
       {
        "id": 135,
@@ -1211,7 +1299,8 @@
        "statusCode": 0,
        "isOpen": false,
        "sort": 55,
-       "lengthMeter": 1020
+       "lengthMeter": 1020,
+       "type": "Schwarze Piste"
       }
      ],
      "total": 10,
@@ -1230,7 +1319,8 @@
        "statusCode": 0,
        "isOpen": false,
        "sort": 56,
-       "lengthMeter": 14000
+       "lengthMeter": 14000,
+       "type": "Talabfahrt"
       },
       {
        "id": 141,
@@ -1241,7 +1331,8 @@
        "statusCode": 0,
        "isOpen": false,
        "sort": 57,
-       "lengthMeter": 30000
+       "lengthMeter": 30000,
+       "type": "Talabfahrt"
       },
       {
        "id": 142,
@@ -1252,7 +1343,8 @@
        "statusCode": 0,
        "isOpen": false,
        "sort": 58,
-       "lengthMeter": 26100
+       "lengthMeter": 26100,
+       "type": "Talabfahrt"
       },
       {
        "id": 143,
@@ -1263,7 +1355,8 @@
        "statusCode": 0,
        "isOpen": false,
        "sort": 59,
-       "lengthMeter": 500
+       "lengthMeter": 500,
+       "type": "Talabfahrt"
       }
      ],
      "total": 4,
@@ -1274,6 +1367,7 @@
   {
    "nr": 4,
    "name": "Schlittelwege",
+   "subdivide": false,
    "total": 18,
    "open": 0,
    "subcategories": [
@@ -1290,7 +1384,8 @@
        "statusCode": 0,
        "isOpen": false,
        "sort": 0,
-       "lengthMeter": 1800
+       "lengthMeter": 1800,
+       "type": "Schlitteln"
       },
       {
        "id": 168,
@@ -1301,7 +1396,8 @@
        "statusCode": 0,
        "isOpen": false,
        "sort": 1,
-       "lengthMeter": 4500
+       "lengthMeter": 4500,
+       "type": "Schlitteln"
       },
       {
        "id": 169,
@@ -1312,7 +1408,8 @@
        "statusCode": 0,
        "isOpen": false,
        "sort": 2,
-       "lengthMeter": 4000
+       "lengthMeter": 4000,
+       "type": "Schlitteln"
       },
       {
        "id": 301,
@@ -1322,7 +1419,8 @@
        "statusLabel": "unbekannt",
        "statusCode": 0,
        "isOpen": false,
-       "sort": 3
+       "sort": 3,
+       "type": "Schlitteln"
       },
       {
        "id": 172,
@@ -1333,7 +1431,8 @@
        "statusCode": 0,
        "isOpen": false,
        "sort": 4,
-       "lengthMeter": 5500
+       "lengthMeter": 5500,
+       "type": "Schlitteln"
       },
       {
        "id": 170,
@@ -1344,7 +1443,8 @@
        "statusCode": 0,
        "isOpen": false,
        "sort": 5,
-       "lengthMeter": 2000
+       "lengthMeter": 2000,
+       "type": "Schlitteln"
       },
       {
        "id": 929,
@@ -1355,7 +1455,8 @@
        "statusCode": 0,
        "isOpen": false,
        "sort": 6,
-       "lengthMeter": 2000
+       "lengthMeter": 2000,
+       "type": "Schlitteln"
       },
       {
        "id": 206,
@@ -1365,7 +1466,8 @@
        "statusLabel": "unbekannt",
        "statusCode": 0,
        "isOpen": false,
-       "sort": 7
+       "sort": 7,
+       "type": "Schlitteln"
       },
       {
        "id": 171,
@@ -1376,7 +1478,8 @@
        "statusCode": 0,
        "isOpen": false,
        "sort": 8,
-       "lengthMeter": 2500
+       "lengthMeter": 2500,
+       "type": "Schlitteln"
       },
       {
        "id": 173,
@@ -1386,7 +1489,8 @@
        "statusLabel": "unbekannt",
        "statusCode": 0,
        "isOpen": false,
-       "sort": 9
+       "sort": 9,
+       "type": "Schlitteln"
       },
       {
        "id": 175,
@@ -1396,7 +1500,8 @@
        "statusLabel": "unbekannt",
        "statusCode": 0,
        "isOpen": false,
-       "sort": 10
+       "sort": 10,
+       "type": "Schlitteln"
       },
       {
        "id": 176,
@@ -1407,7 +1512,8 @@
        "statusCode": 0,
        "isOpen": false,
        "sort": 11,
-       "lengthMeter": 4000
+       "lengthMeter": 4000,
+       "type": "Schlitteln"
       },
       {
        "id": 174,
@@ -1418,7 +1524,8 @@
        "statusCode": 0,
        "isOpen": false,
        "sort": 12,
-       "lengthMeter": 5500
+       "lengthMeter": 5500,
+       "type": "Schlitteln"
       },
       {
        "id": 177,
@@ -1429,7 +1536,8 @@
        "statusCode": 0,
        "isOpen": false,
        "sort": 13,
-       "lengthMeter": 5000
+       "lengthMeter": 5000,
+       "type": "Schlitteln"
       },
       {
        "id": 205,
@@ -1440,7 +1548,8 @@
        "statusCode": 0,
        "isOpen": false,
        "sort": 14,
-       "lengthMeter": 2500
+       "lengthMeter": 2500,
+       "type": "Schlitteln"
       },
       {
        "id": 299,
@@ -1450,7 +1559,8 @@
        "statusLabel": "unbekannt",
        "statusCode": 0,
        "isOpen": false,
-       "sort": 15
+       "sort": 15,
+       "type": "Schlitteln"
       },
       {
        "id": 178,
@@ -1460,7 +1570,8 @@
        "statusLabel": "unbekannt",
        "statusCode": 0,
        "isOpen": false,
-       "sort": 16
+       "sort": 16,
+       "type": "Schlitteln"
       },
       {
        "id": 179,
@@ -1470,7 +1581,8 @@
        "statusLabel": "unbekannt",
        "statusCode": 0,
        "isOpen": false,
-       "sort": 17
+       "sort": 17,
+       "type": "Schlitteln"
       }
      ],
      "total": 18,
@@ -1481,6 +1593,7 @@
   {
    "nr": 5,
    "name": "Wanderwege",
+   "subdivide": false,
    "total": 15,
    "open": 0,
    "subcategories": [
@@ -1497,7 +1610,8 @@
        "statusCode": 1,
        "isOpen": false,
        "sort": 28,
-       "lengthMeter": 800
+       "lengthMeter": 800,
+       "type": "Wanderweg"
       },
       {
        "id": 32,
@@ -1509,7 +1623,8 @@
        "isOpen": false,
        "sort": 29,
        "lengthMeter": 3000,
-       "info": "Dauer: 1:45 h"
+       "info": "Dauer: 1:45 h",
+       "type": "Wanderweg"
       },
       {
        "id": 33,
@@ -1520,7 +1635,8 @@
        "statusCode": 1,
        "isOpen": false,
        "sort": 30,
-       "lengthMeter": 6500
+       "lengthMeter": 6500,
+       "type": "Wanderweg"
       },
       {
        "id": 34,
@@ -1531,7 +1647,8 @@
        "statusCode": 1,
        "isOpen": false,
        "sort": 31,
-       "lengthMeter": 6500
+       "lengthMeter": 6500,
+       "type": "Wanderweg"
       },
       {
        "id": 37,
@@ -1542,7 +1659,8 @@
        "statusCode": 1,
        "isOpen": false,
        "sort": 32,
-       "lengthMeter": 5500
+       "lengthMeter": 5500,
+       "type": "Wanderweg"
       },
       {
        "id": 35,
@@ -1552,7 +1670,8 @@
        "statusLabel": "geschlossen",
        "statusCode": 1,
        "isOpen": false,
-       "sort": 33
+       "sort": 33,
+       "type": "Wanderweg"
       },
       {
        "id": 36,
@@ -1562,7 +1681,8 @@
        "statusLabel": "geschlossen",
        "statusCode": 1,
        "isOpen": false,
-       "sort": 34
+       "sort": 34,
+       "type": "Wanderweg"
       },
       {
        "id": 120,
@@ -1572,7 +1692,8 @@
        "statusLabel": "geschlossen",
        "statusCode": 1,
        "isOpen": false,
-       "sort": 35
+       "sort": 35,
+       "type": "Wanderweg"
       },
       {
        "id": 38,
@@ -1582,7 +1703,8 @@
        "statusLabel": "geschlossen",
        "statusCode": 1,
        "isOpen": false,
-       "sort": 36
+       "sort": 36,
+       "type": "Wanderweg"
       },
       {
        "id": 40,
@@ -1593,7 +1715,8 @@
        "statusCode": 1,
        "isOpen": false,
        "sort": 37,
-       "lengthMeter": 2000
+       "lengthMeter": 2000,
+       "type": "Wanderweg"
       },
       {
        "id": 41,
@@ -1604,7 +1727,8 @@
        "statusCode": 1,
        "isOpen": false,
        "sort": 38,
-       "lengthMeter": 5500
+       "lengthMeter": 5500,
+       "type": "Wanderweg"
       },
       {
        "id": 39,
@@ -1615,7 +1739,8 @@
        "statusCode": 1,
        "isOpen": false,
        "sort": 39,
-       "lengthMeter": 5500
+       "lengthMeter": 5500,
+       "type": "Wanderweg"
       },
       {
        "id": 130,
@@ -1626,7 +1751,8 @@
        "statusCode": 1,
        "isOpen": false,
        "sort": 40,
-       "lengthMeter": 5000
+       "lengthMeter": 5000,
+       "type": "Wanderweg"
       },
       {
        "id": 119,
@@ -1636,7 +1762,8 @@
        "statusLabel": "geschlossen",
        "statusCode": 1,
        "isOpen": false,
-       "sort": 41
+       "sort": 41,
+       "type": "Wanderweg"
       },
       {
        "id": 138,
@@ -1646,7 +1773,8 @@
        "statusLabel": "geschlossen",
        "statusCode": 1,
        "isOpen": false,
-       "sort": 42
+       "sort": 42,
+       "type": "Wanderweg"
       }
      ],
      "total": 15,
@@ -1657,6 +1785,7 @@
   {
    "nr": 6,
    "name": "Schneeschuhwege",
+   "subdivide": false,
    "total": 1,
    "open": 0,
    "subcategories": [
@@ -1672,7 +1801,8 @@
        "statusLabel": "geschlossen",
        "statusCode": 1,
        "isOpen": false,
-       "sort": 0
+       "sort": 0,
+       "type": "Schneeschuhwanderweg"
       }
      ],
      "total": 1,
@@ -1683,6 +1813,7 @@
   {
    "nr": 8,
    "name": "Freizeit & Angebote",
+   "subdivide": false,
    "total": 9,
    "open": 0,
    "subcategories": [
@@ -1698,7 +1829,8 @@
        "statusLabel": "unbekannt",
        "statusCode": 0,
        "isOpen": false,
-       "sort": 0
+       "sort": 0,
+       "type": "Avalanche Training Center"
       }
      ],
      "total": 1,
@@ -1716,7 +1848,8 @@
        "statusLabel": "unbekannt",
        "statusCode": 0,
        "isOpen": false,
-       "sort": 3
+       "sort": 3,
+       "type": "Gleitschirm Startplatz"
       }
      ],
      "total": 1,
@@ -1734,7 +1867,8 @@
        "statusLabel": "unbekannt",
        "statusCode": 0,
        "isOpen": false,
-       "sort": 1
+       "sort": 1,
+       "type": "Kinderskiland"
       },
       {
        "id": 10,
@@ -1744,7 +1878,8 @@
        "statusLabel": "unbekannt",
        "statusCode": 0,
        "isOpen": false,
-       "sort": 2
+       "sort": 2,
+       "type": "Kinderskiland"
       }
      ],
      "total": 2,
@@ -1762,7 +1897,8 @@
        "statusLabel": "unbekannt",
        "statusCode": 0,
        "isOpen": false,
-       "sort": 5
+       "sort": 5,
+       "type": "Ski Spezial"
       },
       {
        "id": 9,
@@ -1772,7 +1908,8 @@
        "statusLabel": "unbekannt",
        "statusCode": 0,
        "isOpen": false,
-       "sort": 6
+       "sort": 6,
+       "type": "Ski Spezial"
       },
       {
        "id": 16,
@@ -1782,7 +1919,8 @@
        "statusLabel": "unbekannt",
        "statusCode": 0,
        "isOpen": false,
-       "sort": 7
+       "sort": 7,
+       "type": "Ski Spezial"
       },
       {
        "id": 15,
@@ -1792,7 +1930,8 @@
        "statusLabel": "unbekannt",
        "statusCode": 0,
        "isOpen": false,
-       "sort": 8
+       "sort": 8,
+       "type": "Ski Spezial"
       }
      ],
      "total": 4,
@@ -1810,7 +1949,8 @@
        "statusLabel": "unbekannt",
        "statusCode": 0,
        "isOpen": false,
-       "sort": 4
+       "sort": 4,
+       "type": "Ski Vermietung"
       }
      ],
      "total": 1,
@@ -1821,6 +1961,7 @@
   {
    "nr": 9,
    "name": "Gastronomie",
+   "subdivide": false,
    "total": 30,
    "open": 6,
    "subcategories": [
@@ -1836,7 +1977,8 @@
        "statusLabel": "geschlossen",
        "statusCode": 1,
        "isOpen": false,
-       "sort": 0
+       "sort": 0,
+       "type": "Restaurant"
       },
       {
        "id": 14,
@@ -1846,7 +1988,8 @@
        "statusLabel": "geschlossen",
        "statusCode": 1,
        "isOpen": false,
-       "sort": 0
+       "sort": 0,
+       "type": "Restaurant"
       },
       {
        "id": 16,
@@ -1856,7 +1999,8 @@
        "statusLabel": "offen",
        "statusCode": 2,
        "isOpen": true,
-       "sort": 0
+       "sort": 0,
+       "type": "Restaurant"
       },
       {
        "id": 17,
@@ -1866,7 +2010,8 @@
        "statusLabel": "offen",
        "statusCode": 2,
        "isOpen": true,
-       "sort": 0
+       "sort": 0,
+       "type": "Restaurant"
       },
       {
        "id": 18,
@@ -1876,7 +2021,8 @@
        "statusLabel": "geschlossen",
        "statusCode": 1,
        "isOpen": false,
-       "sort": 0
+       "sort": 0,
+       "type": "Restaurant"
       },
       {
        "id": 19,
@@ -1886,7 +2032,8 @@
        "statusLabel": "geschlossen",
        "statusCode": 1,
        "isOpen": false,
-       "sort": 0
+       "sort": 0,
+       "type": "Restaurant"
       },
       {
        "id": 15,
@@ -1896,7 +2043,8 @@
        "statusLabel": "unbekannt",
        "statusCode": 0,
        "isOpen": false,
-       "sort": 0
+       "sort": 0,
+       "type": "Restaurant"
       },
       {
        "id": 20,
@@ -1906,7 +2054,8 @@
        "statusLabel": "unbekannt",
        "statusCode": 0,
        "isOpen": false,
-       "sort": 0
+       "sort": 0,
+       "type": "Restaurant"
       },
       {
        "id": 21,
@@ -1916,7 +2065,8 @@
        "statusLabel": "geschlossen",
        "statusCode": 1,
        "isOpen": false,
-       "sort": 0
+       "sort": 0,
+       "type": "Restaurant"
       },
       {
        "id": 39,
@@ -1926,7 +2076,8 @@
        "statusLabel": "unbekannt",
        "statusCode": 0,
        "isOpen": false,
-       "sort": 0
+       "sort": 0,
+       "type": "Restaurant"
       },
       {
        "id": 22,
@@ -1936,7 +2087,8 @@
        "statusLabel": "geschlossen",
        "statusCode": 1,
        "isOpen": false,
-       "sort": 0
+       "sort": 0,
+       "type": "Restaurant"
       },
       {
        "id": 23,
@@ -1946,7 +2098,8 @@
        "statusLabel": "unbekannt",
        "statusCode": 0,
        "isOpen": false,
-       "sort": 0
+       "sort": 0,
+       "type": "Restaurant"
       },
       {
        "id": 24,
@@ -1956,7 +2109,8 @@
        "statusLabel": "unbekannt",
        "statusCode": 0,
        "isOpen": false,
-       "sort": 0
+       "sort": 0,
+       "type": "Restaurant"
       },
       {
        "id": 25,
@@ -1966,7 +2120,8 @@
        "statusLabel": "offen",
        "statusCode": 2,
        "isOpen": true,
-       "sort": 0
+       "sort": 0,
+       "type": "Restaurant"
       },
       {
        "id": 26,
@@ -1976,7 +2131,8 @@
        "statusLabel": "offen",
        "statusCode": 2,
        "isOpen": true,
-       "sort": 0
+       "sort": 0,
+       "type": "Restaurant"
       },
       {
        "id": 27,
@@ -1986,7 +2142,8 @@
        "statusLabel": "geschlossen",
        "statusCode": 1,
        "isOpen": false,
-       "sort": 0
+       "sort": 0,
+       "type": "Restaurant"
       },
       {
        "id": 28,
@@ -1996,7 +2153,8 @@
        "statusLabel": "unbekannt",
        "statusCode": 0,
        "isOpen": false,
-       "sort": 0
+       "sort": 0,
+       "type": "Restaurant"
       },
       {
        "id": 29,
@@ -2006,7 +2164,8 @@
        "statusLabel": "geschlossen",
        "statusCode": 1,
        "isOpen": false,
-       "sort": 0
+       "sort": 0,
+       "type": "Restaurant"
       },
       {
        "id": 30,
@@ -2016,7 +2175,8 @@
        "statusLabel": "unbekannt",
        "statusCode": 0,
        "isOpen": false,
-       "sort": 0
+       "sort": 0,
+       "type": "Restaurant"
       },
       {
        "id": 31,
@@ -2026,7 +2186,8 @@
        "statusLabel": "unbekannt",
        "statusCode": 0,
        "isOpen": false,
-       "sort": 0
+       "sort": 0,
+       "type": "Restaurant"
       },
       {
        "id": 32,
@@ -2036,7 +2197,8 @@
        "statusLabel": "offen",
        "statusCode": 2,
        "isOpen": true,
-       "sort": 0
+       "sort": 0,
+       "type": "Restaurant"
       },
       {
        "id": 33,
@@ -2046,7 +2208,8 @@
        "statusLabel": "offen",
        "statusCode": 2,
        "isOpen": true,
-       "sort": 0
+       "sort": 0,
+       "type": "Restaurant"
       },
       {
        "id": 34,
@@ -2056,7 +2219,8 @@
        "statusLabel": "unbekannt",
        "statusCode": 0,
        "isOpen": false,
-       "sort": 0
+       "sort": 0,
+       "type": "Restaurant"
       },
       {
        "id": 35,
@@ -2066,7 +2230,8 @@
        "statusLabel": "unbekannt",
        "statusCode": 0,
        "isOpen": false,
-       "sort": 0
+       "sort": 0,
+       "type": "Restaurant"
       },
       {
        "id": 37,
@@ -2076,7 +2241,8 @@
        "statusLabel": "unbekannt",
        "statusCode": 0,
        "isOpen": false,
-       "sort": 0
+       "sort": 0,
+       "type": "Restaurant"
       },
       {
        "id": 38,
@@ -2086,7 +2252,8 @@
        "statusLabel": "unbekannt",
        "statusCode": 0,
        "isOpen": false,
-       "sort": 0
+       "sort": 0,
+       "type": "Restaurant"
       },
       {
        "id": 36,
@@ -2096,7 +2263,8 @@
        "statusLabel": "geschlossen",
        "statusCode": 1,
        "isOpen": false,
-       "sort": 0
+       "sort": 0,
+       "type": "Restaurant"
       },
       {
        "id": 40,
@@ -2106,7 +2274,8 @@
        "statusLabel": "unbekannt",
        "statusCode": 0,
        "isOpen": false,
-       "sort": 0
+       "sort": 0,
+       "type": "Restaurant"
       },
       {
        "id": 41,
@@ -2116,7 +2285,8 @@
        "statusLabel": "unbekannt",
        "statusCode": 0,
        "isOpen": false,
-       "sort": 0
+       "sort": 0,
+       "type": "Restaurant"
       },
       {
        "id": 42,
@@ -2126,7 +2296,8 @@
        "statusLabel": "unbekannt",
        "statusCode": 0,
        "isOpen": false,
-       "sort": 0
+       "sort": 0,
+       "type": "Restaurant"
       }
      ],
      "total": 30,
@@ -2135,5 +2306,5 @@
    ]
   }
  ],
- "updated": "2026-11-21T10:06:53+01:00"
+ "updated": "2026-11-24T13:08:49+01:00"
 }
