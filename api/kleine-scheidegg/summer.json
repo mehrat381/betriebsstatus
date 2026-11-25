@@ -106,7 +106,7 @@
        "sort": 17,
        "firstRide": "08:15",
        "lastRide": "16:30",
-       "info": "Saisonzeiten: · 13. Dezember 2025 bis 06. April 2026 · Betriebszeiten: · Bergfahrt: Täglich 08:15-16:15 Uhr / ab 31.01.2026 bis 16:45 Uhr · Talfahrt: Täglich 08:15-16:30 Uhr / ab 31.01.2026 bis 17:00 Uhr · Beförderungskapazität: · 800 Pers./h in jeder Richtung · Fahrzeit: · 6 Minuten · Höhendifferenz: · 947 Meter",
+       "info": "Saisonzeiten: · 12. Dezember 2026 bis 04. April 2027 · Betriebszeiten: · Bergfahrt: Täglich 08:15-16:15 Uhr / ab 30.01.2027 bis 16:45 Uhr · Talfahrt: Täglich 08:15-16:30 Uhr / ab 30.01.2027 bis 17:00 Uhr · Beförderungskapazität: · 800 Pers./h in jeder Richtung · Fahrzeit: · 6 Minuten · Höhendifferenz: · 947 Meter",
        "type": "Pendelbahn"
       }
      ],
@@ -1251,5 +1251,5 @@
    ]
   }
  ],
- "updated": "2026-11-24T16:33:08+01:00"
+ "updated": "2026-11-25T12:12:20+01:00"
 }
