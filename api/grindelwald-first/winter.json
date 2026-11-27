@@ -796,7 +796,7 @@
    "name": "Wanderwege",
    "subdivide": false,
    "total": 15,
-   "open": 1,
+   "open": 2,
    "subcategories": [
     {
      "nr": 2,
@@ -906,10 +906,10 @@
        "id": 74,
        "name": "Schreckfeld - Bort",
        "label": "55",
-       "status": "closed",
-       "statusLabel": "geschlossen",
-       "statusCode": 1,
-       "isOpen": false,
+       "status": "open",
+       "statusLabel": "offen",
+       "statusCode": 2,
+       "isOpen": true,
        "sort": 44,
        "lengthMeter": 2000,
        "type": "Wanderweg"
@@ -986,7 +986,7 @@
       }
      ],
      "total": 15,
-     "open": 1
+     "open": 2
     }
    ]
   },
@@ -1611,5 +1611,5 @@
    ]
   }
  ],
- "updated": "2026-11-27T11:08:51+01:00"
+ "updated": "2026-11-27T14:35:28+01:00"
 }
