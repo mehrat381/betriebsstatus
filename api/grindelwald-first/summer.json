@@ -22,9 +22,9 @@
        "id": 128,
        "name": "Grindelwald – Bort",
        "label": "",
-       "status": "closed",
-       "statusLabel": "geschlossen",
-       "statusCode": 1,
+       "status": "preparation",
+       "statusLabel": "in Vorbereitung",
+       "statusCode": 3,
        "isOpen": false,
        "sort": 2,
        "info": "Betriebszeiten",
@@ -40,9 +40,9 @@
        "id": 132,
        "name": "Bort – Schreckfeld",
        "label": "",
-       "status": "closed",
-       "statusLabel": "geschlossen",
-       "statusCode": 1,
+       "status": "preparation",
+       "statusLabel": "in Vorbereitung",
+       "statusCode": 3,
        "isOpen": false,
        "sort": 3,
        "info": "Betriebszeiten",
@@ -58,9 +58,9 @@
        "id": 134,
        "name": "Schreckfeld – First",
        "label": "",
-       "status": "closed",
-       "statusLabel": "geschlossen",
-       "statusCode": 1,
+       "status": "preparation",
+       "statusLabel": "in Vorbereitung",
+       "statusCode": 3,
        "isOpen": false,
        "sort": 5,
        "info": "Betriebszeiten",
@@ -1035,5 +1035,5 @@
    ]
   }
  ],
- "updated": "2026-11-27T09:59:21+01:00"
+ "updated": "2026-11-27T11:08:51+01:00"
 }
