@@ -514,9 +514,9 @@
        "id": 100,
        "name": "Eigernordwand",
        "label": "",
-       "status": "unknown",
-       "statusLabel": "unbekannt",
-       "statusCode": 0,
+       "status": "closed",
+       "statusLabel": "geschlossen",
+       "statusCode": 1,
        "isOpen": false,
        "sort": 27,
        "firstRide": "08:30",
@@ -1251,5 +1251,5 @@
    ]
   }
  ],
- "updated": "2026-11-25T12:12:20+01:00"
+ "updated": "2026-11-27T12:07:46+01:00"
 }
