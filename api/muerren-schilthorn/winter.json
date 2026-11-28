@@ -150,9 +150,9 @@
        "id": 359,
        "name": "Kandahar",
        "label": "",
-       "status": "closed",
-       "statusLabel": "geschlossen",
-       "statusCode": 1,
+       "status": "preparation",
+       "statusLabel": "in Vorbereitung",
+       "statusCode": 3,
        "isOpen": false,
        "sort": 8,
        "firstRide": "08:30",
@@ -504,9 +504,9 @@
        "id": 595,
        "name": "Bietenhorn",
        "label": "15",
-       "status": "closed",
-       "statusLabel": "geschlossen",
-       "statusCode": 1,
+       "status": "preparation",
+       "statusLabel": "in Vorbereitung",
+       "statusCode": 3,
        "isOpen": false,
        "sort": 16,
        "lengthMeter": 1540,
@@ -969,5 +969,5 @@
    ]
   }
  ],
- "updated": "2026-11-27T09:59:21+01:00"
+ "updated": "2026-11-28T08:13:17+01:00"
 }
